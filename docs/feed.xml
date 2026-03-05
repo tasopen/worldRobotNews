@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Thu, 05 Mar 2026 06:12:19 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 06:13:42 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-06 06:10:00</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-06_061000.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-06_061000.mp3</guid>
+      <pubDate>Fri, 06 Mar 2026 06:13:42 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、人間を圧倒（あっとう）する性能を見せる OpenAI（オープンエーアイ）の最新モデル「GPT-5.4（ジーピーティー 5.4）」の登場や、サム・アルトマン氏が認めた「国防総省（こくぼうしょう）による AI 利用の制御不能（せいぎょふのう）」という衝撃的な発言、そして Nvidia（エヌビディア）による投資戦略の転換についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-06_061000.mp3" type="audio/mpeg" length="4379565" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-06_061000.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:33</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、人間を圧倒（あっとう）する性能を見せる OpenAI（オープンエーアイ）の最新モデル「GPT-5.4（ジーピーティー 5.4）」の登場や、サム・アルトマン氏が認めた「国防総省（こくぼうしょう）による AI 利用の制御不能（せいぎょふのう）」という衝撃的な発言、そして Nvidia（エヌビディア）による投資戦略の転換についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-05 06:09:12</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-05_060912.mp3</link>
