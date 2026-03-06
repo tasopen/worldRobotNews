@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Fri, 06 Mar 2026 06:13:42 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 06:10:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-07 06:07:43</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-07_060743.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-07_060743.mp3</guid>
+      <pubDate>Sat, 07 Mar 2026 06:10:31 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。今日は、人間抜きで AI 同士が語り合う SNS「Moltbook（モルトブック）」の衝撃的な実態や、俳優ベン・アフレック氏による AI スタートアップの Netflix（ネットフリックス）への売却劇、そして国防総省（こくぼうしょう）による AI テストの隠された裏側についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-07_060743.mp3" type="audio/mpeg" length="3672237" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-07_060743.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:49</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。今日は、人間抜きで AI 同士が語り合う SNS「Moltbook（モルトブック）」の衝撃的な実態や、俳優ベン・アフレック氏による AI スタートアップの Netflix（ネットフリックス）への売却劇、そして国防総省（こくぼうしょう）による AI テストの隠された裏側についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-06 06:10:00</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-06_061000.mp3</link>
