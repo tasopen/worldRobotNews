@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Mon, 09 Mar 2026 06:07:48 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 06:12:06 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-10 06:08:21</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-10_060821.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-10_060821.mp3</guid>
+      <pubDate>Tue, 10 Mar 2026 06:12:06 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。今日は、米国国防総省（こくぼうしょう）を提訴（ていそ）した Anthropic（アンソロピック）の歴史的な決断や、AI エージェントの安全性を守る OpenAI（オープンエーアイ）の買収劇、そして量子（りょうし）コンピューティングを加速させる新たな AI 技術についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-10_060821.mp3" type="audio/mpeg" length="5494317" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-10_060821.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:43</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。今日は、米国国防総省（こくぼうしょう）を提訴（ていそ）した Anthropic（アンソロピック）の歴史的な決断や、AI エージェントの安全性を守る OpenAI（オープンエーアイ）の買収劇、そして量子（りょうし）コンピューティングを加速させる新たな AI 技術についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-09 06:05:07</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-09_060507.mp3</link>
