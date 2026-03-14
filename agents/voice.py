@@ -67,9 +67,15 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
     meta = _load_meta(meta_path)
     tts_model = meta.get("tts_model", "gemini-2.5-flash-preview-tts")
     voice_name = meta.get("voice", "Kore")
+    title = meta.get("title", "ニュース")
+    category = meta.get("category", "Technology")
+    short_title = meta.get("short_title", title)
     api_key = os.environ["GEMINI_API_KEY"]
 
-    persona_instruction = "指示: 明るく情熱的なラジオパーソナリティとして、はつらつと感情を込めて日本語で読み上げてください。指示内容は読み上げず、以下の台本部分のみを音声にしてください。\n\n---\n台本:\n"
+    persona_instruction = meta.get(
+        "persona_instruction",
+        "指示: {short_title} の明るく情熱的なラジオパーソナリティとして、はつらつと感情を込めて日本語で読み上げてください。指示内容は読み上げず、以下の台本部分のみを音声にしてください。\n\n---\n台本:\n",
+    ).format(title=title, category=category, short_title=short_title)
     client = genai.Client(api_key=api_key)
 
     tts_prompt = f"{persona_instruction}{script}"

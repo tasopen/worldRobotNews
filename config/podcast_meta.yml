@@ -1,6 +1,6 @@
-title: "朝刊ワールドAIニュース"
-short_title: "ワールド AI ニュース"
-description: "世界から最新のAIニュースを毎朝お届けするポッドキャスト。Gemini AI が収集・要約し、音声でお伝えします。Presented by Tasogare Penguin."
+title: "朝刊ワールドロボットニュース"
+short_title: "ワールドロボットニュース"
+description: "世界から最新の人型ロボット、その他のロボット、フィジカルAIのニュースを毎朝お届けするポッドキャスト。Gemini AI が収集・要約し、音声でお伝えします。Presented by Tasogare Penguin."
 author: "AI News Bot"
 email: "noreply@example.com"
 language: ja
@@ -8,9 +8,10 @@ language: ja
 base_url: "https://tasopen.github.io/newspicker"
 category: "Technology"
 explicit: "no"
-voice: "Zephyr"
+voice: "Despina"
 tts_model: "gemini-2.5-flash-preview-tts"
 editor_model: "gemini-3-flash-preview"
+persona_instruction: "指示: {short_title} の明るく情熱的なラジオパーソナリティとして、リズムよく感情を込めて日本語で読み上げてください。指示内容は読み上げず、以下の台本部分のみを音声にしてください。\n\n---\n台本:\n"
 
 # 台本プロンプトテンプレート（カテゴリ変更時にここを変える）
 prompt_persona: "あなたは{category}専門のラジオパーソナリティです。"
