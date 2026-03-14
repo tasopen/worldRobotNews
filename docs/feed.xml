@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
     <title>朝刊ワールドロボットニュース</title>
     <link>https://tasopen.github.io/worldRobotNews</link>
@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Sun, 15 Mar 2026 01:45:02 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 06:12:45 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-15 06:10:09</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-15_061009.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-15_061009.mp3</guid>
+      <pubDate>Sun, 15 Mar 2026 06:12:45 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、中国の人型ロボット大手UBTECH（ユービーテック）による上海への拠点集約や、実用性を重視した次世代の「動くAI」に関する最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-15_061009.mp3" type="audio/mpeg" length="3977133" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-15_061009.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:08</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、中国の人型ロボット大手UBTECH（ユービーテック）による上海への拠点集約や、実用性を重視した次世代の「動くAI」に関する最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-15 01:42:52</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-15_014252.mp3</link>
