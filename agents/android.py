@@ -37,6 +37,23 @@ def _format_duration(seconds: int) -> str:
     return f"{h:02d}:{m:02d}:{s:02d}" if h else f"{m:02d}:{s:02d}"
 
 
+def _create_new_feed(meta: dict, base_url: str) -> tuple[ET.ElementTree, ET.Element, ET.Element]:
+    root = ET.Element("rss", {"version": "2.0"})
+    channel = ET.SubElement(root, "channel")
+    ET.SubElement(channel, "title").text = meta["title"]
+    ET.SubElement(channel, "link").text = base_url
+    ET.SubElement(channel, "description").text = meta["description"]
+    ET.SubElement(channel, _itunes("image"), {"href": f"{base_url}/podcast_cover.jpg"})
+    ET.SubElement(channel, "language").text = meta.get("language", "ja")
+    itunes_author = ET.SubElement(channel, _itunes("author"))
+    itunes_author.text = meta["author"]
+    itunes_cat = ET.SubElement(channel, _itunes("category"))
+    itunes_cat.set("text", meta.get("category", "Technology"))
+    itunes_explicit = ET.SubElement(channel, _itunes("explicit"))
+    itunes_explicit.text = meta.get("explicit", "no")
+    return ET.ElementTree(root), root, channel
+
+
 def update_feed(
     date_str: str,
     mp3_path: str,
@@ -74,49 +91,11 @@ def update_feed(
             bak_path = feed_path + ".bak_" + time.strftime("%Y%m%d_%H%M%S")
             shutil.copy(feed_path, bak_path)
             print(f"[android] feed.xml parse error: {e}. Backed up to {bak_path}. Regenerating...")
-            root = ET.Element("rss", {
-                "version": "2.0",
-                "xmlns:itunes": ITUNES_NS,
-                "xmlns:content": CONTENT_NS,
-                "xmlns:podcast": PODCAST_NS
-            })
-            channel = ET.SubElement(root, "channel")
+            tree, root, channel = _create_new_feed(meta, base_url)
             if channel is None:
                 raise RuntimeError("Failed to create RSS channel")
-            ET.SubElement(channel, "title").text = meta["title"]
-            ET.SubElement(channel, "link").text = base_url
-            ET.SubElement(channel, "description").text = meta["description"]
-            # Add podcast cover image (remove /docs/)
-            ET.SubElement(channel, _itunes("image"), {"href": f"{base_url}/podcast_cover.jpg"})
-            ET.SubElement(channel, "language").text = meta.get("language", "ja")
-            itunes_author = ET.SubElement(channel, _itunes("author"))
-            itunes_author.text = meta["author"]
-            itunes_cat = ET.SubElement(channel, _itunes("category"))
-            itunes_cat.set("text", meta.get("category", "Technology"))
-            itunes_explicit = ET.SubElement(channel, _itunes("explicit"))
-            itunes_explicit.text = meta.get("explicit", "no")
-            tree = ET.ElementTree(root)
     else:
-        root = ET.Element("rss", {
-            "version": "2.0",
-            "xmlns:itunes": ITUNES_NS,
-            "xmlns:content": CONTENT_NS,
-            "xmlns:podcast": PODCAST_NS
-        })
-        channel = ET.SubElement(root, "channel")
-        ET.SubElement(channel, "title").text = meta["title"]
-        ET.SubElement(channel, "link").text = base_url
-        ET.SubElement(channel, "description").text = meta["description"]
-        # Add podcast cover image (remove /docs/)
-        ET.SubElement(channel, _itunes("image"), {"href": f"{base_url}/podcast_cover.jpg"})
-        ET.SubElement(channel, "language").text = meta.get("language", "ja")
-        itunes_author = ET.SubElement(channel, _itunes("author"))
-        itunes_author.text = meta["author"]
-        itunes_cat = ET.SubElement(channel, _itunes("category"))
-        itunes_cat.set("text", meta.get("category", "Technology"))
-        itunes_explicit = ET.SubElement(channel, _itunes("explicit"))
-        itunes_explicit.text = meta.get("explicit", "no")
-        tree = ET.ElementTree(root)
+        tree, root, channel = _create_new_feed(meta, base_url)
 
     # lastBuildDate を更新
     jst = timezone(timedelta(hours=9))
