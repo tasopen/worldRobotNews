@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # 手動実行可能
 
 permissions:
-  contents: write  # docs/ への git push に必要
+  contents: write  # docs/ への git push するのに必要
 
 jobs:
   build:

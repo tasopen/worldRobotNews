@@ -4,7 +4,7 @@ on:
   schedule:
     # 毎週日曜 12:00 JST = UTC 03:00
     - cron: '0 3 * * 0'
-  workflow_dispatch:  # 手動実行可能
+  workflow_dispatch:  # 手動での実行可能
 
 permissions:
   contents: write
