@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>朝刊ワールドロボットニュース</title>
+    <link>https://tasopen.github.io/newspicker</link>
+    <description>世界から最新の人型ロボット、その他のロボット、フィジカルAIのニュースを毎朝お届けするポッドキャスト。Gemini AI が収集・要約し、音声でお伝えします。Presented by Tasogare Penguin.</description>
+    <itunes:image href="https://tasopen.github.io/newspicker/podcast_cover.jpg" />
+    <language>ja</language>
+    <itunes:author>AI News Bot</itunes:author>
+    <itunes:category text="Technology" />
+    <itunes:explicit>no</itunes:explicit>
+    <lastBuildDate>Sun, 15 Mar 2026 01:45:02 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-15 01:42:52</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-15_014252.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-15_014252.mp3</guid>
+      <pubDate>Sun, 15 Mar 2026 01:45:02 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、三菱電機による人型ロボットを活用した工場の完全無人化計画や、注目のスタートアップによる巨額資金調達のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-15_014252.mp3" type="audio/mpeg" length="3715245" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-15_014252.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:52</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、三菱電機による人型ロボットを活用した工場の完全無人化計画や、注目のスタートアップによる巨額資金調達のニュースをお届けします。</itunes:summary>
+    </item>
+  </channel>
+</rss>
