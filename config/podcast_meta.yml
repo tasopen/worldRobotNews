@@ -5,7 +5,7 @@ author: "AI News Bot"
 email: "noreply@example.com"
 language: ja
 # GitHub Pages のベースURL（リポジトリ設定後に変更してください）
-base_url: "https://tasopen.github.io/newspicker"
+base_url: "https://tasopen.github.io/worldRobotNews"
 category: "Technology"
 explicit: "no"
 voice: "Despina"

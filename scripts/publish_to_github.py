@@ -17,7 +17,7 @@ import urllib.request
 import urllib.error
 import json
 
-REPO_NAME = "newspicker"
+REPO_NAME = "worldRobotNews"
 GITHUB_USER = "tasopen"
 
 
@@ -65,7 +65,7 @@ def set_github_secret(token: str, secret_name: str, secret_value: str) -> None:
 
 
 def main() -> None:
-    print("=== newspicker GitHub 公開セットアップ ===\n")
+    print(f"=== {REPO_NAME} GitHub 公開セットアップ ===\n")
 
     # PAT 入力
     token = os.environ.get("GITHUB_TOKEN") or getpass.getpass(
