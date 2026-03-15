@@ -1,0 +1,57 @@
+{
+  "https://techxplore.com/rss-feed/robotics-news/": {
+    "fail_count": 0,
+    "last_success": "2026-03-15T08:52:39.929583+00:00",
+    "name": "Tech Xplore Robotics"
+  },
+  "https://www.therobotreport.com/feed/": {
+    "fail_count": 0,
+    "last_success": "2026-03-15T08:52:39.929583+00:00",
+    "name": "The Robot Report"
+  },
+  "https://roboticsandautomationnews.com/feed/": {
+    "fail_count": 0,
+    "last_success": "2026-03-15T08:52:39.929583+00:00",
+    "name": "Robotics & Automation News"
+  },
+  "https://news.google.com/rss/search?q=humanoid+robot&hl=en-US&gl=US&ceid=US:en": {
+    "fail_count": 0,
+    "last_success": "2026-03-15T08:52:39.929583+00:00",
+    "name": "Google News Humanoid Robot"
+  },
+  "https://www.sciencedaily.com/rss/computers_math/robotics.xml": {
+    "fail_count": 0,
+    "last_success": "2026-03-15T08:52:39.929583+00:00",
+    "name": "ScienceDaily Robotics"
+  },
+  "https://robotstart.info/rss20/index.rdf": {
+    "fail_count": 0,
+    "last_success": "2026-03-15T08:52:39.929583+00:00",
+    "name": "ロボスタ"
+  },
+  "https://rss.itmedia.co.jp/rss/2.0/mn_fa.xml": {
+    "fail_count": 0,
+    "last_success": "2026-03-15T08:52:39.929583+00:00",
+    "name": "MONOist FA"
+  },
+  "https://news.google.com/rss/search?q=%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%8E%E3%82%A4%E3%83%89+%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88&hl=ja&gl=JP&ceid=JP:ja": {
+    "fail_count": 0,
+    "last_success": "2026-03-15T08:52:39.929583+00:00",
+    "name": "Google News Japan Humanoid Robotics"
+  },
+  "https://news.google.com/rss/search?q=%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans": {
+    "fail_count": 0,
+    "last_success": "2026-03-15T08:52:39.929583+00:00",
+    "name": "Google News China Humanoid Robots"
+  },
+  "https://news.google.com/rss/search?q=%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD+%E6%9C%BA%E5%99%A8%E4%BA%BA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans": {
+    "fail_count": 0,
+    "last_success": "2026-03-15T08:52:39.929583+00:00",
+    "name": "Google News China Embodied AI Robotics"
+  },
+  "https://news.google.com/rss/search?q=%E5%B7%A5%E4%B8%9A%E6%9C%BA%E5%99%A8%E4%BA%BA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans": {
+    "fail_count": 0,
+    "last_success": "2026-03-15T08:52:39.929583+00:00",
+    "name": "Google News China Industrial Robotics"
+  }
+}

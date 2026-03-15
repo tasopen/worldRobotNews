@@ -51,7 +51,19 @@ def _load_health(path: str = HEALTH_PATH) -> dict:
     if not os.path.exists(path):
         return {}
     with open(path, encoding="utf-8") as f:
-        return json.load(f)
+        raw = f.read().strip()
+
+    # Treat empty/invalid files as fresh state instead of crashing CI.
+    if not raw:
+        return {}
+
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        print(f"[warn] Invalid JSON in {path}; resetting feed health state.")
+        return {}
+
+    return data if isinstance(data, dict) else {}
 
 
 def _save_health(data: dict, path: str = HEALTH_PATH) -> None:
