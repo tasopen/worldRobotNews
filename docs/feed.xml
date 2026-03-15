@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Sun, 15 Mar 2026 06:12:45 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 06:12:55 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-16 06:10:27</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-16_061027.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-16_061027.mp3</guid>
+      <pubDate>Mon, 16 Mar 2026 06:12:55 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、クアルコムとNeura Robotics（ニューラ・ロボティクス）による物理的AIの加速に向けた戦略的提携や、中国・河南省（かなんしょう）で産声を上げた世界初の人型ロボット専門販売店のニュースなど、ロボットがより身近になる最新動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-16_061027.mp3" type="audio/mpeg" length="4098093" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-16_061027.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:16</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、クアルコムとNeura Robotics（ニューラ・ロボティクス）による物理的AIの加速に向けた戦略的提携や、中国・河南省（かなんしょう）で産声を上げた世界初の人型ロボット専門販売店のニュースなど、ロボットがより身近になる最新動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-15 06:10:09</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-15_061009.mp3</link>
