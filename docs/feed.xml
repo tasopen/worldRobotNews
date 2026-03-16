@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Mon, 16 Mar 2026 06:12:55 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 06:19:01 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-17 06:16:55</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-17_061655.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-17_061655.mp3</guid>
+      <pubDate>Tue, 17 Mar 2026 06:19:01 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、XGSynBot（エックスジー・シンボット）による革新的な車輪型ヒューマノイドの発表や、中国各地で進む人型ロボットの量産体制と新素材の活用についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-17_061655.mp3" type="audio/mpeg" length="2978349" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-17_061655.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:06</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、XGSynBot（エックスジー・シンボット）による革新的な車輪型ヒューマノイドの発表や、中国各地で進む人型ロボットの量産体制と新素材の活用についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-16 06:10:27</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-16_061027.mp3</link>
