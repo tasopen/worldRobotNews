@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Tue, 17 Mar 2026 06:19:01 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 06:23:33 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-18 06:16:18</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-18_061618.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-18_061618.mp3</guid>
+      <pubDate>Wed, 18 Mar 2026 06:23:33 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、半導体大手とエヌビディアによる人型ロボット開発の強力な連携や、中国・広東省（カントンしょう）で始まったロボットのための「訓練校」の話題など、実用化に向けた最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-18_061618.mp3" type="audio/mpeg" length="3568557" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-18_061618.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:43</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、半導体大手とエヌビディアによる人型ロボット開発の強力な連携や、中国・広東省（カントンしょう）で始まったロボットのための「訓練校」の話題など、実用化に向けた最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-17 06:16:55</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-17_061655.mp3</link>
