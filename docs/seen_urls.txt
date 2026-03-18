@@ -40,3 +40,10 @@ https://news.google.com/rss/articles/CBMivgFBVV95cUxORWVRTllXWkZXUXhYZldZbnpNVkt
 https://news.google.com/rss/articles/CBMiYkFVX3lxTFA2dThXVjVJbHNZR1h6VF9yZU41RC1KRTh1U1lKRlNnUFVxTnhJekUyYVNLckZQOF9iX0tLbUNubndpS2dKQW9ZcFJjV1lEZXRZdGdnSWQtWUtOWjFWTUVHcXh3?oc=5
 https://news.google.com/rss/articles/CBMihwFBVV95cUxPRVVxUjBIZmFxQTVrR3poQVpiMEtrX0VJT0cxNXdyb2F5N3VCdmdPUjZ3VG9adk9BSlRlZWpicm9CY3pQNnZYSTUtS0pxYURCTDdYMWdiSUVUdm52SEhudHF2Mk9RcWxvc0pDUUs5bUZ0VV9LTnQ1d2tGZllraDZUSlBYbzVOODg?oc=5
 https://news.google.com/rss/articles/CBMieEFVX3lxTE9IbmhtZWhTZmlQNF9JczZzTWI5QmpmVkJhRHBKUUNTLTVFNTA2ekdObkV1Y01WTWZrMEhaY1AwcjN0MWhXTkJPY250UWJkak1BNVc1amNUMFB5b3RkdFlHc3BCSmJQRTdiR092aV96YXg4UjVEcENacA?oc=5
+https://robotstart.info/article/2026/03/18/381704.html
+https://roboticsandautomationnews.com/2026/03/18/agibot-stages-robot-led-live-show-to-demonstrate-humanoids-operating-at-scale/99834/
+https://news.google.com/rss/articles/CBMiSEFVX3lxTFA4V25YdGkxU0xSZ3ItQ3pqWmhnTlNXdTNzRGgtWDFQVmRtLVZOY1UtUXd1N1hsMXJsSzZuYTZHazVqanJKbHVkWg?oc=5
+https://roboticsandautomationnews.com/2026/03/17/dhl-deploys-svt-robotics-platform-to-integrate-warehouse-robots-up-to-12-times-faster/99803/
+https://www.therobotreport.com/nvidia-collaborates-global-robotics-leaders-make-physical-ai-reality/
+https://news.google.com/rss/articles/CBMibkFVX3lxTE9pU3hZOWVvMklza0lUSWcxXzdESUV0cVpxMmRjLXlTVHFVbFk1OEpndGFWVWI1bHJ4RmlUVTlaNXJmYzlDRVBqbkZNY3hwNS16WUNUWDIxS0tXV2RjaWpiXzA1NVlSYXNqSGMzeXdB?oc=5
+https://www.therobotreport.com/advantech-shows-robotics-medical-ai-industrial-edge-using-nvidia-jetson-thor/
