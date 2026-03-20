@@ -14,10 +14,12 @@ import yaml
 
 
 ITUNES_NS = "http://www.itunes.com/dtds/podcast-1.0.dtd"
+ATOM_NS = "http://www.w3.org/2005/Atom"
 CONTENT_NS = "http://purl.org/rss/1.0/modules/content/"
 PODCAST_NS = "https://podcastindex.org/namespace/1.0"
 
 ET.register_namespace("itunes", ITUNES_NS)
+ET.register_namespace("atom", ATOM_NS)
 ET.register_namespace("content", CONTENT_NS)
 ET.register_namespace("podcast", PODCAST_NS)
 
@@ -32,10 +34,23 @@ def _itunes(tag: str) -> str:
     return f"{{{ITUNES_NS}}}{tag}"
 
 
+def _atom(tag: str) -> str:
+    return f"{{{ATOM_NS}}}{tag}"
+
+
 def _format_duration(seconds: int) -> str:
     h, rem = divmod(seconds, 3600)
     m, s = divmod(rem, 60)
     return f"{h:02d}:{m:02d}:{s:02d}" if h else f"{m:02d}:{s:02d}"
+
+
+def _normalize_explicit(value: str | None) -> str:
+    normalized = str(value or "false").strip().lower()
+    if normalized in {"yes", "true", "explicit"}:
+        return "true"
+    if normalized in {"no", "false", "clean"}:
+        return "false"
+    return normalized
 
 
 def trim(text: str, length: int = 120) -> str:
@@ -176,20 +191,67 @@ def _build_podcast(meta: dict, base_url: str) -> dict:
     }
 
 
+def _ensure_text_element(parent: ET.Element, tag: str, text: str) -> ET.Element:
+    element = parent.find(tag)
+    if element is None:
+        element = ET.SubElement(parent, tag)
+    element.text = text
+    return element
+
+
+def _ensure_channel_metadata(channel: ET.Element, meta: dict, base_url: str) -> None:
+    rss_url = meta.get("rss_url", f"{base_url}/feed.xml")
+    cover_image = meta.get("cover_image", f"{base_url}/podcast_cover.jpg")
+    author_name = meta.get("name") or meta.get("author") or "Podcast"
+    owner_name = meta.get("name") or author_name
+    explicit_value = _normalize_explicit(meta.get("explicit", "false"))
+
+    _ensure_text_element(channel, "title", meta["title"])
+    _ensure_text_element(channel, "link", base_url)
+    _ensure_text_element(channel, "description", meta["description"])
+    _ensure_text_element(channel, "language", meta.get("language", "ja"))
+    _ensure_text_element(channel, _itunes("author"), author_name)
+    _ensure_text_element(channel, _itunes("explicit"), explicit_value)
+
+    atom_link = None
+    for candidate in channel.findall(_atom("link")):
+        if candidate.get("rel") == "self":
+            atom_link = candidate
+            break
+    if atom_link is None:
+        atom_link = ET.SubElement(channel, _atom("link"))
+    atom_link.set("href", rss_url)
+    atom_link.set("rel", "self")
+    atom_link.set("type", "application/rss+xml")
+
+    image = channel.find(_itunes("image"))
+    if image is None:
+        image = ET.SubElement(channel, _itunes("image"))
+    image.set("href", cover_image)
+
+    category = channel.find(_itunes("category"))
+    if category is None:
+        category = ET.SubElement(channel, _itunes("category"))
+    category.set("text", meta.get("category", "Technology"))
+
+    owner = channel.find(_itunes("owner"))
+    if owner is None:
+        owner = ET.SubElement(channel, _itunes("owner"))
+    _ensure_text_element(owner, _itunes("name"), owner_name)
+    email = meta.get("email")
+    owner_email = owner.find(_itunes("email"))
+    if email:
+        if owner_email is None:
+            owner_email = ET.SubElement(owner, _itunes("email"))
+        owner_email.text = email
+    elif owner_email is not None:
+        owner.remove(owner_email)
+
+
 def _create_new_feed(meta: dict, base_url: str) -> tuple[ET.ElementTree, ET.Element, ET.Element]:
     root = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(root, "channel")
-    ET.SubElement(channel, "title").text = meta["title"]
-    ET.SubElement(channel, "link").text = base_url
-    ET.SubElement(channel, "description").text = meta["description"]
-    ET.SubElement(channel, _itunes("image"), {"href": f"{base_url}/podcast_cover.jpg"})
-    ET.SubElement(channel, "language").text = meta.get("language", "ja")
-    itunes_author = ET.SubElement(channel, _itunes("author"))
-    itunes_author.text = meta["author"]
-    itunes_cat = ET.SubElement(channel, _itunes("category"))
-    itunes_cat.set("text", meta.get("category", "Technology"))
-    itunes_explicit = ET.SubElement(channel, _itunes("explicit"))
-    itunes_explicit.text = meta.get("explicit", "no")
+    _ensure_channel_metadata(channel, meta, base_url)
     return ET.ElementTree(root), root, channel
 
 
@@ -246,6 +308,7 @@ def update_feed(
          raise RuntimeError("Channel is None - failed to parse or create feed")
 
     podcast = _build_podcast(meta, base_url)
+    _ensure_channel_metadata(channel, meta, base_url)
 
     last_build = channel.find("lastBuildDate")
     if last_build is None:

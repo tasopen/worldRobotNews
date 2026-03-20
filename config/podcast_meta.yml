@@ -1,13 +1,14 @@
 title: "朝刊ワールドロボットニュース"
 short_title: "ワールドロボットニュース"
-description: "世界から最新の人型ロボット、その他のロボット、フィジカルAIのニュースを毎朝お届けするポッドキャスト。Gemini AI が収集・要約し、音声でお伝えします。Presented by Tasogare Penguin."
-author: "AI News Bot"
-email: "noreply@example.com"
+description: "米国、中国、日本から最新の人型ロボット、その他のロボット、フィジカルAIのニュースを毎朝お届けするポッドキャスト。Gemini AI が収集・要約し、音声でお伝えします。Presented by Tasogare Penguin."
+author: "TasogarePenguin"
+name: "TasogarePenguin"
+email: "tasopenservices@gmail.com"
 language: ja
 # GitHub Pages のベースURL（リポジトリ設定後に変更してください）
 base_url: "https://tasopen.github.io/worldRobotNews"
 category: "Technology"
-explicit: "no"
+explicit: "false"
 voice: "Despina"
 tts_model: "gemini-2.5-flash-preview-tts"
 editor_model: "gemini-3-flash-preview"
