@@ -4,9 +4,10 @@
 """
 from __future__ import annotations
 
+from email.utils import format_datetime, parsedate_to_datetime
+from html import escape
 import os
 from datetime import datetime, timezone, timedelta
-from email.utils import format_datetime
 from xml.etree import ElementTree as ET
 
 import yaml
@@ -37,6 +38,144 @@ def _format_duration(seconds: int) -> str:
     return f"{h:02d}:{m:02d}:{s:02d}" if h else f"{m:02d}:{s:02d}"
 
 
+def trim(text: str, length: int = 120) -> str:
+    return text[:length] + "..." if len(text) > length else text
+
+
+def render_episode(ep: dict) -> str:
+    """1エピソード分のHTMLを返す"""
+    title = escape(str(ep.get("title", "")))
+    description = escape(trim(str(ep.get("description", ""))))
+    pub_date = ep.get("pub_date")
+    date_str = pub_date.strftime("%Y-%m-%d") if isinstance(pub_date, datetime) else ""
+    audio_url = escape(str(ep.get("audio_url", "")))
+
+    return f"""
+    <div class="episode">
+        <h3>{title}</h3>
+        <div class="date">{date_str}</div>
+        <p>{description}</p>
+        <audio controls src="{audio_url}"></audio>
+    </div>
+    """
+
+
+def generate_index_html(podcast: dict, episodes: list[dict]) -> str:
+    """index.html のHTML文字列を返す"""
+    latest_episodes = episodes[:5]
+    episodes_html = "\n".join(render_episode(ep) for ep in latest_episodes)
+
+    html = f"""
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{escape(str(podcast.get("title", "Podcast")))}</title>
+
+<meta name="description" content="{escape(str(podcast.get("description", "")))}">
+
+<style>
+body {{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  max-width: 720px;
+  margin: auto;
+  padding: 20px;
+}}
+header {{
+  text-align: center;
+}}
+img.cover {{
+  width: 200px;
+  border-radius: 16px;
+}}
+.episode {{
+  border-bottom: 1px solid #eee;
+  padding: 16px 0;
+}}
+audio {{
+  width: 100%;
+}}
+.date {{
+  color: #888;
+  font-size: 0.9em;
+}}
+</style>
+
+</head>
+<body>
+
+<header>
+  <img class="cover" src="{escape(str(podcast.get("cover_image", "")))}">
+  <h1>{escape(str(podcast.get("title", "Podcast")))}</h1>
+  <p>{escape(str(podcast.get("description", "")))}</p>
+  <p><a href="{escape(str(podcast.get("rss_url", "")))}">RSS</a></p>
+</header>
+
+<section>
+<h2>最新エピソード</h2>
+{episodes_html}
+</section>
+
+<footer>
+<p>Generated automatically</p>
+</footer>
+
+</body>
+</html>
+"""
+    return html
+
+
+def _write_index_html(html: str, index_path: str = "docs/index.html") -> str:
+    directory = os.path.dirname(index_path)
+    if directory:
+        os.makedirs(directory, exist_ok=True)
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    return index_path
+
+
+def _extract_episodes(channel: ET.Element) -> list[dict]:
+    episodes: list[dict] = []
+    default_date = datetime.now(timezone.utc)
+    for item in channel.findall("item"):
+        title = item.findtext("title", default="")
+        description = item.findtext(
+            "description",
+            default=item.findtext("{http://www.itunes.com/dtds/podcast-1.0.dtd}summary", default=""),
+        )
+        pub_date_text = item.findtext("pubDate", default="")
+        try:
+            pub_date = parsedate_to_datetime(pub_date_text) if pub_date_text else default_date
+        except (TypeError, ValueError):
+            pub_date = default_date
+
+        enclosure = item.find("enclosure")
+        audio_url = enclosure.get("url") if enclosure is not None and enclosure.get("url") else item.findtext("link", default="")
+        link = item.findtext("link", default=audio_url)
+        episodes.append(
+            {
+                "title": title,
+                "description": description,
+                "pub_date": pub_date,
+                "audio_url": audio_url,
+                "link": link,
+            }
+        )
+
+    return episodes
+
+
+def _build_podcast(meta: dict, base_url: str) -> dict:
+    return {
+        "title": meta.get("title", "Podcast"),
+        "description": meta.get("description", ""),
+        "cover_image": meta.get("cover_image", f"{base_url}/podcast_cover.jpg"),
+        "rss_url": meta.get("rss_url", f"{base_url}/feed.xml"),
+    }
+
+
 def _create_new_feed(meta: dict, base_url: str) -> tuple[ET.ElementTree, ET.Element, ET.Element]:
     root = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(root, "channel")
@@ -61,6 +200,7 @@ def update_feed(
     duration_sec: int,
     srt_path: str | None = None,
     feed_path: str | None = None,
+    index_path: str | None = None,
     meta_path: str = "config/podcast_meta.yml",
 ) -> str:
     """feed.xml に新エピソードを追加して保存する。feed_path を返す。"""
@@ -68,6 +208,8 @@ def update_feed(
     if feed_path is None:
         feed_path = "docs/feed.xml"
     assert feed_path is not None
+    if index_path is None:
+        index_path = os.path.join(os.path.dirname(feed_path), "index.html")
     meta = _load_meta(meta_path)
     base_url = meta["base_url"].rstrip("/")
     mp3_filename = os.path.basename(mp3_path)
@@ -102,6 +244,8 @@ def update_feed(
     now = datetime.now(jst)
     if channel is None:
          raise RuntimeError("Channel is None - failed to parse or create feed")
+
+    podcast = _build_podcast(meta, base_url)
 
     last_build = channel.find("lastBuildDate")
     if last_build is None:
@@ -147,6 +291,15 @@ def update_feed(
         tree.write(f, encoding="unicode", xml_declaration=False)
 
     print(f"[android] feed.xml updated → {title_str}")
+
+    try:
+        episodes = _extract_episodes(channel)
+        html = generate_index_html(podcast, episodes)
+        _write_index_html(html, index_path)
+        print(f"[android] index.html updated → {index_path}")
+    except Exception as e:
+        print(f"[android] index.html generation failed: {e}")
+
     return feed_path
 
 

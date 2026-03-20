@@ -3,6 +3,8 @@
     // on launch.json configuration.
     "version": "0.2.0",
     "configurations": [
+
+        
         
         {
             "name": "Python: Run Pipeline (TEST_OUTPUT_PATH)",
@@ -11,8 +13,7 @@
             "program": "${workspaceFolder}/scripts/run_pipeline.py",
             "console": "integratedTerminal",
             "env": {
-                "TEST_OUTPUT_PATH": "docs/test_output",
-                "NEWS_API_KEY": "63b43bf51c8443c78f173daf9387ab1b"
+                "TEST_OUTPUT_PATH": "docs/test_output"
             }
         },
         {
@@ -22,7 +23,6 @@
             "program": "${workspaceFolder}/scripts/run_pipeline.py",
             "console": "integratedTerminal",
             "env": {
-                "NEWS_API_KEY": "63b43bf51c8443c78f173daf9387ab1b"
             }
         }
     ]
