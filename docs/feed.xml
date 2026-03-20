@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Fri, 20 Mar 2026 06:17:45 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 12:49:32 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-20 12:46:37</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-20_124637.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-20_124637.mp3</guid>
+      <pubDate>Fri, 20 Mar 2026 12:49:32 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、エヌビディアが発表したフィジカルAI開発を劇的に加速させる新構想や、市場の急成長を裏付ける最新の販売統計など、ロボット産業の最前線をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-20_124637.mp3" type="audio/mpeg" length="4312365" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-20_124637.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:29</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、エヌビディアが発表したフィジカルAI開発を劇的に加速させる新構想や、市場の急成長を裏付ける最新の販売統計など、ロボット産業の最前線をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-20 06:14:51</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-20_061451.mp3</link>
