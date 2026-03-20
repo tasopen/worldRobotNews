@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 20 Mar 2026 12:49:32 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 06:13:41 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-21 06:11:20</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-21_061120.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-21_061120.mp3</guid>
+      <pubDate>Sat, 21 Mar 2026 06:13:41 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、産業用ロボットの巨人・ファナックとエヌビディアの強力タッグや、人型ロボット大手・宇樹科技（うじゅかぎ）の驚異的な成長とIPO申請のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-21_061120.mp3" type="audio/mpeg" length="3302445" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-21_061120.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:26</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、産業用ロボットの巨人・ファナックとエヌビディアの強力タッグや、人型ロボット大手・宇樹科技（うじゅかぎ）の驚異的な成長とIPO申請のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-20 12:46:37</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-20_124637.mp3</link>
