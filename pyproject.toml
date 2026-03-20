@@ -9,5 +9,6 @@ dependencies = [
   "feedparser>=6.0",
   "python-dateutil>=2.9",
   "google-genai>=1.0",
-  "PyYAML>=6.0",
+  "pyyaml>=6.0",
+  "google-cloud-texttospeech>=2.3",
 ]

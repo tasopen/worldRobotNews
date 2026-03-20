@@ -2,7 +2,6 @@
 
 Gemini TTS (gemini-2.5-flash-preview-tts) を使って台本テキストを MP3 に変換する。
 出力フォーマット: PCM → WAV → MP3 (wave + ffmpeg subprocess)
-pydub は Python 3.13 で audioop が削除されたため使用しない。
 """
 from __future__ import annotations
 
