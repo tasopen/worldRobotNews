@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 21 Mar 2026 06:13:41 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 06:11:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-22 06:09:05</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-22_060905.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-22_060905.mp3</guid>
+      <pubDate>Sun, 22 Mar 2026 06:11:31 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、プロランナーの記録に挑む人型ロボット「天工（てんこう）」の驚異的な身体能力や、社会実装を加速させる実践的な教育・デザインの最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-22_060905.mp3" type="audio/mpeg" length="3767085" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-22_060905.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:55</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、プロランナーの記録に挑む人型ロボット「天工（てんこう）」の驚異的な身体能力や、社会実装を加速させる実践的な教育・デザインの最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-21 06:11:20</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-21_061120.mp3</link>
