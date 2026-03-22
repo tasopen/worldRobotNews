@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 22 Mar 2026 06:11:31 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 06:12:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-23 06:09:32</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-23_060932.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-23_060932.mp3</guid>
+      <pubDate>Mon, 23 Mar 2026 06:12:31 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、中国で策定された人型ロボットの国家標準案や、上海のマクドナルドで始まった人型ロボットによる接客テストなど、実用化と標準化が加速する最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-23_060932.mp3" type="audio/mpeg" length="4437549" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-23_060932.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:37</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、中国で策定された人型ロボットの国家標準案や、上海のマクドナルドで始まった人型ロボットによる接客テストなど、実用化と標準化が加速する最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-22 06:09:05</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-22_060905.mp3</link>
