@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 24 Mar 2026 06:18:15 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 06:19:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-25 06:16:17</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-25_061617.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-25_061617.mp3</guid>
+      <pubDate>Wed, 25 Mar 2026 06:19:19 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、中国・成都（せいと）で始まった建設ロボットの標準化や、韓国LG（えるじー）が注力するロボットの「関節と目」の戦略、そしてMITの名教授による新たなAIスタートアップの動向など、実用化に向けた重要なステップをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-25_061617.mp3" type="audio/mpeg" length="4014765" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-25_061617.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:10</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、中国・成都（せいと）で始まった建設ロボットの標準化や、韓国LG（えるじー）が注力するロボットの「関節と目」の戦略、そしてMITの名教授による新たなAIスタートアップの動向など、実用化に向けた重要なステップをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-24 06:15:16</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-24_061516.mp3</link>
