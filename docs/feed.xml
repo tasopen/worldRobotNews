@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 25 Mar 2026 06:19:19 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 06:18:12 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-26 06:15:30</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-26_061530.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-26_061530.mp3</guid>
+      <pubDate>Thu, 26 Mar 2026 06:18:12 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、Amazon（あまぞん）による人型ロボット企業の買収と、日本のロボット史に刻まれるホンダ「P2（ぴーつー）」の歴史的評価、そして東京で初開催される専門展示会のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-26_061530.mp3" type="audio/mpeg" length="3569325" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-26_061530.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:43</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、Amazon（あまぞん）による人型ロボット企業の買収と、日本のロボット史に刻まれるホンダ「P2（ぴーつー）」の歴史的評価、そして東京で初開催される専門展示会のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-25 06:16:17</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-25_061617.mp3</link>
