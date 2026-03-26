@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 26 Mar 2026 06:18:12 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 06:15:57 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-27 06:12:48</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-27_061248.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-27_061248.mp3</guid>
+      <pubDate>Fri, 27 Mar 2026 06:15:57 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、北京で始動した人型ロボットのオープンソース計画や、300台ものロボットが激突するハーフマラソンの詳報、そして「機械の鼻」が切り拓く多モードAIの可能性についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-27_061248.mp3" type="audio/mpeg" length="3093549" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-27_061248.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:13</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、北京で始動した人型ロボットのオープンソース計画や、300台ものロボットが激突するハーフマラソンの詳報、そして「機械の鼻」が切り拓く多モードAIの可能性についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-26 06:15:30</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-26_061530.mp3</link>
