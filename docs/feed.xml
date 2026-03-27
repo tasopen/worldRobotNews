@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 27 Mar 2026 06:15:57 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 06:17:37 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-28 06:14:45</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-28_061445.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-28_061445.mp3</guid>
+      <pubDate>Sat, 28 Mar 2026 06:17:37 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、中国の大手自動車メーカーによる人型ロボットの量産ライン投入や、日本国内で発足した社会実装を目指す新組織の話題、そして業界の未来を占う大規模カンファレンスのニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-28_061445.mp3" type="audio/mpeg" length="3289773" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-28_061445.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:25</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、中国の大手自動車メーカーによる人型ロボットの量産ライン投入や、日本国内で発足した社会実装を目指す新組織の話題、そして業界の未来を占う大規模カンファレンスのニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-27 06:12:48</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-27_061248.mp3</link>
