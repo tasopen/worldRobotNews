@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 28 Mar 2026 06:17:37 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 06:13:36 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-29 06:10:51</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-29_061051.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-29_061051.mp3</guid>
+      <pubDate>Sun, 29 Mar 2026 06:13:36 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、自動車の電池量産ラインに投入された最新の人型ロボットや、物流現場で進化を遂げる「双腕」ロボット、そして自動運転の権威が挑む「最後の500メートル」の配送革命についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-29_061051.mp3" type="audio/mpeg" length="3772845" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-29_061051.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:55</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、自動車の電池量産ラインに投入された最新の人型ロボットや、物流現場で進化を遂げる「双腕」ロボット、そして自動運転の権威が挑む「最後の500メートル」の配送革命についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-28 06:14:45</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-28_061445.mp3</link>
