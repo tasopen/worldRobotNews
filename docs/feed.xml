@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 29 Mar 2026 06:13:36 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 06:14:32 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-03-30 06:11:52</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-30_061152.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-03-30_061152.mp3</guid>
+      <pubDate>Mon, 30 Mar 2026 06:14:32 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、具身知能における初の国家標準の策定や、業界リーダーが予測する「ロボット版ChatGPT」の到来時期、そして上海に誕生するアジア初の体験型店舗についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-30_061152.mp3" type="audio/mpeg" length="3681837" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-03-30_061152.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:50</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、具身知能における初の国家標準の策定や、業界リーダーが予測する「ロボット版ChatGPT」の到来時期、そして上海に誕生するアジア初の体験型店舗についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-03-29 06:10:51</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-03-29_061051.mp3</link>
