@@ -84,6 +84,10 @@ rss_feeds:
   url: https://www.qbitai.com/feed
   language: zh
   weight: 1.3
+- name: 钛媒体 (TMTPost)
+  url: https://www.tmtpost.com/rss.xml
+  language: zh
+  weight: 1.1
 selection:
   max_articles: 7
   hours_lookback: 24
