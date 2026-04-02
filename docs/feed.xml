@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 02 Apr 2026 06:21:22 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 06:17:40 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-03 06:15:27</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-03_061527.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-03_061527.mp3</guid>
+      <pubDate>Fri, 03 Apr 2026 06:17:40 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、トヨタ・リサーチ・インスティテュートのギル・プラット氏が語る「人型ロボットの真の課題」や、日本で発足した驚きの「人型ロボット陸上チーム」の話題を中心にお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-03_061527.mp3" type="audio/mpeg" length="3333165" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-03_061527.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:28</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、トヨタ・リサーチ・インスティテュートのギル・プラット氏が語る「人型ロボットの真の課題」や、日本で発足した驚きの「人型ロボット陸上チーム」の話題を中心にお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-02 06:19:37</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-02_061937.mp3</link>
