@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 03 Apr 2026 06:17:40 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 06:16:15 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-04 06:13:54</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-04_061354.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-04_061354.mp3</guid>
+      <pubDate>Sat, 04 Apr 2026 06:16:15 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、わずか1時間の学習で物理タスクをマスターする汎用AIモデルの登場や、中国の有力ロボットメーカー「珞石（らくせき）ロボティクス」の上場申請、そして日本国内で加速する中国製人型ロボットの社会実装の動きを中心にお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-04_061354.mp3" type="audio/mpeg" length="3678765" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-04_061354.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:49</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、わずか1時間の学習で物理タスクをマスターする汎用AIモデルの登場や、中国の有力ロボットメーカー「珞石（らくせき）ロボティクス」の上場申請、そして日本国内で加速する中国製人型ロボットの社会実装の動きを中心にお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-03 06:15:27</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-03_061527.mp3</link>
