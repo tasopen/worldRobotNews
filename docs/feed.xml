@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 04 Apr 2026 06:16:15 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 06:13:33 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-05 06:11:24</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-05_061124.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-05_061124.mp3</guid>
+      <pubDate>Sun, 05 Apr 2026 06:13:33 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、人型ロボットの「触覚」コストを劇的に下げる新素材の登場や、中国の大手自動車メーカー「長安（ちょうあん）汽車（きしゃ）」が描くロボット戦略の全貌、そして世界記録に挑むロボットたちの最新動向を中心にお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-05_061124.mp3" type="audio/mpeg" length="3173037" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-05_061124.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:18</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、人型ロボットの「触覚」コストを劇的に下げる新素材の登場や、中国の大手自動車メーカー「長安（ちょうあん）汽車（きしゃ）」が描くロボット戦略の全貌、そして世界記録に挑むロボットたちの最新動向を中心にお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-04 06:13:54</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-04_061354.mp3</link>
