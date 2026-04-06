@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 06 Apr 2026 06:13:23 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 06:18:11 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-07 06:15:40</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-07_061540.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-07_061540.mp3</guid>
+      <pubDate>Tue, 07 Apr 2026 06:18:11 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、日本発の強化学習による人型ロボットの全身制御技術や、中国製ハードウェアと日本の技術が融合する最新の市場動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-07_061540.mp3" type="audio/mpeg" length="3407277" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-07_061540.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:32</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、日本発の強化学習による人型ロボットの全身制御技術や、中国製ハードウェアと日本の技術が融合する最新の市場動向についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-06 06:11:07</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-06_061107.mp3</link>
