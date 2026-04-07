@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 07 Apr 2026 06:18:11 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 06:22:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-08 06:20:02</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-08_062002.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-08_062002.mp3</guid>
+      <pubDate>Wed, 08 Apr 2026 06:22:19 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、東京・渋谷に誕生した日本最大級の人型ロボット研究開発拠点や、ロボットの知能を加速させる「データ工場」の最前線についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-08_062002.mp3" type="audio/mpeg" length="2877741" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-08_062002.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>02:59</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、東京・渋谷に誕生した日本最大級の人型ロボット研究開発拠点や、ロボットの知能を加速させる「データ工場」の最前線についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-07 06:15:40</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-07_061540.mp3</link>
