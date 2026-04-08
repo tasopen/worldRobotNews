@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 08 Apr 2026 06:22:19 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 06:23:11 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-09 06:20:09</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-09_062009.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-09_062009.mp3</guid>
+      <pubDate>Thu, 09 Apr 2026 06:23:11 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、人型ロボットが研究室を飛び出し、工場や家庭へと普及し始める「商業的臨界点」としての２０２６年の展望や、中国ＥＶ大手「理想（りしゃお）汽車（きしゃ）」によるロボット事業への本格参入など、最新のニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-09_062009.mp3" type="audio/mpeg" length="4298925" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-09_062009.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:28</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、人型ロボットが研究室を飛び出し、工場や家庭へと普及し始める「商業的臨界点」としての２０２６年の展望や、中国ＥＶ大手「理想（りしゃお）汽車（きしゃ）」によるロボット事業への本格参入など、最新のニュースをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-08 06:20:02</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-08_062002.mp3</link>
