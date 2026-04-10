@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 10 Apr 2026 06:21:49 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 06:18:24 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-11 06:15:12</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-11_061512.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-11_061512.mp3</guid>
+      <pubDate>Sat, 11 Apr 2026 06:18:24 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、２０３５年までに１．４５億台ものＡＩデバイスが普及するという最新の市場予測や、深刻なデータ不足を解消するために百度（ばいどぅ）が仕掛ける「データスーパーマーケット」の衝撃的な構想についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-11_061512.mp3" type="audio/mpeg" length="5108397" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-11_061512.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:19</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、２０３５年までに１．４５億台ものＡＩデバイスが普及するという最新の市場予測や、深刻なデータ不足を解消するために百度（ばいどぅ）が仕掛ける「データスーパーマーケット」の衝撃的な構想についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-10 06:19:45</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-10_061945.mp3</link>
