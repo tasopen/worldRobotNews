@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 11 Apr 2026 06:18:24 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 06:15:02 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-12 06:12:19</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-12_061219.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-12_061219.mp3</guid>
+      <pubDate>Sun, 12 Apr 2026 06:15:02 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、中国の自動車大手・広汽（こうき）集団（しゅうだん）による人型ロボットの量産開始や、業界の標準化を加速させる新オペレーティングシステムの登場についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-12_061219.mp3" type="audio/mpeg" length="3047469" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-12_061219.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:10</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、中国の自動車大手・広汽（こうき）集団（しゅうだん）による人型ロボットの量産開始や、業界の標準化を加速させる新オペレーティングシステムの登場についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-11 06:15:12</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-11_061512.mp3</link>
