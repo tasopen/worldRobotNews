@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 12 Apr 2026 06:15:02 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 06:17:08 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-13 06:13:31</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-13_061331.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-13_061331.mp3</guid>
+      <pubDate>Mon, 13 Apr 2026 06:17:08 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、世界最速を記録した中国の人型ロボットの驚異的な身体能力や、深圳（しんせん）で稼働を開始した量産化への架け橋となる最新ラインについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-13_061331.mp3" type="audio/mpeg" length="4166061" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-13_061331.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:20</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、世界最速を記録した中国の人型ロボットの驚異的な身体能力や、深圳（しんせん）で稼働を開始した量産化への架け橋となる最新ラインについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-12 06:12:19</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-12_061219.mp3</link>
