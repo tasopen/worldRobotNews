@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 13 Apr 2026 06:17:08 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 06:24:24 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-14 06:20:33</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-14_062033.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-14_062033.mp3</guid>
+      <pubDate>Tue, 14 Apr 2026 06:24:24 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュース です。本日は、中国の自動車大手チェリーによる人型ロボットの一般販売開始や、産業用ロボットの巨人クーカが提唱する「オートメーション2.0」の衝撃についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-14_062033.mp3" type="audio/mpeg" length="4414509" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-14_062033.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:35</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュース です。本日は、中国の自動車大手チェリーによる人型ロボットの一般販売開始や、産業用ロボットの巨人クーカが提唱する「オートメーション2.0」の衝撃についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-13 06:13:31</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-13_061331.mp3</link>
