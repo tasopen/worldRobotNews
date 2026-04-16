@@ -63,6 +63,7 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
     """
     meta = _load_meta(meta_path)
     model_id = meta.get("editor_model", "gemini-3-flash-preview")
+    tts_model = meta.get("tts_model","gemini-3.1-flash-tts-preview")
     api_key = os.environ["GEMINI_API_KEY"]
 
     client = genai.Client(api_key=api_key)
@@ -93,7 +94,7 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
 
 【要件】
 - **ヘッドライン**: 「{greeting}」から始め、その日のニュースのヘッドラインを1〜2文で手短に紹介してください。
-- **本文**: 各記事について、提供された概要をもとに、リスナーが内容を深く理解できるよう、背景情報や重要性を補足しながら、それぞれ300〜400字程度の詳細な解説を加えてください。gemini-2.5-flash-tts で読み上げます。  難読な漢字、中国語の人名や固有名詞などは（）でふりがなを入れてください。重要な記事から順に紹介してください。各記事の解説の冒頭には、ニュースソース名を短く入れてください(例: 「TechCrunchによりますと…」「36Krが報じたところでは…」）。記事から次の記事に移る際には、自然なつなぎの言葉を入れてください。最後にエンディングとして、「本日の{short_title}は以上です。また明日お会いしましょう」で締めくくってください。
+- **本文**: 各記事について、提供された概要をもとに、リスナーが内容を深く理解できるよう、背景情報や重要性を補足しながら、それぞれ300〜400字程度の詳細な解説を加えてください。{tts_model} で読み上げます。一般的な漢字は正しく読み上げますが、難読な漢字、中国語の人名や固有名詞などは（）でふりがなを入れてください。重要な記事から順に紹介してください。各記事の解説の冒頭には、ニュースソース名を短く入れてください(例: 「TechCrunchによりますと…」「36Krが報じたところでは…」）。記事から次の記事に移る際には、自然なつなぎの言葉を入れてください。最後にエンディングとして、「本日の{short_title}は以上です。また明日お会いしましょう」で締めくくってください。
 - **重複回避**: 過去の放送内容が参考として提供されている場合、すでに取り上げた話題と実質的に同じ内容の記事は省略してください。
 - **出力形式**: 以下のフォーマットで出力してください。
 ヘッドライン:
@@ -113,8 +114,11 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
             max_output_tokens=8192,
         ),
     )
-    print(f"[editor] Raw script from API:\n---\n{response.text}\n---")
-    script = response.text.strip()
+    response_text = response.text
+    print(f"[editor] Raw script from API:\n---\n{response_text}\n---")
+    if response_text is None:
+        raise RuntimeError(f"Editor API returned no text. Full response: {response}")
+    script = response_text.strip()
     # ヘッドラインと本文を抽出
     headline = ""
     body = ""

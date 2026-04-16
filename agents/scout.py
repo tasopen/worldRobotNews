@@ -28,25 +28,82 @@ class Article:
 
 
 SEEN_URLS_PATH = "docs/seen_urls.txt"
+SEEN_URL_RETENTION_DAYS = 30
+SEEN_URL_MAX_ENTRIES = 1000
+
+
+def _load_seen_url_entries(
+    path: str = SEEN_URLS_PATH,
+    retention_days: int = SEEN_URL_RETENTION_DAYS,
+) -> list[tuple[datetime, str]]:
+    """保持期間内の使用済み URL をタイムスタンプ付きで返す。"""
+    if not os.path.exists(path):
+        return []
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=retention_days)
+    entries_by_url: dict[str, datetime] = {}
+
+    with open(path, encoding="utf-8") as f:
+        for raw_line in f:
+            line = raw_line.strip()
+            if not line:
+                continue
+
+            timestamp: datetime | None = None
+            url = line
+            if "\t" in line:
+                timestamp_text, url = line.split("\t", 1)
+                try:
+                    parsed = dtparser.isoparse(timestamp_text)
+                    timestamp = parsed if parsed.tzinfo else parsed.replace(tzinfo=timezone.utc)
+                except (ValueError, TypeError):
+                    timestamp = None
+
+            if not url:
+                continue
+
+            # 旧形式の URL のみの行は移行用に一度だけ救済し、次回保存時に新形式へ正規化する。
+            if timestamp is None:
+                timestamp = datetime.now(timezone.utc)
+
+            if timestamp < cutoff:
+                continue
+
+            current = entries_by_url.get(url)
+            if current is None or timestamp > current:
+                entries_by_url[url] = timestamp
+
+    return sorted(((timestamp, url) for url, timestamp in entries_by_url.items()), key=lambda item: item[0])
 
 
 def _load_seen_urls(path: str = SEEN_URLS_PATH) -> set[str]:
-    """過去に使用した記事 URL を読み込む。"""
-    if not os.path.exists(path):
-        return set()
-    with open(path, encoding="utf-8") as f:
-        return {line.strip() for line in f if line.strip()}
+    """保持期間内の過去に使用した記事 URL を読み込む。"""
+    return {url for _, url in _load_seen_url_entries(path)}
 
 
-def save_seen_urls(urls: list[str], path: str = SEEN_URLS_PATH) -> None:
-    """選択された記事 URL を seen_urls.txt に追記する。"""
+def save_seen_urls(
+    urls: list[str],
+    path: str = SEEN_URLS_PATH,
+    retention_days: int = SEEN_URL_RETENTION_DAYS,
+    max_entries: int = SEEN_URL_MAX_ENTRIES,
+) -> None:
+    """選択された記事 URL を保持期間付きで保存し、ファイルを圧縮する。"""
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    existing = _load_seen_urls(path)
-    new_urls = [u for u in urls if u not in existing]
-    if new_urls:
-        with open(path, "a", encoding="utf-8") as f:
-            for url in new_urls:
-                f.write(url + "\n")
+    now = datetime.now(timezone.utc)
+    entries = _load_seen_url_entries(path, retention_days=retention_days)
+    entries_by_url = {url: timestamp for timestamp, url in entries}
+
+    for url in urls:
+        if url:
+            entries_by_url[url] = now
+
+    compacted = sorted(((timestamp, url) for url, timestamp in entries_by_url.items()), key=lambda item: item[0])
+    if max_entries > 0:
+        compacted = compacted[-max_entries:]
+
+    with open(path, "w", encoding="utf-8") as f:
+        for timestamp, url in compacted:
+            f.write(f"{timestamp.isoformat()}\t{url}\n")
 
 
 

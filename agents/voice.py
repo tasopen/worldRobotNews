@@ -62,6 +62,22 @@ def _convert_wav_to_mp3(wav_bytes: bytes, output_path: str, bitrate: str = "128k
         os.unlink(tmp_path)
 
 
+def _extract_audio_data(response) -> bytes | None:
+    if not response or not response.candidates:
+        return None
+
+    candidate = response.candidates[0]
+    if not candidate.content or not candidate.content.parts:
+        return None
+
+    for part in candidate.content.parts:
+        inline_data = getattr(part, "inline_data", None)
+        if inline_data and inline_data.data:
+            return inline_data.data
+
+    return None
+
+
 def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_meta.yml", debug: bool = False, output_format: str = "mp3") -> str:
     """台本テキストを音声合成して音声ファイルに保存する。output_formatでmp3/wav選択可。output_path を返す。debug=True でPCMも保存。"""
     meta = _load_meta(meta_path)
@@ -82,6 +98,7 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
 
     response = None
     last_exception = None
+    pcm_data = None
     max_retries = 3
     for attempt in range(max_retries):
         try:
@@ -121,7 +138,8 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
                     ),
                 ),
             )
-            if response.candidates and response.candidates[0].content:
+            pcm_data = _extract_audio_data(response)
+            if response.candidates and response.candidates[0].content and pcm_data:
                 break
             
             reason = response.candidates[0].finish_reason if response.candidates else "No candidates"
@@ -134,14 +152,7 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
 
     # PCM バイナリを取得
     # 極めて慎重に階層をチェック
-    if (not response or 
-        not response.candidates or 
-        len(response.candidates) == 0 or 
-        not response.candidates[0].content or 
-        not response.candidates[0].content.parts or 
-        len(response.candidates[0].content.parts) == 0 or
-        not response.candidates[0].content.parts[0].inline_data or
-        not response.candidates[0].content.parts[0].inline_data.data):
+    if not pcm_data:
         
         reason = response.candidates[0].finish_reason if (response and response.candidates and len(response.candidates) > 0) else "Unknown"
         print(f"[voice] ERROR: TTS failed to return valid audio data after {max_retries} attempts.")
@@ -156,8 +167,6 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
                     print(f"[voice] Safety ratings: {response.candidates[0].safety_ratings}")
         
         raise RuntimeError(f"TTS API returned no audio data. Reason: {reason}. Exception: {last_exception}")
-
-    pcm_data = response.candidates[0].content.parts[0].inline_data.data
 
     if debug:
         pcm_path = output_path + ".pcm"
