@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 18 Apr 2026 06:21:56 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 06:16:13 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-19 06:13:52</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-19_061352.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-19_061352.mp3</guid>
+      <pubDate>Sun, 19 Apr 2026 06:16:13 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、中国のロボット新興勢力が発表した野心的な成長戦略や、北京で開催される世界初の人型ロボットによるハーフマラソン大会など、技術が実用化へと加速する最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-19_061352.mp3" type="audio/mpeg" length="3307437" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-19_061352.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:26</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、中国のロボット新興勢力が発表した野心的な成長戦略や、北京で開催される世界初の人型ロボットによるハーフマラソン大会など、技術が実用化へと加速する最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-18 06:19:18</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-18_061918.mp3</link>
