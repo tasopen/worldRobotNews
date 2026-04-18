@@ -1,14 +1,12 @@
 """@voice: 音声合成エージェント
 
-Gemini TTS (gemini-2.5-flash-preview-tts) を使って台本テキストを MP3 に変換する。
+Gemini TTS (gemini-3.1-flash-tts-preview) を使って台本テキストを MP3 に変換する。
 出力フォーマット: PCM → WAV → MP3 (wave + ffmpeg subprocess)
-pydub は Python 3.13 で audioop が削除されたため使用しない。
 """
 from __future__ import annotations
 
 import io
 import os
-import struct
 import subprocess
 import tempfile
 import time
@@ -81,7 +79,7 @@ def _extract_audio_data(response) -> bytes | None:
 def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_meta.yml", debug: bool = False, output_format: str = "mp3") -> str:
     """台本テキストを音声合成して音声ファイルに保存する。output_formatでmp3/wav選択可。output_path を返す。debug=True でPCMも保存。"""
     meta = _load_meta(meta_path)
-    tts_model = meta.get("tts_model", "gemini-2.5-flash-preview-tts")
+    tts_model = meta.get("tts_model", "gemini-3.1-flash-tts-preview")
     voice_name = meta.get("voice", "Kore")
     title = meta.get("title", "ニュース")
     category = meta.get("category", "Technology")
