@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 19 Apr 2026 06:16:13 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 06:17:13 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-20 06:14:35</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-20_061435.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-20_061435.mp3</guid>
+      <pubDate>Mon, 20 Apr 2026 06:17:13 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、北京で開催された世界初の人型ロボットハーフマラソンで、人類の記録を塗り替える驚異的なタイムが叩き出されたニュースを中心にお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-20_061435.mp3" type="audio/mpeg" length="3266733" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-20_061435.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:24</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、北京で開催された世界初の人型ロボットハーフマラソンで、人類の記録を塗り替える驚異的なタイムが叩き出されたニュースを中心にお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-19 06:13:52</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-19_061352.mp3</link>
