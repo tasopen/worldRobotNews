@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 20 Apr 2026 06:17:13 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 06:24:24 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-21 06:21:08</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-21_062108.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-21_062108.mp3</guid>
+      <pubDate>Tue, 21 Apr 2026 06:24:24 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、ドイツで開催中のハノーバー・メッセで発表された産業用人型ロボット「アルフィー」や、メンタルヘルスを支える社会的支援ロボットの先駆的な研究、そして先日開催されたロボットハーフマラソンの技術的舞台裏など、最新のロボットトピックをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-21_062108.mp3" type="audio/mpeg" length="4269357" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-21_062108.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:26</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、ドイツで開催中のハノーバー・メッセで発表された産業用人型ロボット「アルフィー」や、メンタルヘルスを支える社会的支援ロボットの先駆的な研究、そして先日開催されたロボットハーフマラソンの技術的舞台裏など、最新のロボットトピックをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-20 06:14:35</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-20_061435.mp3</link>
