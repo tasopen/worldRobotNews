@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 21 Apr 2026 06:24:24 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 06:22:57 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-22 06:19:47</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-22_061947.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-22_061947.mp3</guid>
+      <pubDate>Wed, 22 Apr 2026 06:22:57 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、中国の具身知能スタートアップが異例の巨額資金調達に成功した話題や、アップル社の歴史的なトップ交代、そして物流現場へ進出する最新の人型ロボットの動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-22_061947.mp3" type="audio/mpeg" length="4425645" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-22_061947.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:36</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、中国の具身知能スタートアップが異例の巨額資金調達に成功した話題や、アップル社の歴史的なトップ交代、そして物流現場へ進出する最新の人型ロボットの動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-21 06:21:08</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-21_062108.mp3</link>
