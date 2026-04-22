@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 22 Apr 2026 06:22:57 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 06:24:26 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-23 06:21:47</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-23_062147.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-23_062147.mp3</guid>
+      <pubDate>Thu, 23 Apr 2026 06:24:26 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日はBMWによる人型ロボットの生産ライン導入や、大手コンサルと通信キャリアが挑む物流DXの最前線、そして過酷な環境で働く特殊ロボットの資金調達ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-23_062147.mp3" type="audio/mpeg" length="3687597" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-23_062147.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:50</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日はBMWによる人型ロボットの生産ライン導入や、大手コンサルと通信キャリアが挑む物流DXの最前線、そして過酷な環境で働く特殊ロボットの資金調達ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-22 06:19:47</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-22_061947.mp3</link>
