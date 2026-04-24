@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 24 Apr 2026 06:23:17 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 06:24:06 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-04-25 06:20:59</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-25_062059.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-04-25_062059.mp3</guid>
+      <pubDate>Sat, 25 Apr 2026 06:24:06 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、プロを圧倒するソニーの卓球ロボットや、世界初となる具身知能ロボットの保険金支払い事例など、ロボットが実社会に溶け込む最前線のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-25_062059.mp3" type="audio/mpeg" length="4602285" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-04-25_062059.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:47</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、プロを圧倒するソニーの卓球ロボットや、世界初となる具身知能ロボットの保険金支払い事例など、ロボットが実社会に溶け込む最前線のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-04-24 06:20:33</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-04-24_062033.mp3</link>
