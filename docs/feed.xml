@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 03 May 2026 06:21:15 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 06:23:06 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-04 06:19:22</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-04_061922.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-04_061922.mp3</guid>
+      <pubDate>Mon, 04 May 2026 06:23:06 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、人型ロボットの普及を一気に加速させる衝撃の価格破壊や、AIが主役となった北京モーターショーの熱狂、そしてインフラ企業によるロボット産業への巨額投資など、最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-04_061922.mp3" type="audio/mpeg" length="5455917" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-04_061922.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:40</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、人型ロボットの普及を一気に加速させる衝撃の価格破壊や、AIが主役となった北京モーターショーの熱狂、そしてインフラ企業によるロボット産業への巨額投資など、最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-03 06:18:06</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-03_061806.mp3</link>
