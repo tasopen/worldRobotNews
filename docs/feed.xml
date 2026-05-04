@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 04 May 2026 06:23:06 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 06:31:26 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-05 06:28:22</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-05_062822.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-05_062822.mp3</guid>
+      <pubDate>Tue, 05 May 2026 06:31:26 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日はお掃除ロボットの生みの親が挑む新たな家庭用ロボットや、製造現場を狙うシャオミの野心、そしてロボットを教育する新しい職業の誕生など、最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-05_062822.mp3" type="audio/mpeg" length="4257453" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-05_062822.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:26</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日はお掃除ロボットの生みの親が挑む新たな家庭用ロボットや、製造現場を狙うシャオミの野心、そしてロボットを教育する新しい職業の誕生など、最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-04 06:19:22</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-04_061922.mp3</link>
