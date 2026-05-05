@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 05 May 2026 06:31:26 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 06:29:43 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-06 06:27:02</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-06_062702.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-06_062702.mp3</guid>
+      <pubDate>Wed, 06 May 2026 06:29:43 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、ドイツの部品大手シェフラーが示す強気の成長予測や、ロボットの駆動方式に革命を起こす新技術、そして量産化の鍵を握るサプライチェーンの課題など、最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-06_062702.mp3" type="audio/mpeg" length="3059757" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-06_062702.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:11</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、ドイツの部品大手シェフラーが示す強気の成長予測や、ロボットの駆動方式に革命を起こす新技術、そして量産化の鍵を握るサプライチェーンの課題など、最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-05 06:28:22</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-05_062822.mp3</link>
