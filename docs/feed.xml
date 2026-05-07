@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 07 May 2026 06:31:41 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 06:27:47 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-08 06:24:41</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-08_062441.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-08_062441.mp3</guid>
+      <pubDate>Fri, 08 May 2026 06:27:47 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、人型ロボットの「アプリストア」時代の幕開けや、ロボットに繊細な感覚を与える触覚技術の飛躍的進化、そして中国で加速するサプライチェーン再構築の動きなど、最新のトピックをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-08_062441.mp3" type="audio/mpeg" length="4001325" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-08_062441.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:10</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、人型ロボットの「アプリストア」時代の幕開けや、ロボットに繊細な感覚を与える触覚技術の飛躍的進化、そして中国で加速するサプライチェーン再構築の動きなど、最新のトピックをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-07 06:28:36</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-07_062836.mp3</link>
