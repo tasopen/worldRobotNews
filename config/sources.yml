@@ -73,7 +73,7 @@ rss_feeds:
   language: en
   weight: 1.2
 - name: 日刊工業新聞 機械・ロボット
-  url: https://www.nikkan.co.jp/rss/newly_category_21.rdf
+  url: https://www.nikkan.co.jp/rss/newly_category_5.rdf
   language: ja
   weight: 1.1
 - name: 36氪 (36Kr)
