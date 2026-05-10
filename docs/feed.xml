@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 10 May 2026 06:22:46 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 06:24:13 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-11 06:20:43</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-11_062043.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-11_062043.mp3</guid>
+      <pubDate>Mon, 11 May 2026 06:24:13 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、人型ロボット普及の大きな壁となっているコスト問題や、工場での実用化に向けた最新動向、そしてアメリカで注目を集めた中国製ロボット同士の格闘大会など、最前線のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-11_062043.mp3" type="audio/mpeg" length="3973293" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-11_062043.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:08</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、人型ロボット普及の大きな壁となっているコスト問題や、工場での実用化に向けた最新動向、そしてアメリカで注目を集めた中国製ロボット同士の格闘大会など、最前線のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-10 06:19:27</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-10_061927.mp3</link>
