@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 11 May 2026 06:24:13 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 06:51:16 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-12 06:47:53</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-12_064753.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-12_064753.mp3</guid>
+      <pubDate>Tue, 12 May 2026 06:51:16 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、中国の家庭用ロボット市場で起きた巨額融資のニュースや、スポーツウェアブランドが挑むロボットの「皮膚」開発、そして産業現場から教育現場まで広がる最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-12_064753.mp3" type="audio/mpeg" length="4606125" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-12_064753.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:47</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、中国の家庭用ロボット市場で起きた巨額融資のニュースや、スポーツウェアブランドが挑むロボットの「皮膚」開発、そして産業現場から教育現場まで広がる最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-11 06:20:43</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-11_062043.mp3</link>
