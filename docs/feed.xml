@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 12 May 2026 06:51:16 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 06:35:16 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-13 06:32:13</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-13_063213.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-13_063213.mp3</guid>
+      <pubDate>Wed, 13 May 2026 06:35:16 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、家庭用ロボットの新たなスタンダードを目指す「ストレッチ４」の発表や、半導体大手が仕掛ける人型ロボット支援プロジェクトなど、実用化に向けた最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-13_063213.mp3" type="audio/mpeg" length="4300077" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-13_063213.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:28</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、家庭用ロボットの新たなスタンダードを目指す「ストレッチ４」の発表や、半導体大手が仕掛ける人型ロボット支援プロジェクトなど、実用化に向けた最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-12 06:47:53</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-12_064753.mp3</link>
