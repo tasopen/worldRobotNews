@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 13 May 2026 06:35:16 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 06:37:39 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-14 06:34:59</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-14_063459.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-14_063459.mp3</guid>
+      <pubDate>Thu, 14 May 2026 06:37:39 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、シーメンスの工場で実証された人型ロボットの驚異的な作業成功率や、建設現場の常識を覆す「具身知能」搭載ロボットの最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-14_063459.mp3" type="audio/mpeg" length="3536685" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-14_063459.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:41</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、シーメンスの工場で実証された人型ロボットの驚異的な作業成功率や、建設現場の常識を覆す「具身知能」搭載ロボットの最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-13 06:32:13</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-13_063213.mp3</link>
