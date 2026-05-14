@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 14 May 2026 06:37:39 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 06:32:48 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-15 06:30:07</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-15_063007.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-15_063007.mp3</guid>
+      <pubDate>Fri, 15 May 2026 06:32:48 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、化学実験を自動化する人型ロボットの最新ソリューションや、サービスロボット大手が発表した独自の大規模言語モデルなど、知能と身体が融合する最前線の動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-15_063007.mp3" type="audio/mpeg" length="3092397" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-15_063007.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:13</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、化学実験を自動化する人型ロボットの最新ソリューションや、サービスロボット大手が発表した独自の大規模言語モデルなど、知能と身体が融合する最前線の動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-14 06:34:59</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-14_063459.mp3</link>
