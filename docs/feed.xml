@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 16 May 2026 06:31:04 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 06:24:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-17 06:20:27</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-17_062027.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-17_062027.mp3</guid>
+      <pubDate>Sun, 17 May 2026 06:24:19 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、テスラの上海工場に投入された50台の量産型ロボットの衝撃や、世界初となる「万台規模」の生産ライン稼働など、人型ロボットが「実戦」へと一気に加速する最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-17_062027.mp3" type="audio/mpeg" length="5113773" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-17_062027.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:19</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、テスラの上海工場に投入された50台の量産型ロボットの衝撃や、世界初となる「万台規模」の生産ライン稼働など、人型ロボットが「実戦」へと一気に加速する最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-16 06:26:28</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-16_062628.mp3</link>
