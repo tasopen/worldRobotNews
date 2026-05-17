@@ -73,7 +73,7 @@ rss_feeds:
   language: en
   weight: 1.2
 - name: 日刊工業新聞 機械・ロボット
-  url: https://www.nikkan.co.jp/rss/newly_category_5.rdf
+  url: https://www.nikkan.co.jp/rss/nks_category_g04.rdf
   language: ja
   weight: 1.1
 - name: 36氪 (36Kr)
@@ -88,10 +88,6 @@ rss_feeds:
   url: https://www.tmtpost.com/rss.xml
   language: zh
   weight: 1.1
-- name: 日刊工業新聞 (Nikkan Kogyo Shimbun) - 産業用ロボット
-  url: https://www.nikkan.co.jp/rss/news/industrial_robots
-  language: ja
-  weight: 1.3
 - name: 钛媒体 (TMTPost)
   url: https://www.tmtpost.com/feed
   language: zh
