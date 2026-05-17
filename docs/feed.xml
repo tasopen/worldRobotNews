@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 17 May 2026 06:24:19 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 06:26:02 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-18 06:22:33</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-18_062233.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-18_062233.mp3</guid>
+      <pubDate>Mon, 18 May 2026 06:26:02 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、中国電網（ちゅうごくでんもう）による100億元規模のロボット調達や、業界の成熟を象徴する「ロボット保険」の支払い事例など、具身知能（ぐしんちのう）が実稼働とビジネスの両面で新たな節目を迎えたニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-18_062233.mp3" type="audio/mpeg" length="5213997" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-18_062233.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:25</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、中国電網（ちゅうごくでんもう）による100億元規模のロボット調達や、業界の成熟を象徴する「ロボット保険」の支払い事例など、具身知能（ぐしんちのう）が実稼働とビジネスの両面で新たな節目を迎えたニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-17 06:20:27</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-17_062027.mp3</link>
