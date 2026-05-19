@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 19 May 2026 06:41:19 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 06:38:36 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-20 06:35:22</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-20_063522.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-20_063522.mp3</guid>
+      <pubDate>Wed, 20 May 2026 06:38:36 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、家庭用ロボットの安全性を定義する国際規格の刷新や、労働力不足を解決する「ロボ・レイバー」を掲げる新興企業の台頭、そして経営再建を目指すファラデー・フューチャーによるロボット事業への野心的な挑戦など、実用化に向けたルール作りと資本の動きを詳しくお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-20_063522.mp3" type="audio/mpeg" length="4522413" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-20_063522.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:42</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、家庭用ロボットの安全性を定義する国際規格の刷新や、労働力不足を解決する「ロボ・レイバー」を掲げる新興企業の台頭、そして経営再建を目指すファラデー・フューチャーによるロボット事業への野心的な挑戦など、実用化に向けたルール作りと資本の動きを詳しくお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-19 06:31:00</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-19_063100.mp3</link>
