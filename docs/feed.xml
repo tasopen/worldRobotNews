@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 20 May 2026 06:38:36 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 06:43:24 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-21 06:38:37</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-21_063837.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-21_063837.mp3</guid>
+      <pubDate>Thu, 21 May 2026 06:43:24 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、ロボット産業に「ＣｈａｔＧＰＴ」のような劇的な転換点が訪れるための条件や、欧州の大手企業による倉庫への人型ロボット試験導入、そして最大の課題であるデータ不足を解消する新たなコミュニティの誕生など、実用化の壁を乗り越えようとする最前線の動きをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-21_063837.mp3" type="audio/mpeg" length="4208685" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-21_063837.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:23</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、ロボット産業に「ＣｈａｔＧＰＴ」のような劇的な転換点が訪れるための条件や、欧州の大手企業による倉庫への人型ロボット試験導入、そして最大の課題であるデータ不足を解消する新たなコミュニティの誕生など、実用化の壁を乗り越えようとする最前線の動きをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-20 06:35:22</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-20_063522.mp3</link>
