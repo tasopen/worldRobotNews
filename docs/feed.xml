@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 22 May 2026 06:38:21 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 06:31:50 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-23 06:28:56</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-23_062856.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-23_062856.mp3</guid>
+      <pubDate>Sat, 23 May 2026 06:31:50 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、ボストン・ダイナミクス社の新型アトラスが見せた驚異的な実用能力や、中国の有力メーカーによる大規模な資金調達、そしてAIが現場で「稼ぐ力」へと変わる産業界の最前線についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-23_062856.mp3" type="audio/mpeg" length="3977517" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-23_062856.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:08</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、ボストン・ダイナミクス社の新型アトラスが見せた驚異的な実用能力や、中国の有力メーカーによる大規模な資金調達、そしてAIが現場で「稼ぐ力」へと変わる産業界の最前線についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-22 06:35:21</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-22_063521.mp3</link>
