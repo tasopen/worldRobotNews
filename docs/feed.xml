@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 23 May 2026 06:31:50 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 06:24:50 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-24 06:22:06</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-24_062206.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-24_062206.mp3</guid>
+      <pubDate>Sun, 24 May 2026 06:24:50 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、ロボットの「脳」を劇的に進化させる新アーキテクチャの誕生や、あえて「人型」を目指さない実力派スタートアップの台頭、そして2万台規模で始まったロボットの管理体制など、社会実装に向けた最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-24_062206.mp3" type="audio/mpeg" length="3885357" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-24_062206.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:02</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、ロボットの「脳」を劇的に進化させる新アーキテクチャの誕生や、あえて「人型」を目指さない実力派スタートアップの台頭、そして2万台規模で始まったロボットの管理体制など、社会実装に向けた最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-23 06:28:56</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-23_062856.mp3</link>
