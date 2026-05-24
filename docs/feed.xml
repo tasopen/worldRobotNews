@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 24 May 2026 06:24:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 06:25:44 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-25 06:22:37</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-25_062237.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-25_062237.mp3</guid>
+      <pubDate>Mon, 25 May 2026 06:25:44 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、ロボットに「生物学的な脳」の仕組みを取り入れる革新的な研究や、成都で始まった大規模な量産体制、そしてロボットの「教師」という新たな職業の誕生など、知能と生産の両面で加速する最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-25_062237.mp3" type="audio/mpeg" length="4543917" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-25_062237.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:43</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、ロボットに「生物学的な脳」の仕組みを取り入れる革新的な研究や、成都で始まった大規模な量産体制、そしてロボットの「教師」という新たな職業の誕生など、知能と生産の両面で加速する最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-24 06:22:06</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-24_062206.mp3</link>
