@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 25 May 2026 06:25:44 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 06:33:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-26 06:29:45</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-26_062945.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-26_062945.mp3</guid>
+      <pubDate>Tue, 26 May 2026 06:33:31 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、中国のロボット大手、宇樹科技（ゆにーつりー）の上場決定や、新型ヒューマノイド「Luna」の正式発表、そしてロボットの「触覚」を支えるセンサー技術への巨額投資など、実用化と市場拡大が加速する最新情報をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-26_062945.mp3" type="audio/mpeg" length="5257773" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-26_062945.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:28</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、中国のロボット大手、宇樹科技（ゆにーつりー）の上場決定や、新型ヒューマノイド「Luna」の正式発表、そしてロボットの「触覚」を支えるセンサー技術への巨額投資など、実用化と市場拡大が加速する最新情報をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-25 06:22:37</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-25_062237.mp3</link>
