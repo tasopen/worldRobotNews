@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 26 May 2026 06:33:31 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 06:41:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-27 06:35:52</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-27_063552.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-27_063552.mp3</guid>
+      <pubDate>Wed, 27 May 2026 06:41:19 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、強化学習の父が提唱する「ロボット幼稚園」プロジェクトや、世界の人型ロボットの8割以上が中国製という驚きの統計など、産業の成熟と進化を示すニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-27_063552.mp3" type="audio/mpeg" length="4341165" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-27_063552.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:31</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、強化学習の父が提唱する「ロボット幼稚園」プロジェクトや、世界の人型ロボットの8割以上が中国製という驚きの統計など、産業の成熟と進化を示すニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-26 06:29:45</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-26_062945.mp3</link>
