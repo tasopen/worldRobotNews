@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 29 May 2026 06:46:11 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 06:41:29 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-30 06:38:23</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-30_063823.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-30_063823.mp3</guid>
+      <pubDate>Sat, 30 May 2026 06:41:29 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、テスラによる年産1000万台規模のロボット工場着工や、産学連携による世界最大級のロボット操作データ基盤の構築など、量産と知能化が加速する最前線をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-30_063823.mp3" type="audio/mpeg" length="4204077" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-30_063823.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:22</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、テスラによる年産1000万台規模のロボット工場着工や、産学連携による世界最大級のロボット操作データ基盤の構築など、量産と知能化が加速する最前線をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-29 06:42:38</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-29_064238.mp3</link>
