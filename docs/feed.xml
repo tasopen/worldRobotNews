@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 30 May 2026 06:41:29 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 06:27:40 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-05-31 06:24:39</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-31_062439.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-05-31_062439.mp3</guid>
+      <pubDate>Sun, 31 May 2026 06:27:40 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、金融市場が注目するロボットサプライチェーンの進化や、展示会から実戦へと移るロボットの社会実装、そして家庭に浸透し始めた最新の活用事例をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-31_062439.mp3" type="audio/mpeg" length="3997485" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-05-31_062439.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:09</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、金融市場が注目するロボットサプライチェーンの進化や、展示会から実戦へと移るロボットの社会実装、そして家庭に浸透し始めた最新の活用事例をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-05-30 06:38:23</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-05-30_063823.mp3</link>
