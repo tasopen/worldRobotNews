@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 01 Jun 2026 06:28:21 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 07:09:11 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-02 07:06:04</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-02_070604.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-02_070604.mp3</guid>
+      <pubDate>Tue, 02 Jun 2026 07:09:11 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、OpenAI（おーぷんえーあい）によるロボット事業への本格参入や、スマートフォンの巨大サプライチェーンがロボット製造へと大転換する動きなど、産業構造を塗り替える最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-02_070604.mp3" type="audio/mpeg" length="4316205" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-02_070604.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:29</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、OpenAI（おーぷんえーあい）によるロボット事業への本格参入や、スマートフォンの巨大サプライチェーンがロボット製造へと大転換する動きなど、産業構造を塗り替える最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-01 06:24:59</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-01_062459.mp3</link>
