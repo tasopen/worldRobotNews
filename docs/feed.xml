@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 02 Jun 2026 07:09:11 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 07:03:01 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-03 06:59:47</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-03_065947.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-03_065947.mp3</guid>
+      <pubDate>Wed, 03 Jun 2026 07:03:01 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、NVIDIA（えぬびでぃあ）と宇樹科技（ゆにーつりー）が放つ人型ロボットの「設計図」公開や、業界を牽引する企業の大型IPOなど、ロボットの社会実装を加速させる重要ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-03_065947.mp3" type="audio/mpeg" length="4448685" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-03_065947.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:38</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、NVIDIA（えぬびでぃあ）と宇樹科技（ゆにーつりー）が放つ人型ロボットの「設計図」公開や、業界を牽引する企業の大型IPOなど、ロボットの社会実装を加速させる重要ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-02 07:06:04</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-02_070604.mp3</link>
