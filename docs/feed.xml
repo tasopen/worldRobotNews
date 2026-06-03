@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 03 Jun 2026 07:03:01 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 07:03:58 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-04 07:00:57</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-04_070057.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-04_070057.mp3</guid>
+      <pubDate>Thu, 04 Jun 2026 07:03:58 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、中国の巨頭UBTECHによる人型ロボットの予約販売開始や、高危現場を支える「エンジニアの脳」を持つ新星スタートアップの台頭など、ロボットが「実用財」として普及する最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-04_070057.mp3" type="audio/mpeg" length="3948717" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-04_070057.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:06</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、中国の巨頭UBTECHによる人型ロボットの予約販売開始や、高危現場を支える「エンジニアの脳」を持つ新星スタートアップの台頭など、ロボットが「実用財」として普及する最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-03 06:59:47</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-03_065947.mp3</link>
