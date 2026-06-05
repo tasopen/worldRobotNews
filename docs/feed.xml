@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 05 Jun 2026 06:40:20 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 06:38:13 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-06 06:35:06</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-06_063506.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-06_063506.mp3</guid>
+      <pubDate>Sat, 06 Jun 2026 06:38:13 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、ロボット産業の「成人式」とも言える専用保険の登場や、階段を全力で駆け下りる驚異の運動性能、そして歯科医院で実務を開始したヒューマノイドなど、ロボットが社会に深く浸透する最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-06_063506.mp3" type="audio/mpeg" length="4085805" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-06_063506.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:15</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、ロボット産業の「成人式」とも言える専用保険の登場や、階段を全力で駆け下りる驚異の運動性能、そして歯科医院で実務を開始したヒューマノイドなど、ロボットが社会に深く浸透する最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-05 06:36:32</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-05_063632.mp3</link>
