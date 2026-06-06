@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 06 Jun 2026 06:38:13 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 06:29:57 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-07 06:27:34</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-07_062734.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-07_062734.mp3</guid>
+      <pubDate>Sun, 07 Jun 2026 06:29:57 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、中国で加速する人型ロボットの産業チェーン構築や、アメリカのFigure（ふぃぎゅあ）社が牽引する実用化の最前線など、ロボットが「現場」へと一気に浸透する動きをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-07_062734.mp3" type="audio/mpeg" length="3169197" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-07_062734.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:18</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、中国で加速する人型ロボットの産業チェーン構築や、アメリカのFigure（ふぃぎゅあ）社が牽引する実用化の最前線など、ロボットが「現場」へと一気に浸透する動きをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-06 06:35:06</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-06_063506.mp3</link>
