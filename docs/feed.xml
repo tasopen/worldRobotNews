@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 07 Jun 2026 06:29:57 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 06:34:10 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-08 06:30:50</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-08_063050.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-08_063050.mp3</guid>
+      <pubDate>Mon, 08 Jun 2026 06:34:10 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、中国で始まった人型ロボットへの「身分証」発行という画期的な管理体制や、日本が挑むロボット大国復権への「最後のチャンス」など、社会実装に向けたルール作りと戦略の動きをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-08_063050.mp3" type="audio/mpeg" length="4739757" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-08_063050.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:56</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、中国で始まった人型ロボットへの「身分証」発行という画期的な管理体制や、日本が挑むロボット大国復権への「最後のチャンス」など、社会実装に向けたルール作りと戦略の動きをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-07 06:27:34</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-07_062734.mp3</link>
