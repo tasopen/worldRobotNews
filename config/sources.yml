@@ -72,10 +72,6 @@ rss_feeds:
   url: https://techcrunch.com/category/robotics/feed/
   language: en
   weight: 1.2
-- name: 日刊工業新聞 機械・ロボット
-  url: https://www.nikkan.co.jp/rss/nks_category_g04.rdf
-  language: ja
-  weight: 1.1
 - name: 36氪 (36Kr)
   url: https://36kr.com/feed
   language: zh
