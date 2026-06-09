@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 09 Jun 2026 06:40:44 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 06:41:08 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-10 06:38:08</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-10_063808.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-10_063808.mp3</guid>
+      <pubDate>Wed, 10 Jun 2026 06:41:08 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、中国政府による人型ロボット「1万台規模」の社会実装計画や、国際学会で披露された驚異の自律稼働成功率など、実用化が加速する最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-10_063808.mp3" type="audio/mpeg" length="4094253" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-10_063808.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:15</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、中国政府による人型ロボット「1万台規模」の社会実装計画や、国際学会で披露された驚異の自律稼働成功率など、実用化が加速する最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-09 06:37:40</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-09_063740.mp3</link>
