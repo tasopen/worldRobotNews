@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 10 Jun 2026 06:41:08 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 06:47:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-11 06:44:07</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-11_064407.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-11_064407.mp3</guid>
+      <pubDate>Thu, 11 Jun 2026 06:47:31 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、14億ドルの巨額資金を調達したNEURA Roboticsや、ロボット事業へ大きく舵を切るボッシュの戦略、そしてコンビニ業務の完全自律化に挑む最新ヒューマノイドなど、業界の勢力図を塗り替えるニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-11_064407.mp3" type="audio/mpeg" length="4759725" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-11_064407.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:57</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、14億ドルの巨額資金を調達したNEURA Roboticsや、ロボット事業へ大きく舵を切るボッシュの戦略、そしてコンビニ業務の完全自律化に挑む最新ヒューマノイドなど、業界の勢力図を塗り替えるニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-10 06:38:08</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-10_063808.mp3</link>
