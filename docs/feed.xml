@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 11 Jun 2026 06:47:31 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 06:54:37 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-12 06:44:50</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-12_064450.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-12_064450.mp3</guid>
+      <pubDate>Fri, 12 Jun 2026 06:54:37 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、エヌビディアが発表した人型ロボット開発のオープンなリファレンスモデルや、名古屋で開催中の展示会で注目を集める最新の力制御技術、そしてAIの計算コスト低下がロボット産業の裾野を広げる最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-12_064450.mp3" type="audio/mpeg" length="3777837" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-12_064450.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:56</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、エヌビディアが発表した人型ロボット開発のオープンなリファレンスモデルや、名古屋で開催中の展示会で注目を集める最新の力制御技術、そしてAIの計算コスト低下がロボット産業の裾野を広げる最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-11 06:44:07</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-11_064407.mp3</link>
