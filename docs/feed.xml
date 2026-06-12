@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 12 Jun 2026 06:54:37 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 06:41:06 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-13 06:38:07</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-13_063807.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-13_063807.mp3</guid>
+      <pubDate>Sat, 13 Jun 2026 06:41:06 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、人型ロボットの普及の鍵を握る「2万ドル」という価格目標を巡る議論や、ロボットが自律的に「不確実性」を判断する最新アルゴリズム、そして驚異の「6本腕」を持つ新型ロボットの登場など、業界の最前線をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-13_063807.mp3" type="audio/mpeg" length="4400685" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-13_063807.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:35</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、人型ロボットの普及の鍵を握る「2万ドル」という価格目標を巡る議論や、ロボットが自律的に「不確実性」を判断する最新アルゴリズム、そして驚異の「6本腕」を持つ新型ロボットの登場など、業界の最前線をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-12 06:44:50</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-12_064450.mp3</link>
