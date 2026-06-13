@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 13 Jun 2026 06:41:06 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 06:36:00 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-14 06:32:17</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-14_063217.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-14_063217.mp3</guid>
+      <pubDate>Sun, 14 Jun 2026 06:36:00 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、ロボットが人間の「感情」を文脈から読み解く最新研究や、リビアンCEOが語るテスラとは異なる人型ロボット戦略、そして中国で進む大規模な実戦訓練拠点の整備など、最新のトピックスをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-14_063217.mp3" type="audio/mpeg" length="4920237" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-14_063217.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:07</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、ロボットが人間の「感情」を文脈から読み解く最新研究や、リビアンCEOが語るテスラとは異なる人型ロボット戦略、そして中国で進む大規模な実戦訓練拠点の整備など、最新のトピックスをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-13 06:38:07</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-13_063807.mp3</link>
