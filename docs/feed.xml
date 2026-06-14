@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 14 Jun 2026 06:36:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 06:35:50 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-15 06:32:30</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-15_063230.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-15_063230.mp3</guid>
+      <pubDate>Mon, 15 Jun 2026 06:35:50 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、中国で予約が殺到している最新の感情対応ロボットや、ロボット界の「アンドロイド」を目指す新興勢力の戦略、そして産業用ロボット普及の壁とそれを支えるセンサー技術など、最前線のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-15_063230.mp3" type="audio/mpeg" length="4446765" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-15_063230.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:37</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、中国で予約が殺到している最新の感情対応ロボットや、ロボット界の「アンドロイド」を目指す新興勢力の戦略、そして産業用ロボット普及の壁とそれを支えるセンサー技術など、最前線のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-14 06:32:17</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-14_063217.mp3</link>
