@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 16 Jun 2026 07:00:12 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 06:57:05 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-17 06:53:44</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-17_065344.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-17_065344.mp3</guid>
+      <pubDate>Wed, 17 Jun 2026 06:57:05 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、中国で成立した人型ロボット5000台という過去最大級の受注や、深海に挑む具身知能（ぐしんちのう）への巨額投資、そしてAIの学習データを支える「ロボット版データ内職」の広がりなど、実用化が加速する最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-17_065344.mp3" type="audio/mpeg" length="5036205" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-17_065344.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:14</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、中国で成立した人型ロボット5000台という過去最大級の受注や、深海に挑む具身知能（ぐしんちのう）への巨額投資、そしてAIの学習データを支える「ロボット版データ内職」の広がりなど、実用化が加速する最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-16 06:56:22</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-16_065622.mp3</link>
