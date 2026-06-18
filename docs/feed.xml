@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 18 Jun 2026 07:37:59 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 07:28:30 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-19 07:25:17</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-19_072517.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-19_072517.mp3</guid>
+      <pubDate>Fri, 19 Jun 2026 07:28:30 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、人型ロボットの「ぎこちなさ」を解消する画期的な制御モデルの登場や、ベトナム最大手企業によるロボット市場への電撃参入など、世界を揺るがす最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-19_072517.mp3" type="audio/mpeg" length="4600365" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-19_072517.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:47</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、人型ロボットの「ぎこちなさ」を解消する画期的な制御モデルの登場や、ベトナム最大手企業によるロボット市場への電撃参入など、世界を揺るがす最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-18 07:34:59</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-18_073459.mp3</link>
