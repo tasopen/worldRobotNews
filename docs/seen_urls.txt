@@ -208,3 +208,10 @@
 2026-06-18T22:28:30.319653+00:00	https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqZ0t5LVU5akk4c0o0UkVYTVRIZ3F3eXRyZHctTmJlZUh6U0ZzVHo3ZTZDdldhUGFHLVNEUEJBV0dJLWd5UlVwZVhCc2VvdVdnWXdJ?oc=5
 2026-06-18T22:28:30.319653+00:00	https://www.therobotreport.com/richtech-robotics-launches-livestream-adam-ai-powered-humanoid/
 2026-06-18T22:28:30.319653+00:00	https://robotstart.info/article/2026/06/18/382046.html
+2026-06-19T21:33:36.179676+00:00	https://news.google.com/rss/articles/CBMiTkFVX3lxTFBLSVA0WWdaRjVieFhnQnltOExCSkFJeFBSM0U3bllLeGF5OEktME1XSTNpTUtGUjNGcWRSSWdlV2c3WXE2Q2RhakJZYlNXUQ?oc=5
+2026-06-19T21:33:36.179676+00:00	https://robotstart.info/article/2026/06/19/382050.html
+2026-06-19T21:33:36.179676+00:00	https://news.google.com/rss/articles/CBMiS0FVX3lxTFBURlFRN2dBcHRUZUNJOEhtbWJlNktYZ1VpeENyYUdYRGpIak9iS1FHRU1PUnlDTHVLbE84MnhFVm4tZmswV0RuSEctRQ?oc=5
+2026-06-19T21:33:36.179676+00:00	https://news.google.com/rss/articles/CBMifkFVX3lxTE5lUVhPaWVmTUpDaGpJdDdWTC1hZEI3SkN5b0tjSUxBNnQ4XzcxOFJ6S0drYWJEam9OcERQVU1yaWNmMS1LZWJXcl9vRDhBeHByOGxRWVJnOG5yNm1LN195eHZkb3lXU0dKNkF2NHc3MHVPZDlKYWVWc2R6NnlXZw?oc=5
+2026-06-19T21:33:36.179676+00:00	https://news.google.com/rss/articles/CBMidEFVX3lxTE1DNXFFOS00R091ZVluNENxVzcwVU5pMmE0bC1qWm9LZmZLSmVqTldmcFlyM0thSGdpUk1ZQjVsMkFYZE9raWJQbUtnQlJCWmQ3SVpNN1JHc3NIOGFBSkdWeFRjTFVKWWJHWlcxN0lQUWtydVlR?oc=5
+2026-06-19T21:33:36.179676+00:00	https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fS19tMzI1N3RHNldSNGpQQ295M1NzQWpFTmNtUjg1MVZkR0dHTmUxdkpzLUt1YldZWHhuSU4yUHlfYnFQOGxsTUQyTmVjSGRsVGFhNkFtMXVoRkxESWpIdEFOdXU?oc=5
+2026-06-19T21:33:36.179676+00:00	https://spectrum.ieee.org/video-friday-agentic-ai-robot

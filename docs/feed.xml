@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 19 Jun 2026 07:28:30 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 06:33:36 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-20 06:29:53</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-20_062953.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-20_062953.mp3</guid>
+      <pubDate>Sat, 20 Jun 2026 06:33:36 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、世界シェアトップの中国メーカーが日本市場へ本格参入するニュースや、過酷な屋外環境にも耐えうる世界初の防水産業用人型ロボットの登場など、実用化の最前線をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-20_062953.mp3" type="audio/mpeg" length="5043117" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-20_062953.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:15</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、世界シェアトップの中国メーカーが日本市場へ本格参入するニュースや、過酷な屋外環境にも耐えうる世界初の防水産業用人型ロボットの登場など、実用化の最前線をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-19 07:25:17</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-19_072517.mp3</link>
