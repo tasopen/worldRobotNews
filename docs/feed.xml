@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 21 Jun 2026 06:36:02 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 06:36:10 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-22 06:33:35</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-22_063335.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-22_063335.mp3</guid>
+      <pubDate>Mon, 22 Jun 2026 06:36:10 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、投資が加速するロボットの「脳」への注目や、過酷な環境で競い合うロボット競技会の最前線、そしてスーパーの品出しを担う最新機体の海外進出など、最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-22_063335.mp3" type="audio/mpeg" length="3332397" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-22_063335.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:28</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、投資が加速するロボットの「脳」への注目や、過酷な環境で競い合うロボット競技会の最前線、そしてスーパーの品出しを担う最新機体の海外進出など、最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-21 06:33:13</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-21_063313.mp3</link>
