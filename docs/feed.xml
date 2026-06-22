@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 22 Jun 2026 06:36:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 06:48:52 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-23 06:45:00</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-23_064500.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-23_064500.mp3</guid>
+      <pubDate>Tue, 23 Jun 2026 06:48:52 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、エヌビディアが描く30兆円規模の人型ロボット市場への野望や、サービスロボット大手が仕掛ける戦略的買収、そして商用サービスに特化した新型機の登場など、加速する社会実装のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-23_064500.mp3" type="audio/mpeg" length="4816557" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-23_064500.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:01</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、エヌビディアが描く30兆円規模の人型ロボット市場への野望や、サービスロボット大手が仕掛ける戦略的買収、そして商用サービスに特化した新型機の登場など、加速する社会実装のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-22 06:33:35</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-22_063335.mp3</link>
