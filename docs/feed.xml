@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 24 Jun 2026 13:55:13 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 06:36:42 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-25 06:34:15</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-25_063415.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-25_063415.mp3</guid>
+      <pubDate>Thu, 25 Jun 2026 06:36:42 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、人型ロボットの先駆者アジリティ・ロボティクスの巨額上場計画や、中国のリーダーたちが語る「触覚」と「世界モデル」の重要性、そして日本の小学校で始まる国内初のヒューマノイド教育イベントなど、最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-25_063415.mp3" type="audio/mpeg" length="3335085" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-25_063415.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:28</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、人型ロボットの先駆者アジリティ・ロボティクスの巨額上場計画や、中国のリーダーたちが語る「触覚」と「世界モデル」の重要性、そして日本の小学校で始まる国内初のヒューマノイド教育イベントなど、最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-24 13:51:53</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-24_135153.mp3</link>
