@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 26 Jun 2026 06:39:26 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 06:37:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-27 06:34:18</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-27_063418.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-27_063418.mp3</guid>
+      <pubDate>Sat, 27 Jun 2026 06:37:19 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、ドイツ経済界が求める人型ロボットの早期導入や、自動車製造の難所と言われる「ワイヤーハーネス」工程での大規模な自動化など、最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-27_063418.mp3" type="audio/mpeg" length="3881517" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-27_063418.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:02</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、ドイツ経済界が求める人型ロボットの早期導入や、自動車製造の難所と言われる「ワイヤーハーネス」工程での大規模な自動化など、最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-26 06:36:38</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-26_063638.mp3</link>
