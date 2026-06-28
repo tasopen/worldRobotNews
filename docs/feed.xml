@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 28 Jun 2026 06:31:59 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 06:31:30 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-29 06:27:59</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-29_062759.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-29_062759.mp3</guid>
+      <pubDate>Mon, 29 Jun 2026 06:31:30 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、中国のスタートアップが達成した1万5,000台という驚異の量産記録や、2035年に世界の部品の3割を担うとされる韓国の台頭など、ロボット産業の勢力図を塗り替える最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-29_062759.mp3" type="audio/mpeg" length="4791213" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-29_062759.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:59</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、中国のスタートアップが達成した1万5,000台という驚異の量産記録や、2035年に世界の部品の3割を担うとされる韓国の台頭など、ロボット産業の勢力図を塗り替える最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-28 06:27:57</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-28_062757.mp3</link>
