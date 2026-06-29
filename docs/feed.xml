@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 29 Jun 2026 06:31:30 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 06:37:34 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-06-30 06:34:40</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-30_063440.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-06-30_063440.mp3</guid>
+      <pubDate>Tue, 30 Jun 2026 06:37:34 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、テスラ・オプティマスの最大のライバルと目される中国企業の巨額調達や、韓国が仕掛けるロボット開発のエコシステム戦略など、世界を揺るがす最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-30_063440.mp3" type="audio/mpeg" length="4244397" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-06-30_063440.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:25</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、テスラ・オプティマスの最大のライバルと目される中国企業の巨額調達や、韓国が仕掛けるロボット開発のエコシステム戦略など、世界を揺るがす最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-06-29 06:27:59</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-06-29_062759.mp3</link>
