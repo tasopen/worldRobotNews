@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 02 Jul 2026 06:38:34 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 06:31:04 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-03 06:28:45</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-03_062845.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-03_062845.mp3</guid>
+      <pubDate>Fri, 03 Jul 2026 06:31:04 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、中国の人型ロボットメーカーとして初となる株式上場の動きや、深刻化する高齢化社会の救世主となる「康養（こうよう）ロボット」の最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-03_062845.mp3" type="audio/mpeg" length="3312045" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-03_062845.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:26</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、中国の人型ロボットメーカーとして初となる株式上場の動きや、深刻化する高齢化社会の救世主となる「康養（こうよう）ロボット」の最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-02 06:35:30</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-02_063530.mp3</link>
