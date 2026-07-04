@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 04 Jul 2026 07:08:46 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 07:02:29 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-05 07:00:00</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-05_070000.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-05_070000.mp3</guid>
+      <pubDate>Sun, 05 Jul 2026 07:02:29 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、中国の自動車大手が相次いで人型ロボット市場へ参入する動きや、現在のブームに対して「人類にはまだ早い」と警鐘を鳴らす慎重論など、理想と現実が交錯する最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-05_070000.mp3" type="audio/mpeg" length="3090093" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-05_070000.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:13</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、中国の自動車大手が相次いで人型ロボット市場へ参入する動きや、現在のブームに対して「人類にはまだ早い」と警鐘を鳴らす慎重論など、理想と現実が交錯する最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-04 07:05:51</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-04_070551.mp3</link>
