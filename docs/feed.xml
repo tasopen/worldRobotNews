@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 05 Jul 2026 07:02:29 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 07:06:13 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-06 07:03:07</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-06_070307.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-06_070307.mp3</guid>
+      <pubDate>Mon, 06 Jul 2026 07:06:13 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、元小米（しゃおみ）幹部が手掛けるコーヒーロボット企業の巨額調達や、自動車用チップを転用した人型ロボットの最新設計思想など、実用化の「勝ち筋」を模索する最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-06_070307.mp3" type="audio/mpeg" length="3915693" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-06_070307.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:04</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、元小米（しゃおみ）幹部が手掛けるコーヒーロボット企業の巨額調達や、自動車用チップを転用した人型ロボットの最新設計思想など、実用化の「勝ち筋」を模索する最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-05 07:00:00</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-05_070000.mp3</link>
