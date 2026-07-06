@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 06 Jul 2026 07:06:13 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 07:17:56 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-07 07:15:09</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-07_071509.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-07_071509.mp3</guid>
+      <pubDate>Tue, 07 Jul 2026 07:17:56 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、中国のロボット新興勢力による香港での大型IPOの動きや、アメリカの有力メーカーが示す「家庭用ロボット」への慎重な見通し、そして日本国内での次世代メモリー増産投資など、産業の屋台骨を支える最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-07_071509.mp3" type="audio/mpeg" length="3908013" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-07_071509.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:04</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、中国のロボット新興勢力による香港での大型IPOの動きや、アメリカの有力メーカーが示す「家庭用ロボット」への慎重な見通し、そして日本国内での次世代メモリー増産投資など、産業の屋台骨を支える最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-06 07:03:07</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-06_070307.mp3</link>
