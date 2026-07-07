@@ -76,6 +76,20 @@ def _extract_audio_data(response) -> bytes | None:
     return None
 
 
+def _clean_text_for_tts(text: str) -> str:
+    """音声合成用に、漢字（フリガナ）や英語（フリガナ）の表記からフリガナ部分のみを抽出する。
+    例: "TechCrunch（てっくくらんち）" -> "てっくくらんち"
+    また、"比亜迪（びーわいでぃー：BYD）" のようにコロンを含む場合は、コロンより前のひらがなのみを抽出する。
+    """
+    import re
+
+    # 各括弧付きフリガナを独立して置換する。
+    # 括弧内の読みは、他の括弧を含まない単一の文字列として扱い、
+    # 2組目の括弧にまたがってマッチしないようにする。
+    pattern = r'(?<![A-Za-z0-9\u4e00-\u9faf\u30a0-\u30ff])([A-Za-z0-9\.\-\_]+(?:\s+[A-Za-z0-9\.\-\_]+)*|[\u4e00-\u9faf\u30a0-\u30ff々ヶ\u30fc\.\-_]+)[（(]([^：:（）()]+)(?:[：:][^）)（）()]+)?[）)]'
+    return re.sub(pattern, lambda m: m.group(2), text)
+
+
 def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_meta.yml", debug: bool = False, output_format: str = "mp3") -> str:
     """台本テキストを音声合成して音声ファイルに保存する。output_formatでmp3/wav選択可。output_path を返す。debug=True でPCMも保存。"""
     meta = _load_meta(meta_path)
@@ -92,7 +106,9 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
     ).format(title=title, category=category, short_title=short_title)
     client = genai.Client(api_key=api_key)
 
-    tts_prompt = f"{persona_instruction}{script}"
+    clean_script = _clean_text_for_tts(script)
+    tts_prompt = f"{persona_instruction}{clean_script}"
+
 
     response = None
     last_exception = None

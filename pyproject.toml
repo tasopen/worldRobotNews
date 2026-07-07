@@ -11,3 +11,12 @@ dependencies = [
   "google-genai>=1.73.1",
   "pyyaml>=6.0.3",
 ]
+
+[tool.pyrefly]
+python-interpreter-path = ".venv/Scripts/python.exe"
+
+[dependency-groups]
+dev = [
+    "types-pyyaml>=6.0.12.20260518",
+]
+

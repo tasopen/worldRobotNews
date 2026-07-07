@@ -45,7 +45,7 @@ def _load_recent_srt(episodes_dir: str = "docs/episodes", max_count: int = 6) ->
                 if re.match(r'\d{2}:\d{2}:\d{2},\d{3}\s*-->\s*\d{2}:\d{2}:\d{2},\d{3}', line):
                     continue
                 lines.append(line)
-            filename = str(os.path.basename(str(srt_path)))
+            filename = os.path.basename(srt_path)
             date_label = filename.replace('.srt', '')
             past_texts.append(f"[{date_label}]\n" + "\n".join(lines))
         except Exception as e:
@@ -89,12 +89,23 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
     if past_srt_text:
         past_srt_section = f"""\n【過去の放送内容（参考）】\n以下は過去の放送で取り上げた内容です。これらと重複する記事は除外するか、続報がある場合のみ簡潔に触れる程度にしてください。\n{past_srt_text}\n"""
 
-    prompt = f"""{persona}
+    default_prompt_template = """{persona}
 以下のニュース記事をもとに、日本語のポッドキャスト台本を生成してください。
 
 【要件】
 - **ヘッドライン**: 「{greeting}」から始め、その日のニュースのヘッドラインを1〜2文で手短に紹介してください。
-- **本文**: 各記事について、提供された概要をもとに、リスナーが内容を深く理解できるよう、背景情報や重要性を補足しながら、それぞれ300〜400字程度の詳細な解説を加えてください。{tts_model} で読み上げます。一般的な漢字やよく知られた語はそのまま読める前提で、ふりがなは必要最小限にしてください。新しい・珍しい固有名詞、海外企業名や人名、中国語由来の名称など、誤読の可能性が高いものにだけ初出時のみ「漢字（よみ）」形式で付けてください。一般名詞や既知の用語にはふりがなを付けないでください。同じ語に何度もふりがなを繰り返さないでください。重要な記事から順に紹介してください。各記事の解説の冒頭には、ニュースソース名を短く入れてください(例: 「TechCrunchによりますと…」「36Krが報じたところでは…」）。記事から次の記事に移る際には、自然なつなぎの言葉を入れてください。最後にエンディングとして、「本日の{short_title}は以上です。また明日お会いしましょう」で締めくくってください。
+- **本文**: 各記事について、提供された概要をもとに、リスナーが内容を深く理解できるよう、背景情報や重要性を補足しながら、それぞれ300〜400字程度の詳細な解説を加えてください。{tts_model} で読み上げます。一般的な漢字やよく知られた語はそのまま読める前提で、ふりがなは必要最小限にしてください。
+- **ふりがな・読み上げルール**:
+  - 新しい・珍しい固有名詞、海外企業名や人名など、誤読の可能性が高いものにだけ、初出時のみ「漢字（よみ）」または「英語（よみ）」形式でふりがなを付けてください。
+  - 一般名詞や既知の用語にはふりがなを付けないでください。同じ語に何度もふりがなを繰り返さないでください。
+  - 括弧「()」または「（）」は、ふりがな表示以外の用途に使用しないでください。説明・訳語・英語・略語・注釈のために括弧を使わないでください。
+  - 括弧内の内容は、ひらがなまたはカタカナだけで表してください。英語・拼音・略語・コロンを含む書き方（例: 「名称（よみ：Reading）」）は絶対に使わないでください。必ず「名称（よみ）」のように、単純な読みだけを入れてください。
+  - ラジオであることを考慮し、重複したふりがなや複雑な括弧書きは避け、読みやすい名称一つに統一してください。
+- **構成**:
+  - 重要な記事から順に紹介してください。
+  - 各記事の解説の冒頭には、ニュースソース名を短く入れてください。
+  - 記事から次の記事に移る際には、自然なつなぎの言葉を入れてください。
+  - 最後にエンディングとして、「本日の{short_title}は以上です。また明日お会いしましょう」で締めくくってください。
 - **重複回避**: 過去の放送内容が参考として提供されている場合、すでに取り上げた話題と実質的に同じ内容の記事は省略してください。
 - **出力形式**: 以下のフォーマットで出力してください。
 ヘッドライン:
@@ -105,6 +116,17 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
 【本日の記事】
 {articles_text}
 """
+
+    editor_prompt_template = meta.get("editor_prompt_template", default_prompt_template)
+    prompt = editor_prompt_template.format(
+        persona=persona,
+        greeting=greeting,
+        tts_model=tts_model,
+        short_title=short_title,
+        past_srt_section=past_srt_section,
+        articles_text=articles_text
+    )
+
 
     response = client.models.generate_content(
         model=model_id,
