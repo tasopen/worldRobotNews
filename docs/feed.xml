@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 08 Jul 2026 07:14:47 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 07:10:13 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-09 07:07:23</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-09_070723.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-09_070723.mp3</guid>
+      <pubDate>Thu, 09 Jul 2026 07:10:13 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、今年の人型ロボット生産量が10万台を突破する見通しや、物理的な知能を巡る設計思想の深化、そしてAI界の「天才少年」を巡る話題などをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-09_070723.mp3" type="audio/mpeg" length="3997485" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-09_070723.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:09</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、今年の人型ロボット生産量が10万台を突破する見通しや、物理的な知能を巡る設計思想の深化、そしてAI界の「天才少年」を巡る話題などをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-08 07:12:08</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-08_071208.mp3</link>
