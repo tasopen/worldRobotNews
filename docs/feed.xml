@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 09 Jul 2026 07:10:13 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 07:26:26 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-10 07:23:23</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-10_072323.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-10_072323.mp3</guid>
+      <pubDate>Fri, 10 Jul 2026 07:26:26 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、日本の大手ゼネコンによる人型ロボットの自律巡回や、中国で注目を集める「AI溶接工」の巨額資金調達、そして次世代を担う若き天才たちの台頭など、最新のトピックスをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-10_072323.mp3" type="audio/mpeg" length="4101933" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-10_072323.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:16</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、日本の大手ゼネコンによる人型ロボットの自律巡回や、中国で注目を集める「AI溶接工」の巨額資金調達、そして次世代を担う若き天才たちの台頭など、最新のトピックスをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-09 07:07:23</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-09_070723.mp3</link>
