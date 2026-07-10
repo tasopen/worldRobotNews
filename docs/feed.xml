@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 10 Jul 2026 07:26:26 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 07:08:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-11 07:05:00</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-11_070500.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-11_070500.mp3</guid>
+      <pubDate>Sat, 11 Jul 2026 07:08:31 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、人型ロボットによる史上初の11対11サッカー対決や、人間の器用さを超える次世代ロボットハンドの誕生、そして物理世界を直接理解する新たなAIモデルの発表など、エキサイティングなニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-11_070500.mp3" type="audio/mpeg" length="4898733" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-11_070500.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:06</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、人型ロボットによる史上初の11対11サッカー対決や、人間の器用さを超える次世代ロボットハンドの誕生、そして物理世界を直接理解する新たなAIモデルの発表など、エキサイティングなニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-10 07:23:23</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-10_072323.mp3</link>
