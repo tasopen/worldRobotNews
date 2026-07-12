@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 12 Jul 2026 06:54:26 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 06:56:08 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-13 06:53:02</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-13_065302.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-13_065302.mp3</guid>
+      <pubDate>Mon, 13 Jul 2026 06:56:08 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、三菱自動車による2027年の人型ロボット量産計画や、サービスロボット大手による「全ロボットホテル」への挑戦など、最新のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-13_065302.mp3" type="audio/mpeg" length="3876525" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-13_065302.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:02</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、三菱自動車による2027年の人型ロボット量産計画や、サービスロボット大手による「全ロボットホテル」への挑戦など、最新のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-12 06:51:18</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-12_065118.mp3</link>
