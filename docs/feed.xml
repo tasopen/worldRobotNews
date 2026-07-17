@@ -14,7 +14,51 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 13 Jul 2026 06:56:08 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 07:07:58 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-17 07:04:52</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-17_070452.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-17_070452.mp3</guid>
+      <pubDate>Fri, 17 Jul 2026 07:07:58 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、小米（しゃおみ）が挑むロボット学習用のデータ工場や、清水建設（しみずけんせつ）による超高層ビルでの人型ロボット実証実験、そして世界で加速するロボットの標準化と拠点づくりの最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-17_070452.mp3" type="audio/mpeg" length="3860397" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-17_070452.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:01</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、小米（しゃおみ）が挑むロボット学習用のデータ工場や、清水建設（しみずけんせつ）による超高層ビルでの人型ロボット実証実験、そして世界で加速するロボットの標準化と拠点づくりの最新動向をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-07-16 07:02:31</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-16_070231.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-16_070231.mp3</guid>
+      <pubDate>Thu, 16 Jul 2026 07:05:08 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、テスラが描くロボタクシーと人型ロボットの融合戦略や、国内大手、矢崎総業（やざきそうぎょう）による次世代工場の始動、そしてリゾート地で始まったAIロボットの社会実装など、最新のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-16_070231.mp3" type="audio/mpeg" length="3146157" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-16_070231.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:16</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、テスラが描くロボタクシーと人型ロボットの融合戦略や、国内大手、矢崎総業（やざきそうぎょう）による次世代工場の始動、そしてリゾート地で始まったAIロボットの社会実装など、最新のニュースをお届けします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-07-15 06:59:21</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-15_065921.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-15_065921.mp3</guid>
+      <pubDate>Wed, 15 Jul 2026 07:03:20 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、評価額3300億円に達したLimX Dynamics（りむえっくすだいなみくす）の巨額調達や、Xiaomi（しゃおみ）の人型ロボットが自動車工場で見せた驚異の習熟度、そしてロボットの動きを劇的に変える人工筋肉の最新研究など、進化する物理的AIの最前線をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-15_065921.mp3" type="audio/mpeg" length="4674477" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-15_065921.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:52</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、評価額3300億円に達したLimX Dynamics（りむえっくすだいなみくす）の巨額調達や、Xiaomi（しゃおみ）の人型ロボットが自動車工場で見せた驚異の習熟度、そしてロボットの動きを劇的に変える人工筋肉の最新研究など、進化する物理的AIの最前線をお届けします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-07-14 06:58:25</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-14_065825.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-14_065825.mp3</guid>
+      <pubDate>Tue, 14 Jul 2026 07:01:58 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、バイトダンスによる自動運転分野への参入や、半導体大手ルネサスが描く人型ロボットの未来、そして実用性を追求した最新の四足歩行ロボットなど、物理的AIの最前線をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-14_065825.mp3" type="audio/mpeg" length="4055085" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-14_065825.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:13</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、バイトダンスによる自動運転分野への参入や、半導体大手ルネサスが描く人型ロボットの未来、そして実用性を追求した最新の四足歩行ロボットなど、物理的AIの最前線をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-13 06:53:02</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-13_065302.mp3</link>
