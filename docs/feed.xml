@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 18 Jul 2026 06:58:51 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 06:56:41 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-19 06:53:38</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-19_065338.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-19_065338.mp3</guid>
+      <pubDate>Sun, 19 Jul 2026 06:56:41 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、通信大手の中興通訊（ちゅうこうつうしん）が発表した新型ロボットや、京東（じんどん）による一千万時間規模のデータ収集プロジェクト、そして未来学者が予測するロボット普及のタイムラインについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-19_065338.mp3" type="audio/mpeg" length="4201005" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-19_065338.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:22</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、通信大手の中興通訊（ちゅうこうつうしん）が発表した新型ロボットや、京東（じんどん）による一千万時間規模のデータ収集プロジェクト、そして未来学者が予測するロボット普及のタイムラインについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-18 06:55:58</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-18_065558.mp3</link>
