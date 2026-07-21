@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 21 Jul 2026 07:04:09 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 07:08:57 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-22 07:04:39</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-22_070439.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-22_070439.mp3</guid>
+      <pubDate>Wed, 22 Jul 2026 07:08:57 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、ヨーロッパで誕生した新たな人型ロボットのユニコーン企業や、日本の人機一体（じんきいったい）が挑む重機ロボットの最前線など、世界を動かすフィジカルAIの最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-22_070439.mp3" type="audio/mpeg" length="5043117" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-22_070439.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:15</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、ヨーロッパで誕生した新たな人型ロボットのユニコーン企業や、日本の人機一体（じんきいったい）が挑む重機ロボットの最前線など、世界を動かすフィジカルAIの最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-21 07:01:19</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-21_070119.mp3</link>
