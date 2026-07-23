@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 23 Jul 2026 07:07:09 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 07:07:21 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-24 07:04:51</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-24_070451.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-24_070451.mp3</guid>
+      <pubDate>Fri, 24 Jul 2026 07:07:21 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、自動車大手ＢＭＷによるフィジカルAI開発の加速や、都市サービスに特化した新型ヒューマノイドの登場など、実用化に向けた最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-24_070451.mp3" type="audio/mpeg" length="2890797" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-24_070451.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:00</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、自動車大手ＢＭＷによるフィジカルAI開発の加速や、都市サービスに特化した新型ヒューマノイドの登場など、実用化に向けた最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-23 07:03:50</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-23_070350.mp3</link>
