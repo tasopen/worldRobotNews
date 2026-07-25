@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 25 Jul 2026 07:09:37 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 07:00:20 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-26 06:57:12</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-26_065712.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-26_065712.mp3</guid>
+      <pubDate>Sun, 26 Jul 2026 07:00:20 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、中国の電気自動車メーカー小鵬（しゃおぽん）による人型ロボットの量産開始や、十年後の巨大市場予測、そして実用性を重視するメーカーの新たな戦略など、フィジカルAIの最前線をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-26_065712.mp3" type="audio/mpeg" length="3821997" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-26_065712.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:58</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、中国の電気自動車メーカー小鵬（しゃおぽん）による人型ロボットの量産開始や、十年後の巨大市場予測、そして実用性を重視するメーカーの新たな戦略など、フィジカルAIの最前線をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-25 07:05:18</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-25_070518.mp3</link>
