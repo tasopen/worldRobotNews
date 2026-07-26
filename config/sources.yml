@@ -88,6 +88,10 @@ rss_feeds:
   url: https://www.tmtpost.com/feed
   language: zh
   weight: 1.2
+- name: Nikkei xTECH
+  url: https://xtech.nikkei.com/rss/index.rdf
+  language: ja
+  weight: 1.2
 selection:
   max_articles: 7
   hours_lookback: 24
