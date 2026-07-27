@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 27 Jul 2026 07:03:51 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 07:11:50 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-28 07:08:29</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-28_070829.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-28_070829.mp3</guid>
+      <pubDate>Tue, 28 Jul 2026 07:11:50 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。今日は、電気自動車最大手のＢＹＤによる人型ロボット参戦のニュースや、手術支援ロボットとフィジカルAIの融合、そして日本発スタートアップの海外展開など、最新のトピックをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-28_070829.mp3" type="audio/mpeg" length="4380333" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-28_070829.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:33</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。今日は、電気自動車最大手のＢＹＤによる人型ロボット参戦のニュースや、手術支援ロボットとフィジカルAIの融合、そして日本発スタートアップの海外展開など、最新のトピックをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-27 06:59:48</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-27_065948.mp3</link>
