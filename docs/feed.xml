@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 28 Jul 2026 07:11:50 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 07:08:09 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-29 07:04:36</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-29_070436.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-29_070436.mp3</guid>
+      <pubDate>Wed, 29 Jul 2026 07:08:09 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、設立半年で百億円規模の資金を集めた中国の有力スタートアップや、日本発の人型ロボット新会社アトム（あとむ）の挑戦、そして巨大テック企業による知能開発の最前線をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-29_070436.mp3" type="audio/mpeg" length="4698285" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-29_070436.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:53</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、設立半年で百億円規模の資金を集めた中国の有力スタートアップや、日本発の人型ロボット新会社アトム（あとむ）の挑戦、そして巨大テック企業による知能開発の最前線をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-28 07:08:29</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-28_070829.mp3</link>
