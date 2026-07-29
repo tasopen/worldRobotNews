@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 29 Jul 2026 07:08:09 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 07:05:13 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-30 07:02:05</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-30_070205.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-30_070205.mp3</guid>
+      <pubDate>Thu, 30 Jul 2026 07:05:13 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、グーグルやエヌビディアを抑え世界トップに躍り出たフィジカルAI向けの大規模モデルや、触覚データの不足を解消する革新的なデータグローブ、そして業界標準作りを主導する巨大企業の動きをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-30_070205.mp3" type="audio/mpeg" length="4060845" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-30_070205.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:13</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、グーグルやエヌビディアを抑え世界トップに躍り出たフィジカルAI向けの大規模モデルや、触覚データの不足を解消する革新的なデータグローブ、そして業界標準作りを主導する巨大企業の動きをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-29 07:04:36</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-29_070436.mp3</link>
