@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 30 Jul 2026 07:05:13 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 07:11:23 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-07-31 07:08:38</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-31_070838.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-07-31_070838.mp3</guid>
+      <pubDate>Fri, 31 Jul 2026 07:11:23 +0900</pubDate>
+      <description>おはようございます、ワールドロボットニュースです。本日は、三菱自動車による人型ロボット量産への参入や、テスラのロボット訓練に導入されたＶＲ技術、そして中国勢が圧倒する特許競争の最前線をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-31_070838.mp3" type="audio/mpeg" length="3605805" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-07-31_070838.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:45</itunes:duration>
+      <itunes:summary>おはようございます、ワールドロボットニュースです。本日は、三菱自動車による人型ロボット量産への参入や、テスラのロボット訓練に導入されたＶＲ技術、そして中国勢が圧倒する特許競争の最前線をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-07-30 07:02:05</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-07-30_070205.mp3</link>
