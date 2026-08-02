@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 02 Aug 2026 07:00:22 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 07:01:03 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-03 06:57:29</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-03_065729.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-03_065729.mp3</guid>
+      <pubDate>Mon, 03 Aug 2026 07:01:03 +0900</pubDate>
+      <description>おはようございます。8月3日のワールドロボットニュースです。本日は、人型ロボットがデータを量産する工場へと進化する新たな主戦場や、米中貿易摩擦の新たな火種としての側面をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-03_065729.mp3" type="audio/mpeg" length="3959085" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-03_065729.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:07</itunes:duration>
+      <itunes:summary>おはようございます。8月3日のワールドロボットニュースです。本日は、人型ロボットがデータを量産する工場へと進化する新たな主戦場や、米中貿易摩擦の新たな火種としての側面をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-02 06:57:23</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-02_065723.mp3</link>
