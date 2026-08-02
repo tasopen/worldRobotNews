@@ -5,16 +5,28 @@ Gemini TTS (gemini-3.1-flash-tts-preview) を使って台本テキストを MP3 
 """
 from __future__ import annotations
 
+import hashlib
 import io
 import os
+import re
 import subprocess
 import tempfile
 import time
+import uuid
 import wave
 
 import yaml
 from google import genai
 from google.genai import types
+
+_RUBY_PATTERN = re.compile(
+    r"(?<![A-Za-z0-9\u30a0-\u30ff\u3400-\u9fff\u00C0-\u024F])"
+    r"([A-Za-z0-9\u00C0-\u024F.\-_+]+"
+    r"(?:\s+[A-Za-z0-9\u00C0-\u024F.\-_+]+)*"
+    r"|[\u30a0-\u30ff々ヶー]*[\u3400-\u9fff][\u3040-\u30ff\u3400-\u9fff々ヶー.\-_]*"
+    r"|[\u30a0-\u30ff々ヶー]+)"
+    r"[（(]([\u3040-\u309f\u30a0-\u30ffー・\s]+)[）)]"
+)
 
 
 def _load_meta(meta_path: str = "config/podcast_meta.yml") -> dict:
@@ -77,17 +89,31 @@ def _extract_audio_data(response) -> bytes | None:
 
 
 def _clean_text_for_tts(text: str) -> str:
-    """音声合成用に、漢字（フリガナ）や英語（フリガナ）の表記からフリガナ部分のみを抽出する。
-    例: "TechCrunch（てっくくらんち）" -> "てっくくらんち"
-    また、"比亜迪（びーわいでぃー：BYD）" のようにコロンを含む場合は、コロンより前のひらがなのみを抽出する。
-    """
-    import re
+    """TTS向けに「名称（かなのよみ）」を読みだけへ置換する。
 
-    # 各括弧付きフリガナを独立して置換する。
-    # 括弧内の読みは、他の括弧を含まない単一の文字列として扱い、
-    # 2組目の括弧にまたがってマッチしないようにする。
-    pattern = r'(?<![A-Za-z0-9\u4e00-\u9faf\u30a0-\u30ff])([A-Za-z0-9\.\-\_]+(?:\s+[A-Za-z0-9\.\-\_]+)*|[\u4e00-\u9faf\u30a0-\u30ff々ヶ\u30fc\.\-_]+)[（(]([^：:（）()]+)(?:[：:][^）)（）()]+)?[）)]'
-    return re.sub(pattern, lambda m: m.group(2), text)
+    括弧内がひらがな・カタカナだけの場合に限定し、説明や注釈の括弧書きを
+    読みとして誤って消さない。英字名の記号（例: ``C++``）と、漢字に続く
+    ひらがなを含む名称も扱う。通常文のひらがな部分を名称として飲み込まない
+    よう、和語の名称は漢字またはカタカナから始まるものに限定する。
+    """
+
+    def replace(match: re.Match[str]) -> str:
+        reading = match.group(2).strip()
+        return reading
+
+    return _RUBY_PATTERN.sub(replace, text)
+
+
+def _tts_input_diagnostics(text: str) -> str:
+    """API送信テキストを露出せずに比較できる診断情報を返す。"""
+    encoded = text.encode("utf-8")
+    controls = sum(ord(char) < 32 and char not in "\n\r\t" for char in text)
+    non_bmp = sum(ord(char) > 0xFFFF for char in text)
+    digest = hashlib.sha256(encoded).hexdigest()[:12]
+    return (
+        f"chars={len(text)}, utf8_bytes={len(encoded)}, control_chars={controls}, "
+        f"non_bmp_chars={non_bmp}, sha256={digest}"
+    )
 
 
 def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_meta.yml", debug: bool = False, output_format: str = "mp3") -> str:
@@ -107,8 +133,12 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
     client = genai.Client(api_key=api_key)
 
     clean_script = _clean_text_for_tts(script)
-    tts_prompt = f"{persona_instruction}{clean_script}"
-
+    input_diagnostics = _tts_input_diagnostics(clean_script)
+    if debug:
+        debug_script_path = output_path + ".tts.txt"
+        with open(debug_script_path, "w", encoding="utf-8") as f:
+            f.write(clean_script)
+        print(f"[voice][debug] TTS script saved: {debug_script_path} ({input_diagnostics})")
 
     response = None
     last_exception = None
@@ -116,6 +146,13 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
     max_retries = 3
     for attempt in range(max_retries):
         try:
+            # リクエストごとに一意のIDを persona_instruction 内に含めることで、
+            # 同一台本テキストでもリクエスト全体の一意性を保証し、
+            # API側のキャッシュ/重複検出による400エラーを回避する。
+            # persona_instruction は「読み上げないで」と指示されている部分なので、
+            # このIDが音声として出力されることはない。
+            request_id = uuid.uuid4().hex[:12]
+            tts_prompt = f"[request_id={request_id}]\n{persona_instruction}{clean_script}"
             response = client.models.generate_content(
                 model=tts_model,
                 contents=tts_prompt,
@@ -155,11 +192,11 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
             pcm_data = _extract_audio_data(response)
             if response.candidates and response.candidates[0].content and pcm_data:
                 break
-            
+
             reason = response.candidates[0].finish_reason if response.candidates else "No candidates"
             print(f"[voice] TTS attempt {attempt+1} failed (Reason: {reason}). Retrying...")
             time.sleep(2)
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             last_exception = e
             print(f"[voice] TTS attempt {attempt+1} error: {e}. Retrying...")
             time.sleep(2)
@@ -167,19 +204,21 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
     # PCM バイナリを取得
     # 極めて慎重に階層をチェック
     if not pcm_data:
-        
+
         reason = response.candidates[0].finish_reason if (response and response.candidates and len(response.candidates) > 0) else "Unknown"
         print(f"[voice] ERROR: TTS failed to return valid audio data after {max_retries} attempts.")
         if last_exception:
             print(f"[voice] Last exception: {last_exception}")
         print(f"[voice] Script segment: \"{script[:100]}...\"")
+        print(f"[voice] Clean TTS input diagnostics: {input_diagnostics}")
+        if debug:
+            print(f"[voice][debug] Full clean TTS input: {debug_script_path}")
         print(f"[voice] Finish reason: {reason}")
         if response:
             print(f"[voice] Full Response: {response}")
-            if response.candidates and len(response.candidates) > 0:
-                if response.candidates[0].safety_ratings:
-                    print(f"[voice] Safety ratings: {response.candidates[0].safety_ratings}")
-        
+            if response.candidates and response.candidates[0].safety_ratings:
+                print(f"[voice] Safety ratings: {response.candidates[0].safety_ratings}")
+
         raise RuntimeError(f"TTS API returned no audio data. Reason: {reason}. Exception: {last_exception}")
 
     if debug:

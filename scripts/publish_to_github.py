@@ -9,26 +9,69 @@ GitHub リポジトリ作成 & push スクリプト
   取得: https://github.com/settings/tokens/new
   必要なスコープ: repo, workflow
 """
+import getpass
+import json
 import os
 import subprocess
 import sys
-import getpass
-import urllib.request
 import urllib.error
-import json
+import urllib.request
+from pathlib import Path
 
-REPO_NAME = "worldRobotNews"
-GITHUB_USER = "tasopen"
+DEFAULT_GITHUB_USER = "tasopen"
 
 
 def run(cmd: list[str], check: bool = True) -> subprocess.CompletedProcess:
     return subprocess.run(cmd, check=check, capture_output=True, text=True)
 
 
-def create_github_repo(token: str) -> str:
+def infer_repo_context() -> tuple[str, str]:
+    """現在の Git 情報から GitHub owner/repo を推定する。"""
+    repo_slug = os.environ.get("GITHUB_REPOSITORY", "").strip()
+    if "/" in repo_slug:
+        owner, repo_name = repo_slug.split("/", 1)
+        return owner, repo_name
+
+    owner = (
+        os.environ.get("GITHUB_OWNER")
+        or os.environ.get("GITHUB_USER")
+        or ""
+    ).strip()
+    repo_name = os.environ.get("GITHUB_REPOSITORY_NAME", "").strip()
+    if owner and repo_name:
+        return owner, repo_name
+
+    remote = run(["git", "remote", "get-url", "origin"], check=False)
+    if remote.returncode == 0:
+        remote_url = remote.stdout.strip()
+        normalized = remote_url.removesuffix(".git")
+        if normalized.startswith("git@github.com:"):
+            slug = normalized.split(":", 1)[1]
+        elif "github.com/" in normalized:
+            slug = normalized.split("github.com/", 1)[1].lstrip("/")
+        else:
+            slug = ""
+        if "/" in slug:
+            remote_owner, remote_repo = slug.split("/", 1)
+            return owner or remote_owner, repo_name or remote_repo
+
+    git_root = run(["git", "rev-parse", "--show-toplevel"], check=False)
+    if not repo_name and git_root.returncode == 0:
+        repo_name = Path(git_root.stdout.strip()).name
+
+    if not repo_name:
+        repo_name = Path.cwd().name
+
+    if not owner:
+        owner = DEFAULT_GITHUB_USER
+
+    return owner, repo_name
+
+
+def create_github_repo(token: str, repo_name: str, github_user: str) -> str:
     """GitHub API でパブリックリポジトリを作成し、clone URL を返す。"""
     payload = json.dumps({
-        "name": REPO_NAME,
+        "name": repo_name,
         "description": "AI news podcast generator — daily episodes via GitHub Pages",
         "private": False,
         "auto_init": False,
@@ -51,8 +94,8 @@ def create_github_repo(token: str) -> str:
     except urllib.error.HTTPError as e:
         body = json.loads(e.read())
         if e.code == 422 and "already exists" in str(body):
-            print(f"[info] リポジトリ {REPO_NAME} はすでに存在します。")
-            return f"https://github.com/{GITHUB_USER}/{REPO_NAME}.git"
+            print(f"[info] リポジトリ {repo_name} はすでに存在します。")
+            return f"https://github.com/{github_user}/{repo_name}.git"
         print(f"[error] GitHub API: {e.code} {body}")
         sys.exit(1)
 
@@ -61,11 +104,12 @@ def set_github_secret(token: str, secret_name: str, secret_value: str) -> None:
     """GitHub API でリポジトリ Secret を登録する（暗号化なし簡易版）。
     Note: 実際の API は sodium 暗号化が必要なため、ここでは案内のみ。
     """
-    pass  # 後述の案内で対応
-
 
 def main() -> None:
-    print(f"=== {REPO_NAME} GitHub 公開セットアップ ===\n")
+    github_user, repo_name = infer_repo_context()
+
+    print(f"=== {repo_name} GitHub 公開セットアップ ===\n")
+    print(f"対象: https://github.com/{github_user}/{repo_name}\n")
 
     # PAT 入力
     token = os.environ.get("GITHUB_TOKEN") or getpass.getpass(
@@ -76,10 +120,10 @@ def main() -> None:
         sys.exit(1)
 
     # 1. リポジトリ作成
-    print(f"\n[1/4] GitHub にリポジトリ '{REPO_NAME}' を作成中...")
-    clone_url = create_github_repo(token)
+    print(f"\n[1/4] GitHub にリポジトリ '{repo_name}' を作成中...")
+    clone_url = create_github_repo(token, repo_name, github_user)
     # トークンを URL に埋め込んで push（ローカルのみ、.git/config に保存されない）
-    auth_url = clone_url.replace("https://", f"https://{GITHUB_USER}:{token}@")
+    auth_url = clone_url.replace("https://", f"https://{github_user}:{token}@")
     print(f"      → {clone_url}")
 
     # 2. リモート設定 & push
@@ -104,7 +148,7 @@ def main() -> None:
         "source": {"branch": "main", "path": "/docs"}
     }).encode()
     pages_req = urllib.request.Request(
-        f"https://api.github.com/repos/{GITHUB_USER}/{REPO_NAME}/pages",
+        f"https://api.github.com/repos/{github_user}/{repo_name}/pages",
         data=pages_payload,
         headers={
             "Authorization": f"token {token}",
@@ -128,7 +172,7 @@ def main() -> None:
     # 4. Secrets 登録案内（sodium 暗号化が必要なため案内のみ）
     print("\n[4/4] GitHub Secrets の登録案内:")
     print("  以下の URL から手動で登録してください：")
-    print(f"  https://github.com/{GITHUB_USER}/{REPO_NAME}/settings/secrets/actions")
+    print(f"  https://github.com/{github_user}/{repo_name}/settings/secrets/actions")
     print()
 
     gemini_key = os.environ.get("GEMINI_API_KEY", "")
@@ -143,9 +187,9 @@ def main() -> None:
     print(f"""
 === セットアップ完了 ===
 
-リポジトリ : https://github.com/{GITHUB_USER}/{REPO_NAME}
-Pages URL  : https://{GITHUB_USER}.github.io/{REPO_NAME}/
-RSS フィード: https://{GITHUB_USER}.github.io/{REPO_NAME}/feed.xml
+リポジトリ : https://github.com/{github_user}/{repo_name}
+Pages URL  : https://{github_user}.github.io/{repo_name}/
+RSS フィード: https://{github_user}.github.io/{repo_name}/feed.xml
 
 次のステップ:
   1. 上記 URL で Secrets を登録

@@ -13,7 +13,7 @@ import json
 import os
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 import feedparser
 import requests
@@ -92,7 +92,7 @@ def check_feed_health(feed: dict, timeout: int = 15) -> bool:
             return False
         print(f"  ✓ OK ({len(parsed.entries)} entries): {feed['name']}")
         return True
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001
         print(f"  ✗ Error: {feed['name']} — {e}")
         return False
 
@@ -105,7 +105,7 @@ def run_health_checks(sources: dict, health: dict, dry_run: bool = False) -> tup
     print("\n=== Phase 1: フィード生存確認 ===")
     feeds = sources.get("rss_feeds", [])
     failed_feeds = []
-    now_iso = datetime.now(timezone.utc).isoformat()
+    now_iso = datetime.now(UTC).isoformat()
 
     for feed in feeds:
         url = feed["url"]
@@ -163,7 +163,7 @@ def _gemini_grounding_search(prompt: str, api_key: str) -> str | None:
             config=config,
         )
         return response.text.strip() if response.text else None
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001
         print(f"  [grounding] Error: {e}")
         return None
 
@@ -262,11 +262,11 @@ def run_grounding_maintenance(sources: dict, health: dict, failed_feeds: list[di
                     del health[feed["url"]]
                 health[new_url] = {
                     "fail_count": 0,
-                    "last_success": datetime.now(timezone.utc).isoformat(),
+                    "last_success": datetime.now(UTC).isoformat(),
                     "name": feed["name"],
                 }
         else:
-            print(f"    → Not found")
+            print("    → Not found")
         time.sleep(1)  # API レート制限考慮
 
     # --- 新規フィード発見 ---
@@ -346,7 +346,7 @@ def main():
         _save_health(health)
         print(f"\n✓ Saved {SOURCES_PATH} and {HEALTH_PATH}")
     else:
-        print(f"\n[dry-run] No files were modified.")
+        print("\n[dry-run] No files were modified.")
 
     # サマリー
     total = len(sources.get("rss_feeds", []))

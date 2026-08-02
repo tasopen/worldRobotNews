@@ -6,12 +6,11 @@ from __future__ import annotations
 
 import os
 import time
-from dataclasses import dataclass, field
-from datetime import datetime, timedelta, timezone
+from dataclasses import dataclass
+from datetime import UTC, datetime, timedelta
 from typing import Any
 
 import feedparser
-import requests
 import yaml
 from dateutil import parser as dtparser
 
@@ -40,7 +39,7 @@ def _load_seen_url_entries(
     if not os.path.exists(path):
         return []
 
-    cutoff = datetime.now(timezone.utc) - timedelta(days=retention_days)
+    cutoff = datetime.now(UTC) - timedelta(days=retention_days)
     entries_by_url: dict[str, datetime] = {}
 
     with open(path, encoding="utf-8") as f:
@@ -55,7 +54,7 @@ def _load_seen_url_entries(
                 timestamp_text, url = line.split("\t", 1)
                 try:
                     parsed = dtparser.isoparse(timestamp_text)
-                    timestamp = parsed if parsed.tzinfo else parsed.replace(tzinfo=timezone.utc)
+                    timestamp = parsed if parsed.tzinfo else parsed.replace(tzinfo=UTC)
                 except (ValueError, TypeError):
                     timestamp = None
 
@@ -64,7 +63,7 @@ def _load_seen_url_entries(
 
             # 旧形式の URL のみの行は移行用に一度だけ救済し、次回保存時に新形式へ正規化する。
             if timestamp is None:
-                timestamp = datetime.now(timezone.utc)
+                timestamp = datetime.now(UTC)
 
             if timestamp < cutoff:
                 continue
@@ -89,7 +88,7 @@ def save_seen_urls(
 ) -> None:
     """選択された記事 URL を保持期間付きで保存し、ファイルを圧縮する。"""
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     entries = _load_seen_url_entries(path, retention_days=retention_days)
     entries_by_url = {url: timestamp for timestamp, url in entries}
 
@@ -121,14 +120,14 @@ def _score(article: Article, config: dict[str, Any]) -> float:
 
 def fetch_rss(feed_cfg: dict[str, Any], hours: int) -> list[Article]:
     """RSS フィードから記事を取得する。"""
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+    cutoff = datetime.now(UTC) - timedelta(hours=hours)
     parsed = feedparser.parse(feed_cfg["url"])
     articles = []
     for entry in parsed.entries:
         pub_struct = entry.get("published_parsed") or entry.get("updated_parsed")
         if not pub_struct:
             continue
-        pub = datetime(*pub_struct[:6], tzinfo=timezone.utc)
+        pub = datetime(*pub_struct[:6], tzinfo=UTC)
         if pub < cutoff:
             continue
         articles.append(
@@ -158,7 +157,7 @@ def collect(config_path: str = "config/sources.yml") -> list[Article]:
         try:
             all_articles.extend(fetch_rss(feed_cfg, hours))
             time.sleep(0.3)
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             print(f"[scout] RSS error ({feed_cfg['name']}): {e}")
 
     # 過去に使用した記事を除外

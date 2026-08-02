@@ -1,24 +1,23 @@
 """パイプライン統合エントリポイント
 
 @scout → @editor → @voice → @android の順に実行し、
-毎日の AI ニュースエピソードを生成して docs/ に保存する。
+毎日のニュースエピソードを生成して docs/ に保存する。
 """
 from __future__ import annotations
 
-import sys
-import traceback
-import time
-from datetime import datetime, timezone, timedelta
-import re
-
 # リポジトリルートを sys.path に追加（GitHub Actions での実行対応）
 import os
+import sys
+import time
+import traceback
+from datetime import datetime, timedelta, timezone
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from agents.scout import collect, save_seen_urls
-from agents.editor import generate_headline_and_body
-from agents.voice import synthesize, get_audio_duration
 from agents.android import update_feed
+from agents.editor import generate_headline_and_body
+from agents.scout import collect, save_seen_urls
+from agents.voice import get_audio_duration, synthesize
 
 
 def _format_srt_time(ms: int) -> str:
@@ -110,8 +109,9 @@ def run() -> None:
     # 2分=120秒, Gemini TTSは24kHz/16bit/monoなので1秒=48000byte程度
     # 句点・改行で分割し、各セグメントの合計文字数で近似的に2分ごとに分割
     import re
-    from agents.voice_concat import concat_wav
+
     from agents.voice import _wav_exact_duration_ms
+    from agents.voice_concat import concat_wav
     # 分割バッファは300文字ごととする
     max_chars = 300
     # 句点・改行で分割
@@ -143,10 +143,10 @@ def run() -> None:
                 b = f.read()
                 dur_ms = _wav_exact_duration_ms(b)
                 srt_segments.append((seg_text, dur_ms))
-        except Exception as e:
+        except Exception as e:  # noqa: F841
             print(f"\n[pipeline] ERROR at segment {i+1}:")
             print(f"Text content: \"{seg_text}\"")
-            raise e
+            raise
         
         # クォータ（RPM）制限を避けるため十分な待機を入れる
         if i < len(seg_groups) - 1:
@@ -183,18 +183,18 @@ def run() -> None:
     # 使用済み URL を記録（次回以降の重複排除）
     save_seen_urls([a.url for a in articles])
 
-    print(f"\n=== 完了 ===")
+    print("\n=== 完了 ===")
     print(f"  MP3: {mp3_path}")
-    print(f"  RSS: docs/feed.xml")
+    print("  RSS: docs/feed.xml")
 
 
 if __name__ == "__main__":
     debug = "--debug" in sys.argv
-    setattr(run, "debug", debug)
+    setattr(run, "debug", debug)  # noqa: B010
     try:
         run()
     except KeyboardInterrupt:
         sys.exit(0)
-    except Exception:
+    except Exception:  # noqa: BLE001
         traceback.print_exc()
         sys.exit(1)

@@ -4,14 +4,13 @@
 """
 from __future__ import annotations
 
+import os
+from datetime import UTC, datetime, timedelta, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 from html import escape
-import os
-from datetime import datetime, timezone, timedelta
 from xml.etree import ElementTree as ET
 
 import yaml
-
 
 ITUNES_NS = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ATOM_NS = "http://www.w3.org/2005/Atom"
@@ -153,7 +152,7 @@ def _write_index_html(html: str, index_path: str = "docs/index.html") -> str:
 
 def _extract_episodes(channel: ET.Element) -> list[dict]:
     episodes: list[dict] = []
-    default_date = datetime.now(timezone.utc)
+    default_date = datetime.now(UTC)
     for item in channel.findall("item"):
         title = item.findtext("title", default="")
         description = item.findtext(
@@ -360,7 +359,7 @@ def update_feed(
         html = generate_index_html(podcast, episodes)
         _write_index_html(html, index_path)
         print(f"[android] index.html updated → {index_path}")
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001
         print(f"[android] index.html generation failed: {e}")
 
     return feed_path

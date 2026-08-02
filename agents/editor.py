@@ -3,19 +3,16 @@
 収集記事リストを受け取り、Gemini でラジオ台本（日本語）を生成する。
 podcast_meta.yml のテンプレートに従い、任意のニュースカテゴリに対応。
 """
-from __future__ import annotations
-
 import glob
 import os
 import re
-from typing import TYPE_CHECKING
+from datetime import datetime, timedelta, timezone
 
 import yaml
 from google import genai
 from google.genai import types
 
-if TYPE_CHECKING:
-    from agents.scout import Article
+from agents.scout import Article
 
 
 def _load_meta(meta_path: str = "config/podcast_meta.yml") -> dict:
@@ -48,7 +45,7 @@ def _load_recent_srt(episodes_dir: str = "docs/episodes", max_count: int = 6) ->
             filename = os.path.basename(srt_path)
             date_label = filename.replace('.srt', '')
             past_texts.append(f"[{date_label}]\n" + "\n".join(lines))
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             print(f"[editor] Warning: failed to read {srt_path}: {e}")
     count = len(past_texts)
     print(f"[editor] Loaded {count} past SRT(s) for duplicate avoidance")
@@ -56,7 +53,7 @@ def _load_recent_srt(episodes_dir: str = "docs/episodes", max_count: int = 6) ->
 
 
 
-def generate_headline_and_body(articles: list["Article"], meta_path: str = "config/podcast_meta.yml") -> tuple[str, str]:
+def generate_headline_and_body(articles: list[Article], meta_path: str = "config/podcast_meta.yml") -> tuple[str, str]:
     """
     記事リストからPodcast台本のヘッドラインと本文を別々に生成して返す。
     Returns (headline, body)
@@ -71,11 +68,17 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
     # メタデータからプロンプトテンプレートを展開
     category = meta.get("category", "Technology")
     short_title = meta.get("short_title", meta.get("title", "ニュース"))
+    
+    # 当日の日付を JST で取得 (例: 7月27日)
+    jst = timezone(timedelta(hours=9))
+    now = datetime.now(jst)
+    date_str = f"{now.month}月{now.day}日"
+    
     persona = meta.get("prompt_persona", "あなたは{category}専門のラジオパーソナリティです。").format(
         category=category, short_title=short_title
     )
     greeting = meta.get("prompt_greeting", "おはようございます、{short_title} です。").format(
-        category=category, short_title=short_title
+        category=category, short_title=short_title, date=date_str
     )
 
     articles_text = "\n\n".join(
@@ -89,15 +92,16 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
     if past_srt_text:
         past_srt_section = f"""\n【過去の放送内容（参考）】\n以下は過去の放送で取り上げた内容です。これらと重複する記事は除外するか、続報がある場合のみ簡潔に触れる程度にしてください。\n{past_srt_text}\n"""
 
-    default_prompt_template = """{persona}
+    default_prompt_template = f"""{persona}
 以下のニュース記事をもとに、日本語のポッドキャスト台本を生成してください。
 
 【要件】
 - **ヘッドライン**: 「{greeting}」から始め、その日のニュースのヘッドラインを1〜2文で手短に紹介してください。
 - **本文**: 各記事について、提供された概要をもとに、リスナーが内容を深く理解できるよう、背景情報や重要性を補足しながら、それぞれ300〜400字程度の詳細な解説を加えてください。{tts_model} で読み上げます。一般的な漢字やよく知られた語はそのまま読める前提で、ふりがなは必要最小限にしてください。
 - **ふりがな・読み上げルール**:
+  - 新しい・珍しい固有名詞、海外企業名や人名など、誤読の可能性が高いものにだけ、「漢字（よみ）」または「英語（よみ）」形式でふりがなを付けてください。
   - 新しい・珍しい固有名詞、海外企業名や人名など、誤読の可能性が高いものにだけ、初出時のみ「漢字（よみ）」または「英語（よみ）」形式でふりがなを付けてください。
-  - 一般名詞や既知の用語にはふりがなを付けないでください。同じ語に何度もふりがなを繰り返さないでください。
+  - 一般名詞や既知の用語にはふりがなを付けないでください。
   - 括弧「()」または「（）」は、ふりがな表示以外の用途に使用しないでください。説明・訳語・英語・略語・注釈のために括弧を使わないでください。
   - 括弧内の内容は、ひらがなまたはカタカナだけで表してください。英語・拼音・略語・コロンを含む書き方（例: 「名称（よみ：Reading）」）は絶対に使わないでください。必ず「名称（よみ）」のように、単純な読みだけを入れてください。
   - ラジオであることを考慮し、重複したふりがなや複雑な括弧書きは避け、読みやすい名称一つに統一してください。
@@ -124,9 +128,8 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
         tts_model=tts_model,
         short_title=short_title,
         past_srt_section=past_srt_section,
-        articles_text=articles_text
+        articles_text=articles_text,
     )
-
 
     response = client.models.generate_content(
         model=model_id,
@@ -136,6 +139,12 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
             max_output_tokens=8192,
         ),
     )
+    
+    # finish_reason をログに出力して、中断理由（SAFETY, MAX_TOKENS 等）を特定できるようにする
+    if response.candidates:
+        finish_reason = response.candidates[0].finish_reason
+        print(f"[editor] API finish_reason: {finish_reason}")
+    
     response_text = response.text
     print(f"[editor] Raw script from API:\n---\n{response_text}\n---")
     if response_text is None:
@@ -156,6 +165,12 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
         body = script.strip()
     print(f"[editor] Headline: {headline[:80]}...")
     print(f"[editor] Body: {len(body)} chars")
+    
+    # 期待される締め文言が含まれているかチェックし、途切れている場合に警告を出す
+    expected_closing = "また明日お会いしましょう"
+    if expected_closing not in body:
+        print(f"[editor] WARNING: The script seems to be truncated. Expected closing phrase '{expected_closing}' not found.")
+        
     return headline, body
 
 
