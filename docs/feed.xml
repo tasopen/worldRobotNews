@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 03 Aug 2026 07:01:03 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 07:13:03 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-04 07:09:51</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-04_070951.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-04_070951.mp3</guid>
+      <pubDate>Tue, 04 Aug 2026 07:13:03 +0900</pubDate>
+      <description>おはようございます。8月4日のワールドロボットニュースです。本日は、電気自動車大手の比亜迪（びーわいでぃー）による人型ロボット参入や、トヨタ発のスタートアップによる巨額調達のニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-04_070951.mp3" type="audio/mpeg" length="3925293" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-04_070951.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:05</itunes:duration>
+      <itunes:summary>おはようございます。8月4日のワールドロボットニュースです。本日は、電気自動車大手の比亜迪（びーわいでぃー）による人型ロボット参入や、トヨタ発のスタートアップによる巨額調達のニュースをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-03 06:57:29</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-03_065729.mp3</link>
