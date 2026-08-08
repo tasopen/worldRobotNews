@@ -7,12 +7,21 @@
 ## 🏗 アーキテクチャ
 
 ```
-毎朝 6:00 JST (GitHub Actions)
+毎朝 6:00 JST (GitHub Actions)   timeout-minutes: 20
     │
     ├─ @scout    agents/scout.py   → 多言語 RSS (日・中・英) → 上位 7 記事
+    │                                 [timing] ログ
+    │
     ├─ @editor   agents/editor.py  → Gemini 3 Flash → カテゴリ別・動的台本生成
-    ├─ @voice    agents/voice.py   → Gemini TTS(gemini-2.5-flash-preview-tts) → MP3 & SRT (字幕)
+    │                                 API timeout: 120s / retry: max 3
+    │                                 [timing] / [editor] ログ
+    │
+    ├─ @voice    agents/voice.py   → Gemini TTS → MP3 & SRT (字幕)
+    │                                 API timeout: 120s / retry: max 3
+    │                                 segment単位の [timing] / [voice] ログ
+    │
     └─ @android  agents/android.py → Podcast RSS (feed.xml) 更新
+                                      [timing] ログ
                        │
 毎週日曜 12:00 JST
     └─ @maintenance scripts/maintain_feeds.py → Gemini Grounding Search
@@ -114,9 +123,12 @@ uv run python scripts/run_pipeline.py --debug
 - **詳細なエラーログ**: APIレスポンスの詳細（finish_reason や安全しきい値の状態など）が出力されます。
 
 ### 最近の改善点
+- **パイプライン安定化 (3段階防御)**:
+  - **実行時間ログ**: 全セクション（@scout, @editor, @voice, @android）とVoice各segmentの実行時間を `[timing]` / `[voice]` ログで出力。どこで時間を消費しているか特定可能。
+  - **GitHub Actions タイムアウト**: `Run pipeline` ステップに `timeout-minutes: 60` を設定。長時間のハングを防止。
+  - **API タイムアウト・リトライ**: Gemini API 呼び出しに120秒のタイムアウトと最大3回のリトライ（指数バックオフ+jitter）を実装。一時的なAPI障害を自動回復。恒久的エラー（400系）は即時失敗。
 - エディタープロンプトでは、括弧はふりがな表示にのみ使用し、括弧内はひらがな・カタカナの単純な読みだけにするルールを明示しました。
 - 音声合成前のテキスト整形では、1文に複数の括弧付き表記があっても、前後の文脈を巻き込まずに各ふりがなを処理するようにしました。
-- これらの挙動は回帰テストで確認できるようにしています。
 
 ### 便利な環境変数
 ローカルでの開発・テスト時に以下の環境変数を設定することで、動作をカスタマイズできます。

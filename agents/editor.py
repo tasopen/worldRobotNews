@@ -5,7 +5,9 @@ podcast_meta.yml のテンプレートに従い、任意のニュースカテゴ
 """
 import glob
 import os
+import random
 import re
+import time
 from datetime import datetime, timedelta, timezone
 
 import yaml
@@ -13,6 +15,32 @@ from google import genai
 from google.genai import types
 
 from agents.scout import Article
+
+# リトライ対象のHTTPステータスコード
+_RETRYABLE_STATUS_CODES = {408, 429, 500, 502, 503, 504}
+
+# 恒久的エラーとして即時失敗するステータスコード
+_PERMANENT_STATUS_CODES = {400, 401, 403, 404}
+
+
+def _is_retryable_exception(e: Exception) -> bool:
+    """例外がリトライ可能か判定する。"""
+    status_code = getattr(e, "code", None) or getattr(e, "status_code", None)
+    if status_code is not None:
+        if status_code in _PERMANENT_STATUS_CODES:
+            return False
+        if status_code in _RETRYABLE_STATUS_CODES:
+            return True
+        if 400 <= status_code < 500:
+            return False
+        if status_code >= 500:
+            return True
+    exc_name = type(e).__name__
+    return any(x in exc_name for x in ("Timeout", "Deadline", "Connection", "Retry"))
+
+
+def _get_status_code(e: Exception) -> int | None:
+    return getattr(e, "code", None) or getattr(e, "status_code", None)
 
 
 def _load_meta(meta_path: str = "config/podcast_meta.yml") -> dict:
@@ -63,7 +91,12 @@ def generate_headline_and_body(articles: list[Article], meta_path: str = "config
     tts_model = meta.get("tts_model","gemini-3.1-flash-tts-preview")
     api_key = os.environ["GEMINI_API_KEY"]
 
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(
+        api_key=api_key,
+        http_options=types.HttpOptions(
+            timeout=120_000,  # 120秒（ミリ秒）
+        ),
+    )
 
     # メタデータからプロンプトテンプレートを展開
     category = meta.get("category", "Technology")
@@ -131,25 +164,69 @@ def generate_headline_and_body(articles: list[Article], meta_path: str = "config
         articles_text=articles_text,
     )
 
-    response = client.models.generate_content(
-        model=model_id,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            temperature=0.7,
-            max_output_tokens=8192,
-        ),
-    )
-    
-    # finish_reason をログに出力して、中断理由（SAFETY, MAX_TOKENS 等）を特定できるようにする
-    if response.candidates:
-        finish_reason = response.candidates[0].finish_reason
-        print(f"[editor] API finish_reason: {finish_reason}")
-    
-    response_text = response.text
-    print(f"[editor] Raw script from API:\n---\n{response_text}\n---")
-    if response_text is None:
-        raise RuntimeError(f"Editor API returned no text. Full response: {response}")
-    script = response_text.strip()
+    max_retries = 3
+    last_exception: Exception | None = None
+    response = None
+
+    for attempt in range(1, max_retries + 1):
+        attempt_started = time.perf_counter()
+        print(f"[editor] API START attempt={attempt}", flush=True)
+        try:
+            response = client.models.generate_content(
+                model=model_id,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    temperature=0.7,
+                    max_output_tokens=8192,
+                ),
+            )
+            elapsed = time.perf_counter() - attempt_started
+            print(f"[editor] API END attempt={attempt} elapsed={elapsed:.1f}s", flush=True)
+
+            # finish_reason をログに出力
+            if response.candidates:
+                finish_reason = response.candidates[0].finish_reason
+                print(f"[editor] API finish_reason={finish_reason}", flush=True)
+
+            response_text = response.text
+            if response_text is not None:
+                break  # 成功
+
+            # response.text が None の場合
+            reason = response.candidates[0].finish_reason if response.candidates else "No candidates"
+            print(f"[editor] API ERROR attempt={attempt} elapsed={elapsed:.1f}s finish_reason={reason}", flush=True)
+
+        except Exception as e:
+            elapsed = time.perf_counter() - attempt_started
+            last_exception = e
+            status_code = _get_status_code(e)
+            status_str = f" status_code={status_code}" if status_code else ""
+            print(f"[editor] API ERROR attempt={attempt} elapsed={elapsed:.1f}s{status_str} {type(e).__name__}", flush=True)
+
+            if not _is_retryable_exception(e):
+                print("[editor] Non-retryable error, aborting.", flush=True)
+                raise
+
+        # リトライ処理
+        if attempt < max_retries:
+            # 指数バックオフ + jitter
+            if attempt == 1:
+                wait = 2.0 + random.uniform(0, 1.0)
+            else:
+                wait = 5.0 + random.uniform(0, 1.0)
+            print(f"[editor] retrying attempt={attempt + 1} wait={wait:.1f}s", flush=True)
+            time.sleep(wait)
+
+    # 最終結果の確認
+    if response is None or response.text is None:
+        error_msg = f"Gemini API failed after {max_retries} attempts"
+        if last_exception:
+            error_msg += f": {last_exception}"
+        print(f"[editor] API FAILED attempts={max_retries}", flush=True)
+        raise RuntimeError(error_msg)
+
+    print(f"[editor] Raw script from API:\n---\n{response.text}\n---")
+    script = response.text.strip()
     # ヘッドラインと本文を抽出
     headline = ""
     body = ""

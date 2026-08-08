@@ -8,6 +8,7 @@ from __future__ import annotations
 import hashlib
 import io
 import os
+import random
 import re
 import subprocess
 import tempfile
@@ -27,6 +28,32 @@ _RUBY_PATTERN = re.compile(
     r"|[\u30a0-\u30ff々ヶー]+)"
     r"[（(]([\u3040-\u309f\u30a0-\u30ffー・\s]+)[）)]"
 )
+
+# リトライ対象のHTTPステータスコード
+_RETRYABLE_STATUS_CODES = {408, 429, 500, 502, 503, 504}
+
+# 恒久的エラーとして即時失敗するステータスコード
+_PERMANENT_STATUS_CODES = {400, 401, 403, 404}
+
+
+def _is_retryable_exception(e: Exception) -> bool:
+    """例外がリトライ可能か判定する。"""
+    status_code = getattr(e, "code", None) or getattr(e, "status_code", None)
+    if status_code is not None:
+        if status_code in _PERMANENT_STATUS_CODES:
+            return False
+        if status_code in _RETRYABLE_STATUS_CODES:
+            return True
+        if 400 <= status_code < 500:
+            return False
+        if status_code >= 500:
+            return True
+    exc_name = type(e).__name__
+    return any(x in exc_name for x in ("Timeout", "Deadline", "Connection", "Retry"))
+
+
+def _get_status_code(e: Exception) -> int | None:
+    return getattr(e, "code", None) or getattr(e, "status_code", None)
 
 
 def _load_meta(meta_path: str = "config/podcast_meta.yml") -> dict:
@@ -130,7 +157,12 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
         "persona_instruction",
         "指示: {short_title} の明るく情熱的なラジオパーソナリティとして、はつらつと感情を込めて日本語で読み上げてください。指示内容は読み上げず、以下の台本部分のみを音声にしてください。\n\n---\n台本:\n",
     ).format(title=title, category=category, short_title=short_title)
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(
+        api_key=api_key,
+        http_options=types.HttpOptions(
+            timeout=120_000,  # 120秒（ミリ秒）
+        ),
+    )
 
     clean_script = _clean_text_for_tts(script)
     input_diagnostics = _tts_input_diagnostics(clean_script)
@@ -140,11 +172,14 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
             f.write(clean_script)
         print(f"[voice][debug] TTS script saved: {debug_script_path} ({input_diagnostics})")
 
-    response = None
-    last_exception = None
-    pcm_data = None
     max_retries = 3
-    for attempt in range(max_retries):
+    pcm_data = None
+    last_exception: Exception | None = None
+    total_retries = 0
+
+    for attempt in range(1, max_retries + 1):
+        attempt_started = time.perf_counter()
+        print(f"[voice] API START attempt={attempt}", flush=True)
         try:
             # リクエストごとに一意のIDを persona_instruction 内に含めることで、
             # 同一台本テキストでもリクエスト全体の一意性を保証し、
@@ -189,17 +224,36 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
                     ),
                 ),
             )
+            elapsed = time.perf_counter() - attempt_started
+            print(f"[voice] API END attempt={attempt} elapsed={elapsed:.1f}s", flush=True)
+
             pcm_data = _extract_audio_data(response)
             if response.candidates and response.candidates[0].content and pcm_data:
-                break
+                break  # 成功
 
             reason = response.candidates[0].finish_reason if response.candidates else "No candidates"
-            print(f"[voice] TTS attempt {attempt+1} failed (Reason: {reason}). Retrying...")
-            time.sleep(2)
-        except Exception as e:  # noqa: BLE001
+            print(f"[voice] API ERROR attempt={attempt} elapsed={elapsed:.1f}s finish_reason={reason}", flush=True)
+
+        except Exception as e:
+            elapsed = time.perf_counter() - attempt_started
             last_exception = e
-            print(f"[voice] TTS attempt {attempt+1} error: {e}. Retrying...")
-            time.sleep(2)
+            status_code = _get_status_code(e)
+            status_str = f" status_code={status_code}" if status_code else ""
+            print(f"[voice] API ERROR attempt={attempt} elapsed={elapsed:.1f}s{status_str} {type(e).__name__}", flush=True)
+
+            if not _is_retryable_exception(e):
+                print("[voice] Non-retryable error, aborting.", flush=True)
+                raise
+
+        # リトライ処理
+        if attempt < max_retries:
+            total_retries += 1
+            if attempt == 1:
+                wait = 2.0 + random.uniform(0, 1.0)
+            else:
+                wait = 5.0 + random.uniform(0, 1.0)
+            print(f"[voice] retrying attempt={attempt + 1} wait={wait:.1f}s", flush=True)
+            time.sleep(wait)
 
     # PCM バイナリを取得
     # 極めて慎重に階層をチェック
