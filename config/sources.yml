@@ -73,7 +73,7 @@ rss_feeds:
   language: en
   weight: 1.2
 - name: 36氪 (36Kr)
-  url: https://36kr.com/feed
+  url: https://rsshub.app/36kr/newsflash
   language: zh
   weight: 1.2
 - name: 量子位 (QbitAI)
@@ -90,6 +90,10 @@ rss_feeds:
   weight: 1.2
 - name: Nikkei xTECH
   url: https://xtech.nikkei.com/rss/index.rdf
+  language: ja
+  weight: 1.2
+- name: Roboteer (ロボティア)
+  url: https://roboteer-tokyo.com/feed
   language: ja
   weight: 1.2
 selection:
