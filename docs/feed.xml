@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 12 Aug 2026 05:01:38 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 05:03:25 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-13 04:59:36</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-13_045936.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-13_045936.mp3</guid>
+      <pubDate>Thu, 13 Aug 2026 05:03:25 +0900</pubDate>
+      <description>おはようございます。8月13日のワールドロボットニュースです。本日は、人型ロボットの量産化に向けたサプライチェーンの激変と、その進化の鍵を握る触覚技術、そしてロボット専用の通信プラットフォームの話題をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-13_045936.mp3" type="audio/mpeg" length="4430253" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-13_045936.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:36</itunes:duration>
+      <itunes:summary>おはようございます。8月13日のワールドロボットニュースです。本日は、人型ロボットの量産化に向けたサプライチェーンの激変と、その進化の鍵を握る触覚技術、そしてロボット専用の通信プラットフォームの話題をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-12 04:59:05</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-12_045905.mp3</link>
