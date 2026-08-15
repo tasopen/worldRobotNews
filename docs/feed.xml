@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 15 Aug 2026 04:48:23 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 04:22:36 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-16 04:19:22</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-16_041922.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-16_041922.mp3</guid>
+      <pubDate>Sun, 16 Aug 2026 04:22:36 +0900</pubDate>
+      <description>おはようございます。8月16日のワールドロボットニュースです。本日は、二千台以上のロボットが集結する世界大会の話題や、フィジカルAIの進化を支える「データの燃料」について、そして業界に突きつけられた実用化への課題についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-16_041922.mp3" type="audio/mpeg" length="4134957" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-16_041922.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:18</itunes:duration>
+      <itunes:summary>おはようございます。8月16日のワールドロボットニュースです。本日は、二千台以上のロボットが集結する世界大会の話題や、フィジカルAIの進化を支える「データの燃料」について、そして業界に突きつけられた実用化への課題についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-15 04:44:44</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-15_044444.mp3</link>
