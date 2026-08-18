@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 18 Aug 2026 04:27:45 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 04:28:00 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-19 04:25:07</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-19_042507.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-19_042507.mp3</guid>
+      <pubDate>Wed, 19 Aug 2026 04:28:00 +0900</pubDate>
+      <description>おはようございます。8月19日のワールドロボットニュースです。本日は、人型ロボットが「新卒採用」される驚きのニュースや、中国のロボット産業を支える国家プロジェクトの最新動向、そしてハードウェアの重要性を説く最新の研究レポートについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-19_042507.mp3" type="audio/mpeg" length="3998253" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-19_042507.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:09</itunes:duration>
+      <itunes:summary>おはようございます。8月19日のワールドロボットニュースです。本日は、人型ロボットが「新卒採用」される驚きのニュースや、中国のロボット産業を支える国家プロジェクトの最新動向、そしてハードウェアの重要性を説く最新の研究レポートについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-18 04:23:45</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-18_042345.mp3</link>
