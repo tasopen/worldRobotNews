@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 20 Aug 2026 04:28:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 04:30:30 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-21 04:27:37</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-21_042737.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-21_042737.mp3</guid>
+      <pubDate>Fri, 21 Aug 2026 04:30:30 +0900</pubDate>
+      <description>おはようございます。8月21日のワールドロボットニュースです。今日は、学術界の最高峰で認められた最新の研究成果や、急速に拡大する中国市場の最新データ、そして日本の老舗メーカーとスタートアップの強力なタッグについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-21_042737.mp3" type="audio/mpeg" length="3712173" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-21_042737.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:51</itunes:duration>
+      <itunes:summary>おはようございます。8月21日のワールドロボットニュースです。今日は、学術界の最高峰で認められた最新の研究成果や、急速に拡大する中国市場の最新データ、そして日本の老舗メーカーとスタートアップの強力なタッグについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-20 04:22:54</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-20_042254.mp3</link>
