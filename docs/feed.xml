@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 21 Aug 2026 04:30:30 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 04:25:03 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-22 04:22:21</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-22_042221.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-22_042221.mp3</guid>
+      <pubDate>Sat, 22 Aug 2026 04:25:03 +0900</pubDate>
+      <description>おはようございます。8月22日のワールドロボットニュースです。今日は、北京で開催中の世界ロボット大会で示された驚きの将来予測や、日本から世界へ挑む新たなフィジカルAIの挑戦についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-22_042221.mp3" type="audio/mpeg" length="3141933" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-22_042221.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:16</itunes:duration>
+      <itunes:summary>おはようございます。8月22日のワールドロボットニュースです。今日は、北京で開催中の世界ロボット大会で示された驚きの将来予測や、日本から世界へ挑む新たなフィジカルAIの挑戦についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-21 04:27:37</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-21_042737.mp3</link>
