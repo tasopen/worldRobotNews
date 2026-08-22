@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 22 Aug 2026 04:25:03 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 04:22:35 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-23 04:19:56</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-23_041956.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-23_041956.mp3</guid>
+      <pubDate>Sun, 23 Aug 2026 04:22:35 +0900</pubDate>
+      <description>おはようございます。8月23日のワールドロボットニュースです。今日は、中国が世界のヒューマノイド製造の九十七パーセントを占めるという驚きの統計や、大手メーカーが打ち出したオープンソース化の波についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-23_041956.mp3" type="audio/mpeg" length="3555117" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-23_041956.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:42</itunes:duration>
+      <itunes:summary>おはようございます。8月23日のワールドロボットニュースです。今日は、中国が世界のヒューマノイド製造の九十七パーセントを占めるという驚きの統計や、大手メーカーが打ち出したオープンソース化の波についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-22 04:22:21</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-22_042221.mp3</link>
