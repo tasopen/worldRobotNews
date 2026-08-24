@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 24 Aug 2026 04:24:16 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 04:28:49 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-25 04:25:15</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-25_042515.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-25_042515.mp3</guid>
+      <pubDate>Tue, 25 Aug 2026 04:28:49 +0900</pubDate>
+      <description>おはようございます。8月25日のワールドロボットニュースです。本日は、北京で開催中のロボット大会で次々と塗り替えられる世界記録や、九億ドルを超える巨額の資金調達など、フィジカルAI業界の加速する進化をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-25_042515.mp3" type="audio/mpeg" length="5018157" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-25_042515.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:13</itunes:duration>
+      <itunes:summary>おはようございます。8月25日のワールドロボットニュースです。本日は、北京で開催中のロボット大会で次々と塗り替えられる世界記録や、九億ドルを超える巨額の資金調達など、フィジカルAI業界の加速する進化をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-24 04:19:25</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-24_041925.mp3</link>
