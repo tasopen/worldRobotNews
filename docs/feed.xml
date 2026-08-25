@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 25 Aug 2026 04:28:49 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 04:31:43 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-26 04:27:52</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-26_042752.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-26_042752.mp3</guid>
+      <pubDate>Wed, 26 Aug 2026 04:31:43 +0900</pubDate>
+      <description>おはようございます。8月26日のワールドロボットニュースです。本日は、テスラを超える評価を受ける新たな勢力の台頭や、日本企業による海外スタートアップへの戦略的投資、そして現場への実装を加速させるための教育や安全性検証の最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-26_042752.mp3" type="audio/mpeg" length="5023917" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-26_042752.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:13</itunes:duration>
+      <itunes:summary>おはようございます。8月26日のワールドロボットニュースです。本日は、テスラを超える評価を受ける新たな勢力の台頭や、日本企業による海外スタートアップへの戦略的投資、そして現場への実装を加速させるための教育や安全性検証の最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-25 04:25:15</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-25_042515.mp3</link>
