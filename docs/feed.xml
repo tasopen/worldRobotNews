@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 26 Aug 2026 04:31:43 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 06:38:33 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-27 06:35:10</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-27_063510.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-27_063510.mp3</guid>
+      <pubDate>Thu, 27 Aug 2026 06:38:33 +0900</pubDate>
+      <description>おはようございます。8月27日のワールドロボットニュースです。本日は、日本国内で本格始動するヒューマノイドの大規模データ拠点や、フィジカルAIの社会実装を支える専用保険の登場など、最新の動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-27_063510.mp3" type="audio/mpeg" length="4167597" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-27_063510.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:20</itunes:duration>
+      <itunes:summary>おはようございます。8月27日のワールドロボットニュースです。本日は、日本国内で本格始動するヒューマノイドの大規模データ拠点や、フィジカルAIの社会実装を支える専用保険の登場など、最新の動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-26 04:27:52</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-26_042752.mp3</link>
