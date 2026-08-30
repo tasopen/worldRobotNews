@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 30 Aug 2026 06:33:20 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 06:55:00 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-08-31 06:49:51</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-31_064951.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-31_064951.mp3</guid>
+      <pubDate>Mon, 31 Aug 2026 06:55:00 +0900</pubDate>
+      <description>おはようございます。8月31日のワールドロボットニュースです。本日は、国内最大級の人型ロボットデータ工場がいよいよ本格稼働した話題や、日本の老舗メーカーが挑むロボット部品市場の最前線、そして次世代の専門人材を育成する教育現場の最新動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-31_064951.mp3" type="audio/mpeg" length="4207917" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-31_064951.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:22</itunes:duration>
+      <itunes:summary>おはようございます。8月31日のワールドロボットニュースです。本日は、国内最大級の人型ロボットデータ工場がいよいよ本格稼働した話題や、日本の老舗メーカーが挑むロボット部品市場の最前線、そして次世代の専門人材を育成する教育現場の最新動向についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-30 06:30:01</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-30_063001.mp3</link>
