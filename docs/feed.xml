@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 31 Aug 2026 06:55:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 08:10:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-01 08:06:20</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-01_080620.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-01_080620.mp3</guid>
+      <pubDate>Tue, 01 Sep 2026 08:10:19 +0900</pubDate>
+      <description>おはようございます。9月1日のワールドロボットニュースです。本日は、ヨーロッパ初となる人型ロボットの量産拠点が稼働したニュースや、人間の複雑な動きを忠実に再現する最新の遠隔操作技術、そして大阪の地下鉄で始まった人型ロボットによる接客実証実験についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-01_080620.mp3" type="audio/mpeg" length="5311917" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-01_080620.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:31</itunes:duration>
+      <itunes:summary>おはようございます。9月1日のワールドロボットニュースです。本日は、ヨーロッパ初となる人型ロボットの量産拠点が稼働したニュースや、人間の複雑な動きを忠実に再現する最新の遠隔操作技術、そして大阪の地下鉄で始まった人型ロボットによる接客実証実験についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-31 06:49:51</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-31_064951.mp3</link>
