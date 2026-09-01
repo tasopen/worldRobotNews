@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 01 Sep 2026 08:10:19 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 06:36:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-02 06:33:23</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-02_063323.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-02_063323.mp3</guid>
+      <pubDate>Wed, 02 Sep 2026 06:36:31 +0900</pubDate>
+      <description>おはようございます。9月2日のワールドロボットニュースです。本日は、フィジカルAIの視覚と制御を担う注目企業の香港上場や、サウジアラビアで開催される人型ロボットによる格闘技イベントの話題をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-02_063323.mp3" type="audio/mpeg" length="3660333" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-02_063323.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:48</itunes:duration>
+      <itunes:summary>おはようございます。9月2日のワールドロボットニュースです。本日は、フィジカルAIの視覚と制御を担う注目企業の香港上場や、サウジアラビアで開催される人型ロボットによる格闘技イベントの話題をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-01 08:06:20</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-01_080620.mp3</link>
