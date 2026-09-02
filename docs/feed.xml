@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 02 Sep 2026 06:36:31 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 06:34:52 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-03 06:31:41</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-03_063141.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-03_063141.mp3</guid>
+      <pubDate>Thu, 03 Sep 2026 06:34:52 +0900</pubDate>
+      <description>おはようございます。9月3日のワールドロボットニュースです。本日は、世界で二千万ダウンロードを突破した北京（ぺきん）発のロボットデータセットや、千葉県（ちばけん）で稼働した大規模な学習施設、そして人型ロボットによるＰＫ（ぴーけー）戦大会の話題をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-03_063141.mp3" type="audio/mpeg" length="3570093" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-03_063141.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:43</itunes:duration>
+      <itunes:summary>おはようございます。9月3日のワールドロボットニュースです。本日は、世界で二千万ダウンロードを突破した北京（ぺきん）発のロボットデータセットや、千葉県（ちばけん）で稼働した大規模な学習施設、そして人型ロボットによるＰＫ（ぴーけー）戦大会の話題をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-02 06:33:23</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-02_063323.mp3</link>
