@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 03 Sep 2026 06:34:52 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 06:38:14 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-04 06:34:28</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-04_063428.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-04_063428.mp3</guid>
+      <pubDate>Fri, 04 Sep 2026 06:38:14 +0900</pubDate>
+      <description>おはようございます。9月4日のワールドロボットニュースです。本日は、OpenAI（おーぷんえーあい）がついに人型ロボットの開発を認めたという驚きのニュースや、三菱自動車と連携した国産人型ロボットの量産計画についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-04_063428.mp3" type="audio/mpeg" length="4545837" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-04_063428.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:44</itunes:duration>
+      <itunes:summary>おはようございます。9月4日のワールドロボットニュースです。本日は、OpenAI（おーぷんえーあい）がついに人型ロボットの開発を認めたという驚きのニュースや、三菱自動車と連携した国産人型ロボットの量産計画についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-03 06:31:41</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-03_063141.mp3</link>
