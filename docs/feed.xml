@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 05 Sep 2026 06:14:12 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 05:58:21 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-06 05:55:00</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-06_055500.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-06_055500.mp3</guid>
+      <pubDate>Sun, 06 Sep 2026 05:58:21 +0900</pubDate>
+      <description>おはようございます。9月6日のワールドロボットニュースです。本日は、人型ロボットの制御技術が迎えた新たな転換点や、中国メーカーによる欧州市場への本格参入の動き、そして大規模な産業投資のニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-06_055500.mp3" type="audio/mpeg" length="4321197" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-06_055500.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:30</itunes:duration>
+      <itunes:summary>おはようございます。9月6日のワールドロボットニュースです。本日は、人型ロボットの制御技術が迎えた新たな転換点や、中国メーカーによる欧州市場への本格参入の動き、そして大規模な産業投資のニュースをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-05 06:11:39</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-05_061139.mp3</link>
