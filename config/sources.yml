@@ -25,7 +25,7 @@ rss_feeds:
   language: en
   weight: 1.3
 - name: Robotics & Automation News
-  url: https://roboticsandautomationnews.com/feed/atom/
+  url: https://roboticsandautomationnews.com/feed/
   language: en
   weight: 1.2
 - name: Google News Humanoid Robot
@@ -73,7 +73,7 @@ rss_feeds:
   language: en
   weight: 1.2
 - name: 36氪 (36Kr)
-  url: https://36kr.com/feed-newsflash`,
+  url: https://36kr.com/feed
   language: zh
   weight: 1.2
 - name: 量子位 (QbitAI)
