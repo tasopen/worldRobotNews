@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 06 Sep 2026 05:58:21 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 06:09:39 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-07 06:01:39</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-07_060139.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-07_060139.mp3</guid>
+      <pubDate>Mon, 07 Sep 2026 06:09:39 +0900</pubDate>
+      <description>おはようございます。9月7日のワールドロボットニュースです。本日は、国内最大級のロボットデータ収集拠点が直面する新たな課題や、実務能力を競う国際大会の始動、そして家庭用ロボットの普及に向けた最新の展望をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-07_060139.mp3" type="audio/mpeg" length="2837037" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-07_060139.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>02:57</itunes:duration>
+      <itunes:summary>おはようございます。9月7日のワールドロボットニュースです。本日は、国内最大級のロボットデータ収集拠点が直面する新たな課題や、実務能力を競う国際大会の始動、そして家庭用ロボットの普及に向けた最新の展望をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-06 05:55:00</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-06_055500.mp3</link>
