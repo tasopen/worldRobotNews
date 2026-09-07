@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 07 Sep 2026 06:09:39 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 06:56:44 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-08 06:53:26</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-08_065326.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-08_065326.mp3</guid>
+      <pubDate>Tue, 08 Sep 2026 06:56:44 +0900</pubDate>
+      <description>おはようございます。9月8日のワールドロボットニュースです。本日は、サービスロボット大手による国際的なアワード受賞のニュースや、フィジカルAI企業の厳しい財務実態、そして中国で進むロボットの軍事転用の動きについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-08_065326.mp3" type="audio/mpeg" length="3846573" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-08_065326.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:00</itunes:duration>
+      <itunes:summary>おはようございます。9月8日のワールドロボットニュースです。本日は、サービスロボット大手による国際的なアワード受賞のニュースや、フィジカルAI企業の厳しい財務実態、そして中国で進むロボットの軍事転用の動きについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-07 06:01:39</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-07_060139.mp3</link>
