@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 08 Sep 2026 06:56:44 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 06:46:05 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-09 06:42:53</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-09_064253.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-09_064253.mp3</guid>
+      <pubDate>Wed, 09 Sep 2026 06:46:05 +0900</pubDate>
+      <description>おはようございます。9月9日のワールドロボットニュースです。本日は、人型ロボット専用の救急車というユニークな新サービスや、物流大手ダイフクが描く半導体工場の未来、そして都市サービスへ進出する最新のフィジカルAI事情をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-09_064253.mp3" type="audio/mpeg" length="3854253" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-09_064253.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:00</itunes:duration>
+      <itunes:summary>おはようございます。9月9日のワールドロボットニュースです。本日は、人型ロボット専用の救急車というユニークな新サービスや、物流大手ダイフクが描く半導体工場の未来、そして都市サービスへ進出する最新のフィジカルAI事情をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-08 06:53:26</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-08_065326.mp3</link>
