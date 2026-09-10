@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 10 Sep 2026 06:33:18 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 06:26:35 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-11 06:21:22</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-11_062122.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-11_062122.mp3</guid>
+      <pubDate>Fri, 11 Sep 2026 06:26:35 +0900</pubDate>
+      <description>おはようございます。9月11日のワールドロボットニュースです。本日は、フィジカルAIが工場への大量導入フェーズに入ったという最新動向や、ロボットの普及を支える新たな職業の誕生、そして各地で激化する産業誘致の動きについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-11_062122.mp3" type="audio/mpeg" length="4131117" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-11_062122.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:18</itunes:duration>
+      <itunes:summary>おはようございます。9月11日のワールドロボットニュースです。本日は、フィジカルAIが工場への大量導入フェーズに入ったという最新動向や、ロボットの普及を支える新たな職業の誕生、そして各地で激化する産業誘致の動きについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-10 06:29:22</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-10_062922.mp3</link>
