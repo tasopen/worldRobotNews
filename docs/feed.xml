@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 11 Sep 2026 06:26:35 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 06:35:20 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-12 06:32:16</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-12_063216.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-12_063216.mp3</guid>
+      <pubDate>Sat, 12 Sep 2026 06:35:20 +0900</pubDate>
+      <description>おはようございます。9月12日のワールドロボットニュースです。本日は、Unitree（ユニツリー）による革新的な基盤モデルのオープンソース化や、世界初となるロボット専用SIM（しむ）カードの誕生、そして家庭用フィジカルAIの市場動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-12_063216.mp3" type="audio/mpeg" length="3332397" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-12_063216.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:28</itunes:duration>
+      <itunes:summary>おはようございます。9月12日のワールドロボットニュースです。本日は、Unitree（ユニツリー）による革新的な基盤モデルのオープンソース化や、世界初となるロボット専用SIM（しむ）カードの誕生、そして家庭用フィジカルAIの市場動向についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-11 06:21:22</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-11_062122.mp3</link>
