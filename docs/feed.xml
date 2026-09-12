@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 12 Sep 2026 06:35:20 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 06:12:18 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-13 06:09:37</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-13_060937.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-13_060937.mp3</guid>
+      <pubDate>Sun, 13 Sep 2026 06:12:18 +0900</pubDate>
+      <description>おはようございます。9月13日のワールドロボットニュースです。本日は、人型ロボット開発における最大の難所と言われる「手」の進化や、中国の国際貿易フェアで披露された最新のフィジカルAI、そして業界のリーダーたちが語る実用化への課題についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-13_060937.mp3" type="audio/mpeg" length="3560877" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-13_060937.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:42</itunes:duration>
+      <itunes:summary>おはようございます。9月13日のワールドロボットニュースです。本日は、人型ロボット開発における最大の難所と言われる「手」の進化や、中国の国際貿易フェアで披露された最新のフィジカルAI、そして業界のリーダーたちが語る実用化への課題についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-12 06:32:16</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-12_063216.mp3</link>
