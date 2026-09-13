@@ -73,7 +73,7 @@ rss_feeds:
   language: en
   weight: 1.2
 - name: 36氪 (36Kr)
-  url: https://36kr.com/feed
+  url: https://rsshub.app/36kr/news/latest
   language: zh
   weight: 1.2
 - name: 量子位 (QbitAI)
