@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 14 Sep 2026 06:17:29 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 07:18:36 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-15 07:15:21</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-15_071521.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-15_071521.mp3</guid>
+      <pubDate>Tue, 15 Sep 2026 07:18:36 +0900</pubDate>
+      <description>おはようございます。9月15日のワールドロボットニュースです。本日は、日本の変形ロボット「勇者（ゆうしゃ）ファイバリオン」の公開や、フィジカルAI業界の投資環境の激変、そしてアパレル工場での実用化の最前線についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-15_071521.mp3" type="audio/mpeg" length="3621933" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-15_071521.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:46</itunes:duration>
+      <itunes:summary>おはようございます。9月15日のワールドロボットニュースです。本日は、日本の変形ロボット「勇者（ゆうしゃ）ファイバリオン」の公開や、フィジカルAI業界の投資環境の激変、そしてアパレル工場での実用化の最前線についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-14 06:15:00</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-14_061500.mp3</link>
