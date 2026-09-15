@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 15 Sep 2026 07:18:36 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 06:58:08 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-16 06:54:46</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-16_065446.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-16_065446.mp3</guid>
+      <pubDate>Wed, 16 Sep 2026 06:58:08 +0900</pubDate>
+      <description>おはようございます。9月16日のワールドロボットニュースです。本日は、アメリカでの人型ロボットの巨額受注や、日本初の「ロボット専用救急車」の登場など、実用化に向けたインフラ整備のニュースを中心にお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-16_065446.mp3" type="audio/mpeg" length="4590765" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-16_065446.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:46</itunes:duration>
+      <itunes:summary>おはようございます。9月16日のワールドロボットニュースです。本日は、アメリカでの人型ロボットの巨額受注や、日本初の「ロボット専用救急車」の登場など、実用化に向けたインフラ整備のニュースを中心にお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-15 07:15:21</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-15_071521.mp3</link>
