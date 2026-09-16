@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 16 Sep 2026 06:58:08 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 07:29:40 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-17 06:52:07</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-17_065207.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-17_065207.mp3</guid>
+      <pubDate>Thu, 17 Sep 2026 07:29:40 +0900</pubDate>
+      <description>おはようございます。9月17日のワールドロボットニュースです。本日は、安全柵なしで人間と共存する新型人型ロボット、Digit 5（でぃじっと・ふぁいぶ）の登場や、フィジカルAIを標的にしたサイバー攻撃の脅威、そして日本発の新型セミヒューマノイドの発表など、進化するロボット社会の光と影をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-17_065207.mp3" type="audio/mpeg" length="4924077" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-17_065207.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:07</itunes:duration>
+      <itunes:summary>おはようございます。9月17日のワールドロボットニュースです。本日は、安全柵なしで人間と共存する新型人型ロボット、Digit 5（でぃじっと・ふぁいぶ）の登場や、フィジカルAIを標的にしたサイバー攻撃の脅威、そして日本発の新型セミヒューマノイドの発表など、進化するロボット社会の光と影をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-16 06:54:46</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-16_065446.mp3</link>
