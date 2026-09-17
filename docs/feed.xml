@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 17 Sep 2026 07:29:40 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 06:57:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-18 06:53:10</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-18_065310.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-18_065310.mp3</guid>
+      <pubDate>Fri, 18 Sep 2026 06:57:19 +0900</pubDate>
+      <description>おはようございます。9月18日のワールドロボットニュースです。本日は、日本発の「歩く電気自動車」を目指すスタートアップによる三十億円の資金調達や、アメリカのＡｇｉｌｉｔｙ　Ｒｏｂｏｔｉｃｓ（あじりてぃ・ろぼてぃくす）の上場観測、そして天井を走る家事ロボットなど、常識を覆す最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-18_065310.mp3" type="audio/mpeg" length="5543085" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-18_065310.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:46</itunes:duration>
+      <itunes:summary>おはようございます。9月18日のワールドロボットニュースです。本日は、日本発の「歩く電気自動車」を目指すスタートアップによる三十億円の資金調達や、アメリカのＡｇｉｌｉｔｙ　Ｒｏｂｏｔｉｃｓ（あじりてぃ・ろぼてぃくす）の上場観測、そして天井を走る家事ロボットなど、常識を覆す最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-17 06:52:07</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-17_065207.mp3</link>
