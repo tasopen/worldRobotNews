@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 21 Sep 2026 06:12:31 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 07:27:56 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-22 07:24:50</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-22_072450.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-22_072450.mp3</guid>
+      <pubDate>Tue, 22 Sep 2026 07:27:56 +0900</pubDate>
+      <description>おはようございます。9月22日のワールドロボットニュースです。本日は、フィジカルAIのタスクを7倍に加速させる新インフラのオープンソース化や、テスラの量産を支えるサプライチェーンの動向、そして活況な投資とは裏腹な販売台数の現実などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-22_072450.mp3" type="audio/mpeg" length="4217133" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-22_072450.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:23</itunes:duration>
+      <itunes:summary>おはようございます。9月22日のワールドロボットニュースです。本日は、フィジカルAIのタスクを7倍に加速させる新インフラのオープンソース化や、テスラの量産を支えるサプライチェーンの動向、そして活況な投資とは裏腹な販売台数の現実などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-21 06:09:48</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-21_060948.mp3</link>
