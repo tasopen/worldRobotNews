@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 24 Sep 2026 07:04:56 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 06:58:35 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-25 06:56:27</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-25_065627.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-25_065627.mp3</guid>
+      <pubDate>Fri, 25 Sep 2026 06:58:35 +0900</pubDate>
+      <description>おはようございます。9月25日のワールドロボットニュースです。本日は、音声で自在に動く搬送ロボットの実演や、日本の現場に最適化された新型セミヒューマノイドの発表など、国内の実用化に向けた最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-25_065627.mp3" type="audio/mpeg" length="2543277" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-25_065627.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>02:38</itunes:duration>
+      <itunes:summary>おはようございます。9月25日のワールドロボットニュースです。本日は、音声で自在に動く搬送ロボットの実演や、日本の現場に最適化された新型セミヒューマノイドの発表など、国内の実用化に向けた最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-24 06:58:57</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-24_065857.mp3</link>
