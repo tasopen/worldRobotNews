@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 25 Sep 2026 06:58:35 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 07:00:30 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-26 06:57:20</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-26_065720.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-26_065720.mp3</guid>
+      <pubDate>Sat, 26 Sep 2026 07:00:30 +0900</pubDate>
+      <description>おはようございます。9月26日のワールドロボットニュースです。本日は、上海の技能五輪で披露された十九台のロボットによる圧巻のダンスパフォーマンスや、家庭用ロボットの実用化を支える膨大なデータ収集の舞台裏など、最新のトピックスをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-26_065720.mp3" type="audio/mpeg" length="3854253" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-26_065720.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:00</itunes:duration>
+      <itunes:summary>おはようございます。9月26日のワールドロボットニュースです。本日は、上海の技能五輪で披露された十九台のロボットによる圧巻のダンスパフォーマンスや、家庭用ロボットの実用化を支える膨大なデータ収集の舞台裏など、最新のトピックスをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-25 06:56:27</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-25_065627.mp3</link>
