@@ -92,6 +92,14 @@ rss_feeds:
   url: https://xtech.nikkei.com/rss/index.rdf
   language: ja
   weight: 1.2
+- name: Roboteer (ロボティア)
+  url: https://roboteer-tokyo.com/feed
+  language: ja
+  weight: 1.2
+- name: Impress PC Watch - Robotics Category
+  url: https://pc.watch.impress.co.jp/data/rss/1.0/pcw/feed.rdf
+  language: ja
+  weight: 1.1
 selection:
   max_articles: 7
   hours_lookback: 24

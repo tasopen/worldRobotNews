@@ -14,7 +14,546 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 08 Aug 2026 13:13:15 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 07:00:30 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-26 06:57:20</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-26_065720.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-26_065720.mp3</guid>
+      <pubDate>Sat, 26 Sep 2026 07:00:30 +0900</pubDate>
+      <description>おはようございます。9月26日のワールドロボットニュースです。本日は、上海の技能五輪で披露された十九台のロボットによる圧巻のダンスパフォーマンスや、家庭用ロボットの実用化を支える膨大なデータ収集の舞台裏など、最新のトピックスをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-26_065720.mp3" type="audio/mpeg" length="3854253" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-26_065720.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:00</itunes:duration>
+      <itunes:summary>おはようございます。9月26日のワールドロボットニュースです。本日は、上海の技能五輪で披露された十九台のロボットによる圧巻のダンスパフォーマンスや、家庭用ロボットの実用化を支える膨大なデータ収集の舞台裏など、最新のトピックスをお届けします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-25 06:56:27</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-25_065627.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-25_065627.mp3</guid>
+      <pubDate>Fri, 25 Sep 2026 06:58:35 +0900</pubDate>
+      <description>おはようございます。9月25日のワールドロボットニュースです。本日は、音声で自在に動く搬送ロボットの実演や、日本の現場に最適化された新型セミヒューマノイドの発表など、国内の実用化に向けた最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-25_065627.mp3" type="audio/mpeg" length="2543277" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-25_065627.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>02:38</itunes:duration>
+      <itunes:summary>おはようございます。9月25日のワールドロボットニュースです。本日は、音声で自在に動く搬送ロボットの実演や、日本の現場に最適化された新型セミヒューマノイドの発表など、国内の実用化に向けた最新動向をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-24 06:58:57</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-24_065857.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-24_065857.mp3</guid>
+      <pubDate>Thu, 24 Sep 2026 07:04:56 +0900</pubDate>
+      <description>おはようございます。9月24日のワールドロボットニュースです。本日は、北京で進むフィジカルAI専用の巨大訓練センターのアップグレードや、中国のサプライヤーによる人型ロボット企業との大規模契約など、実用化に向けたインフラ整備のニュースを中心にお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-24_065857.mp3" type="audio/mpeg" length="5241645" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-24_065857.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:27</itunes:duration>
+      <itunes:summary>おはようございます。9月24日のワールドロボットニュースです。本日は、北京で進むフィジカルAI専用の巨大訓練センターのアップグレードや、中国のサプライヤーによる人型ロボット企業との大規模契約など、実用化に向けたインフラ整備のニュースを中心にお届けします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-23 06:46:15</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-23_064615.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-23_064615.mp3</guid>
+      <pubDate>Wed, 23 Sep 2026 06:50:15 +0900</pubDate>
+      <description>おはようございます。9月23日のワールドロボットニュースです。本日は、日本政府による人型ロボットの防衛活用研究の開始や、中国で進むハードウェアの劇的な低価格化など、最新のトピックスをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-23_064615.mp3" type="audio/mpeg" length="5185197" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-23_064615.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:24</itunes:duration>
+      <itunes:summary>おはようございます。9月23日のワールドロボットニュースです。本日は、日本政府による人型ロボットの防衛活用研究の開始や、中国で進むハードウェアの劇的な低価格化など、最新のトピックスをお届けします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-22 07:24:50</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-22_072450.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-22_072450.mp3</guid>
+      <pubDate>Tue, 22 Sep 2026 07:27:56 +0900</pubDate>
+      <description>おはようございます。9月22日のワールドロボットニュースです。本日は、フィジカルAIのタスクを7倍に加速させる新インフラのオープンソース化や、テスラの量産を支えるサプライチェーンの動向、そして活況な投資とは裏腹な販売台数の現実などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-22_072450.mp3" type="audio/mpeg" length="4217133" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-22_072450.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:23</itunes:duration>
+      <itunes:summary>おはようございます。9月22日のワールドロボットニュースです。本日は、フィジカルAIのタスクを7倍に加速させる新インフラのオープンソース化や、テスラの量産を支えるサプライチェーンの動向、そして活況な投資とは裏腹な販売台数の現実などをお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-21 06:09:48</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-21_060948.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-21_060948.mp3</guid>
+      <pubDate>Mon, 21 Sep 2026 06:12:31 +0900</pubDate>
+      <description>おはようございます。9月21日のワールドロボットニュースです。本日は、世界初となるフィジカルAIのテーマパーク開園の話題や、人型にこだわらない「モジュール型」ロボットの台頭など、最新のトピックスをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-21_060948.mp3" type="audio/mpeg" length="3523245" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-21_060948.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:40</itunes:duration>
+      <itunes:summary>おはようございます。9月21日のワールドロボットニュースです。本日は、世界初となるフィジカルAIのテーマパーク開園の話題や、人型にこだわらない「モジュール型」ロボットの台頭など、最新のトピックスをお届けします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-20 06:14:32</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-20_061432.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-20_061432.mp3</guid>
+      <pubDate>Sun, 20 Sep 2026 06:18:24 +0900</pubDate>
+      <description>おはようございます。9月20日のワールドロボットニュースです。本日は「AIの母」李飛飛（り・ふぇいふぇい）氏が率いる新会社の世界モデルがフィジカルAIに与える衝撃や、二十万円を切る超低価格な人型ロボットの登場など、最新のトピックスをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-20_061432.mp3" type="audio/mpeg" length="5149485" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-20_061432.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:21</itunes:duration>
+      <itunes:summary>おはようございます。9月20日のワールドロボットニュースです。本日は「AIの母」李飛飛（り・ふぇいふぇい）氏が率いる新会社の世界モデルがフィジカルAIに与える衝撃や、二十万円を切る超低価格な人型ロボットの登場など、最新のトピックスをお届けします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-19 06:24:53</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-19_062453.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-19_062453.mp3</guid>
+      <pubDate>Sat, 19 Sep 2026 06:28:26 +0900</pubDate>
+      <description>おはようございます。9月19日のワールドロボットニュースです。本日は、日本の自動車製造を革新する人型ロボット基盤モデルの開発や、中国で始まった人型ロボットの驚異的な量産スピードなど、最新のトピックスをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-19_062453.mp3" type="audio/mpeg" length="4737837" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-19_062453.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:56</itunes:duration>
+      <itunes:summary>おはようございます。9月19日のワールドロボットニュースです。本日は、日本の自動車製造を革新する人型ロボット基盤モデルの開発や、中国で始まった人型ロボットの驚異的な量産スピードなど、最新のトピックスをお届けします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-18 06:53:10</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-18_065310.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-18_065310.mp3</guid>
+      <pubDate>Fri, 18 Sep 2026 06:57:19 +0900</pubDate>
+      <description>おはようございます。9月18日のワールドロボットニュースです。本日は、日本発の「歩く電気自動車」を目指すスタートアップによる三十億円の資金調達や、アメリカのＡｇｉｌｉｔｙ　Ｒｏｂｏｔｉｃｓ（あじりてぃ・ろぼてぃくす）の上場観測、そして天井を走る家事ロボットなど、常識を覆す最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-18_065310.mp3" type="audio/mpeg" length="5543085" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-18_065310.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:46</itunes:duration>
+      <itunes:summary>おはようございます。9月18日のワールドロボットニュースです。本日は、日本発の「歩く電気自動車」を目指すスタートアップによる三十億円の資金調達や、アメリカのＡｇｉｌｉｔｙ　Ｒｏｂｏｔｉｃｓ（あじりてぃ・ろぼてぃくす）の上場観測、そして天井を走る家事ロボットなど、常識を覆す最新ニュースをお届けします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-17 06:52:07</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-17_065207.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-17_065207.mp3</guid>
+      <pubDate>Thu, 17 Sep 2026 07:29:40 +0900</pubDate>
+      <description>おはようございます。9月17日のワールドロボットニュースです。本日は、安全柵なしで人間と共存する新型人型ロボット、Digit 5（でぃじっと・ふぁいぶ）の登場や、フィジカルAIを標的にしたサイバー攻撃の脅威、そして日本発の新型セミヒューマノイドの発表など、進化するロボット社会の光と影をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-17_065207.mp3" type="audio/mpeg" length="4924077" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-17_065207.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:07</itunes:duration>
+      <itunes:summary>おはようございます。9月17日のワールドロボットニュースです。本日は、安全柵なしで人間と共存する新型人型ロボット、Digit 5（でぃじっと・ふぁいぶ）の登場や、フィジカルAIを標的にしたサイバー攻撃の脅威、そして日本発の新型セミヒューマノイドの発表など、進化するロボット社会の光と影をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-16 06:54:46</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-16_065446.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-16_065446.mp3</guid>
+      <pubDate>Wed, 16 Sep 2026 06:58:08 +0900</pubDate>
+      <description>おはようございます。9月16日のワールドロボットニュースです。本日は、アメリカでの人型ロボットの巨額受注や、日本初の「ロボット専用救急車」の登場など、実用化に向けたインフラ整備のニュースを中心にお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-16_065446.mp3" type="audio/mpeg" length="4590765" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-16_065446.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:46</itunes:duration>
+      <itunes:summary>おはようございます。9月16日のワールドロボットニュースです。本日は、アメリカでの人型ロボットの巨額受注や、日本初の「ロボット専用救急車」の登場など、実用化に向けたインフラ整備のニュースを中心にお届けします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-15 07:15:21</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-15_071521.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-15_071521.mp3</guid>
+      <pubDate>Tue, 15 Sep 2026 07:18:36 +0900</pubDate>
+      <description>おはようございます。9月15日のワールドロボットニュースです。本日は、日本の変形ロボット「勇者（ゆうしゃ）ファイバリオン」の公開や、フィジカルAI業界の投資環境の激変、そしてアパレル工場での実用化の最前線についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-15_071521.mp3" type="audio/mpeg" length="3621933" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-15_071521.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:46</itunes:duration>
+      <itunes:summary>おはようございます。9月15日のワールドロボットニュースです。本日は、日本の変形ロボット「勇者（ゆうしゃ）ファイバリオン」の公開や、フィジカルAI業界の投資環境の激変、そしてアパレル工場での実用化の最前線についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-14 06:15:00</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-14_061500.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-14_061500.mp3</guid>
+      <pubDate>Mon, 14 Sep 2026 06:17:29 +0900</pubDate>
+      <description>おはようございます。9月14日のワールドロボットニュースです。本日は、フィジカルAIへの投資が家庭用ロボットへ集中している現状や、知能の進化を支えるスケーリング則の議論、そして日本企業が持つ知財戦略の強みについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-14_061500.mp3" type="audio/mpeg" length="3148077" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-14_061500.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:16</itunes:duration>
+      <itunes:summary>おはようございます。9月14日のワールドロボットニュースです。本日は、フィジカルAIへの投資が家庭用ロボットへ集中している現状や、知能の進化を支えるスケーリング則の議論、そして日本企業が持つ知財戦略の強みについてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-13 06:09:37</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-13_060937.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-13_060937.mp3</guid>
+      <pubDate>Sun, 13 Sep 2026 06:12:18 +0900</pubDate>
+      <description>おはようございます。9月13日のワールドロボットニュースです。本日は、人型ロボット開発における最大の難所と言われる「手」の進化や、中国の国際貿易フェアで披露された最新のフィジカルAI、そして業界のリーダーたちが語る実用化への課題についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-13_060937.mp3" type="audio/mpeg" length="3560877" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-13_060937.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:42</itunes:duration>
+      <itunes:summary>おはようございます。9月13日のワールドロボットニュースです。本日は、人型ロボット開発における最大の難所と言われる「手」の進化や、中国の国際貿易フェアで披露された最新のフィジカルAI、そして業界のリーダーたちが語る実用化への課題についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-12 06:32:16</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-12_063216.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-12_063216.mp3</guid>
+      <pubDate>Sat, 12 Sep 2026 06:35:20 +0900</pubDate>
+      <description>おはようございます。9月12日のワールドロボットニュースです。本日は、Unitree（ユニツリー）による革新的な基盤モデルのオープンソース化や、世界初となるロボット専用SIM（しむ）カードの誕生、そして家庭用フィジカルAIの市場動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-12_063216.mp3" type="audio/mpeg" length="3332397" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-12_063216.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:28</itunes:duration>
+      <itunes:summary>おはようございます。9月12日のワールドロボットニュースです。本日は、Unitree（ユニツリー）による革新的な基盤モデルのオープンソース化や、世界初となるロボット専用SIM（しむ）カードの誕生、そして家庭用フィジカルAIの市場動向についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-11 06:21:22</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-11_062122.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-11_062122.mp3</guid>
+      <pubDate>Fri, 11 Sep 2026 06:26:35 +0900</pubDate>
+      <description>おはようございます。9月11日のワールドロボットニュースです。本日は、フィジカルAIが工場への大量導入フェーズに入ったという最新動向や、ロボットの普及を支える新たな職業の誕生、そして各地で激化する産業誘致の動きについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-11_062122.mp3" type="audio/mpeg" length="4131117" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-11_062122.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:18</itunes:duration>
+      <itunes:summary>おはようございます。9月11日のワールドロボットニュースです。本日は、フィジカルAIが工場への大量導入フェーズに入ったという最新動向や、ロボットの普及を支える新たな職業の誕生、そして各地で激化する産業誘致の動きについてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-10 06:29:22</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-10_062922.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-10_062922.mp3</guid>
+      <pubDate>Thu, 10 Sep 2026 06:33:18 +0900</pubDate>
+      <description>おはようございます。9月10日のワールドロボットニュースです。本日は、人間の意図を読み取る最新の神経センシング技術や、中国のEVメーカーが人型ロボットへ注力する背景、そして物流現場でのフィジカルAI活用に向けた巨額の投資動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-10_062922.mp3" type="audio/mpeg" length="5134125" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-10_062922.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:20</itunes:duration>
+      <itunes:summary>おはようございます。9月10日のワールドロボットニュースです。本日は、人間の意図を読み取る最新の神経センシング技術や、中国のEVメーカーが人型ロボットへ注力する背景、そして物流現場でのフィジカルAI活用に向けた巨額の投資動向についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-09 06:42:53</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-09_064253.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-09_064253.mp3</guid>
+      <pubDate>Wed, 09 Sep 2026 06:46:05 +0900</pubDate>
+      <description>おはようございます。9月9日のワールドロボットニュースです。本日は、人型ロボット専用の救急車というユニークな新サービスや、物流大手ダイフクが描く半導体工場の未来、そして都市サービスへ進出する最新のフィジカルAI事情をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-09_064253.mp3" type="audio/mpeg" length="3854253" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-09_064253.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:00</itunes:duration>
+      <itunes:summary>おはようございます。9月9日のワールドロボットニュースです。本日は、人型ロボット専用の救急車というユニークな新サービスや、物流大手ダイフクが描く半導体工場の未来、そして都市サービスへ進出する最新のフィジカルAI事情をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-08 06:53:26</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-08_065326.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-08_065326.mp3</guid>
+      <pubDate>Tue, 08 Sep 2026 06:56:44 +0900</pubDate>
+      <description>おはようございます。9月8日のワールドロボットニュースです。本日は、サービスロボット大手による国際的なアワード受賞のニュースや、フィジカルAI企業の厳しい財務実態、そして中国で進むロボットの軍事転用の動きについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-08_065326.mp3" type="audio/mpeg" length="3846573" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-08_065326.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:00</itunes:duration>
+      <itunes:summary>おはようございます。9月8日のワールドロボットニュースです。本日は、サービスロボット大手による国際的なアワード受賞のニュースや、フィジカルAI企業の厳しい財務実態、そして中国で進むロボットの軍事転用の動きについてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-07 06:01:39</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-07_060139.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-07_060139.mp3</guid>
+      <pubDate>Mon, 07 Sep 2026 06:09:39 +0900</pubDate>
+      <description>おはようございます。9月7日のワールドロボットニュースです。本日は、国内最大級のロボットデータ収集拠点が直面する新たな課題や、実務能力を競う国際大会の始動、そして家庭用ロボットの普及に向けた最新の展望をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-07_060139.mp3" type="audio/mpeg" length="2837037" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-07_060139.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>02:57</itunes:duration>
+      <itunes:summary>おはようございます。9月7日のワールドロボットニュースです。本日は、国内最大級のロボットデータ収集拠点が直面する新たな課題や、実務能力を競う国際大会の始動、そして家庭用ロボットの普及に向けた最新の展望をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-06 05:55:00</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-06_055500.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-06_055500.mp3</guid>
+      <pubDate>Sun, 06 Sep 2026 05:58:21 +0900</pubDate>
+      <description>おはようございます。9月6日のワールドロボットニュースです。本日は、人型ロボットの制御技術が迎えた新たな転換点や、中国メーカーによる欧州市場への本格参入の動き、そして大規模な産業投資のニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-06_055500.mp3" type="audio/mpeg" length="4321197" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-06_055500.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:30</itunes:duration>
+      <itunes:summary>おはようございます。9月6日のワールドロボットニュースです。本日は、人型ロボットの制御技術が迎えた新たな転換点や、中国メーカーによる欧州市場への本格参入の動き、そして大規模な産業投資のニュースをお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-05 06:11:39</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-05_061139.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-05_061139.mp3</guid>
+      <pubDate>Sat, 05 Sep 2026 06:14:12 +0900</pubDate>
+      <description>おはようございます。9月5日のワールドロボットニュースです。本日は、日本のスタートアップが発表した準国産ロボットや、中国の最新展示会で見えた量産化の波、そして二〇四〇年に向けた驚異的な市場予測についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-05_061139.mp3" type="audio/mpeg" length="3193005" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-05_061139.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:19</itunes:duration>
+      <itunes:summary>おはようございます。9月5日のワールドロボットニュースです。本日は、日本のスタートアップが発表した準国産ロボットや、中国の最新展示会で見えた量産化の波、そして二〇四〇年に向けた驚異的な市場予測についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-04 06:34:28</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-04_063428.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-04_063428.mp3</guid>
+      <pubDate>Fri, 04 Sep 2026 06:38:14 +0900</pubDate>
+      <description>おはようございます。9月4日のワールドロボットニュースです。本日は、OpenAI（おーぷんえーあい）がついに人型ロボットの開発を認めたという驚きのニュースや、三菱自動車と連携した国産人型ロボットの量産計画についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-04_063428.mp3" type="audio/mpeg" length="4545837" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-04_063428.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:44</itunes:duration>
+      <itunes:summary>おはようございます。9月4日のワールドロボットニュースです。本日は、OpenAI（おーぷんえーあい）がついに人型ロボットの開発を認めたという驚きのニュースや、三菱自動車と連携した国産人型ロボットの量産計画についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-03 06:31:41</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-03_063141.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-03_063141.mp3</guid>
+      <pubDate>Thu, 03 Sep 2026 06:34:52 +0900</pubDate>
+      <description>おはようございます。9月3日のワールドロボットニュースです。本日は、世界で二千万ダウンロードを突破した北京（ぺきん）発のロボットデータセットや、千葉県（ちばけん）で稼働した大規模な学習施設、そして人型ロボットによるＰＫ（ぴーけー）戦大会の話題をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-03_063141.mp3" type="audio/mpeg" length="3570093" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-03_063141.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:43</itunes:duration>
+      <itunes:summary>おはようございます。9月3日のワールドロボットニュースです。本日は、世界で二千万ダウンロードを突破した北京（ぺきん）発のロボットデータセットや、千葉県（ちばけん）で稼働した大規模な学習施設、そして人型ロボットによるＰＫ（ぴーけー）戦大会の話題をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-02 06:33:23</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-02_063323.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-02_063323.mp3</guid>
+      <pubDate>Wed, 02 Sep 2026 06:36:31 +0900</pubDate>
+      <description>おはようございます。9月2日のワールドロボットニュースです。本日は、フィジカルAIの視覚と制御を担う注目企業の香港上場や、サウジアラビアで開催される人型ロボットによる格闘技イベントの話題をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-02_063323.mp3" type="audio/mpeg" length="3660333" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-02_063323.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:48</itunes:duration>
+      <itunes:summary>おはようございます。9月2日のワールドロボットニュースです。本日は、フィジカルAIの視覚と制御を担う注目企業の香港上場や、サウジアラビアで開催される人型ロボットによる格闘技イベントの話題をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-09-01 08:06:20</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-01_080620.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-01_080620.mp3</guid>
+      <pubDate>Tue, 01 Sep 2026 08:10:19 +0900</pubDate>
+      <description>おはようございます。9月1日のワールドロボットニュースです。本日は、ヨーロッパ初となる人型ロボットの量産拠点が稼働したニュースや、人間の複雑な動きを忠実に再現する最新の遠隔操作技術、そして大阪の地下鉄で始まった人型ロボットによる接客実証実験についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-01_080620.mp3" type="audio/mpeg" length="5311917" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-01_080620.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:31</itunes:duration>
+      <itunes:summary>おはようございます。9月1日のワールドロボットニュースです。本日は、ヨーロッパ初となる人型ロボットの量産拠点が稼働したニュースや、人間の複雑な動きを忠実に再現する最新の遠隔操作技術、そして大阪の地下鉄で始まった人型ロボットによる接客実証実験についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-31 06:49:51</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-31_064951.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-31_064951.mp3</guid>
+      <pubDate>Mon, 31 Aug 2026 06:55:00 +0900</pubDate>
+      <description>おはようございます。8月31日のワールドロボットニュースです。本日は、国内最大級の人型ロボットデータ工場がいよいよ本格稼働した話題や、日本の老舗メーカーが挑むロボット部品市場の最前線、そして次世代の専門人材を育成する教育現場の最新動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-31_064951.mp3" type="audio/mpeg" length="4207917" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-31_064951.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:22</itunes:duration>
+      <itunes:summary>おはようございます。8月31日のワールドロボットニュースです。本日は、国内最大級の人型ロボットデータ工場がいよいよ本格稼働した話題や、日本の老舗メーカーが挑むロボット部品市場の最前線、そして次世代の専門人材を育成する教育現場の最新動向についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-30 06:30:01</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-30_063001.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-30_063001.mp3</guid>
+      <pubDate>Sun, 30 Aug 2026 06:33:20 +0900</pubDate>
+      <description>おはようございます。8月30日のワールドロボットニュースです。本日は、80台の人型ロボットによる圧巻のパフォーマンスとフィジカルAIの「ChatGPT（チャットジーピーティー）モーメント」、そして時価総額10兆円規模に達したUnitree（ユニツリー）の衝撃と、急成長する市場の裏側についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-30_063001.mp3" type="audio/mpeg" length="3868077" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-30_063001.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:01</itunes:duration>
+      <itunes:summary>おはようございます。8月30日のワールドロボットニュースです。本日は、80台の人型ロボットによる圧巻のパフォーマンスとフィジカルAIの「ChatGPT（チャットジーピーティー）モーメント」、そして時価総額10兆円規模に達したUnitree（ユニツリー）の衝撃と、急成長する市場の裏側についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-29 10:58:48</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-29_105848.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-29_105848.mp3</guid>
+      <pubDate>Sat, 29 Aug 2026 11:01:57 +0900</pubDate>
+      <description>おはようございます。8月29日のワールドロボットニュースです。本日は、日本の半導体大手が北京に開設した新たな開発拠点や、人型ロボットの販売実績から見える市場の実態、そして「器用な手」を巡る技術競争の最前線についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-29_105848.mp3" type="audio/mpeg" length="4561965" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-29_105848.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:45</itunes:duration>
+      <itunes:summary>おはようございます。8月29日のワールドロボットニュースです。本日は、日本の半導体大手が北京に開設した新たな開発拠点や、人型ロボットの販売実績から見える市場の実態、そして「器用な手」を巡る技術競争の最前線についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-28 11:25:32</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-28_112532.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-28_112532.mp3</guid>
+      <pubDate>Fri, 28 Aug 2026 11:29:18 +0900</pubDate>
+      <description>おはようございます。8月28日のワールドロボットニュースです。本日は、急成長する市場に投げかけられた「バブル」への懸念や、大手家電メーカーの参入による家庭用フィジカルAIの加速など、最新の動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-28_112532.mp3" type="audio/mpeg" length="4826157" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-28_112532.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:01</itunes:duration>
+      <itunes:summary>おはようございます。8月28日のワールドロボットニュースです。本日は、急成長する市場に投げかけられた「バブル」への懸念や、大手家電メーカーの参入による家庭用フィジカルAIの加速など、最新の動向をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-27 06:35:10</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-27_063510.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-27_063510.mp3</guid>
+      <pubDate>Thu, 27 Aug 2026 06:38:33 +0900</pubDate>
+      <description>おはようございます。8月27日のワールドロボットニュースです。本日は、日本国内で本格始動するヒューマノイドの大規模データ拠点や、フィジカルAIの社会実装を支える専用保険の登場など、最新の動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-27_063510.mp3" type="audio/mpeg" length="4167597" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-27_063510.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:20</itunes:duration>
+      <itunes:summary>おはようございます。8月27日のワールドロボットニュースです。本日は、日本国内で本格始動するヒューマノイドの大規模データ拠点や、フィジカルAIの社会実装を支える専用保険の登場など、最新の動向をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-26 04:27:52</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-26_042752.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-26_042752.mp3</guid>
+      <pubDate>Wed, 26 Aug 2026 04:31:43 +0900</pubDate>
+      <description>おはようございます。8月26日のワールドロボットニュースです。本日は、テスラを超える評価を受ける新たな勢力の台頭や、日本企業による海外スタートアップへの戦略的投資、そして現場への実装を加速させるための教育や安全性検証の最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-26_042752.mp3" type="audio/mpeg" length="5023917" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-26_042752.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:13</itunes:duration>
+      <itunes:summary>おはようございます。8月26日のワールドロボットニュースです。本日は、テスラを超える評価を受ける新たな勢力の台頭や、日本企業による海外スタートアップへの戦略的投資、そして現場への実装を加速させるための教育や安全性検証の最新動向をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-25 04:25:15</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-25_042515.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-25_042515.mp3</guid>
+      <pubDate>Tue, 25 Aug 2026 04:28:49 +0900</pubDate>
+      <description>おはようございます。8月25日のワールドロボットニュースです。本日は、北京で開催中のロボット大会で次々と塗り替えられる世界記録や、九億ドルを超える巨額の資金調達など、フィジカルAI業界の加速する進化をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-25_042515.mp3" type="audio/mpeg" length="5018157" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-25_042515.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:13</itunes:duration>
+      <itunes:summary>おはようございます。8月25日のワールドロボットニュースです。本日は、北京で開催中のロボット大会で次々と塗り替えられる世界記録や、九億ドルを超える巨額の資金調達など、フィジカルAI業界の加速する進化をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-24 04:19:25</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-24_041925.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-24_041925.mp3</guid>
+      <pubDate>Mon, 24 Aug 2026 04:24:16 +0900</pubDate>
+      <description>おはようございます。8月24日のワールドロボットニュースです。本日は、北京で熱戦が繰り広げられている世界人型ロボット運動会での自律的なスポーツ対決や、ロボットが経験を積むための幼稚園という新しい教育の試みについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-24_041925.mp3" type="audio/mpeg" length="2978733" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-24_041925.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:06</itunes:duration>
+      <itunes:summary>おはようございます。8月24日のワールドロボットニュースです。本日は、北京で熱戦が繰り広げられている世界人型ロボット運動会での自律的なスポーツ対決や、ロボットが経験を積むための幼稚園という新しい教育の試みについてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-23 04:19:56</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-23_041956.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-23_041956.mp3</guid>
+      <pubDate>Sun, 23 Aug 2026 04:22:35 +0900</pubDate>
+      <description>おはようございます。8月23日のワールドロボットニュースです。今日は、中国が世界のヒューマノイド製造の九十七パーセントを占めるという驚きの統計や、大手メーカーが打ち出したオープンソース化の波についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-23_041956.mp3" type="audio/mpeg" length="3555117" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-23_041956.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:42</itunes:duration>
+      <itunes:summary>おはようございます。8月23日のワールドロボットニュースです。今日は、中国が世界のヒューマノイド製造の九十七パーセントを占めるという驚きの統計や、大手メーカーが打ち出したオープンソース化の波についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-22 04:22:21</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-22_042221.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-22_042221.mp3</guid>
+      <pubDate>Sat, 22 Aug 2026 04:25:03 +0900</pubDate>
+      <description>おはようございます。8月22日のワールドロボットニュースです。今日は、北京で開催中の世界ロボット大会で示された驚きの将来予測や、日本から世界へ挑む新たなフィジカルAIの挑戦についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-22_042221.mp3" type="audio/mpeg" length="3141933" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-22_042221.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:16</itunes:duration>
+      <itunes:summary>おはようございます。8月22日のワールドロボットニュースです。今日は、北京で開催中の世界ロボット大会で示された驚きの将来予測や、日本から世界へ挑む新たなフィジカルAIの挑戦についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-21 04:27:37</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-21_042737.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-21_042737.mp3</guid>
+      <pubDate>Fri, 21 Aug 2026 04:30:30 +0900</pubDate>
+      <description>おはようございます。8月21日のワールドロボットニュースです。今日は、学術界の最高峰で認められた最新の研究成果や、急速に拡大する中国市場の最新データ、そして日本の老舗メーカーとスタートアップの強力なタッグについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-21_042737.mp3" type="audio/mpeg" length="3712173" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-21_042737.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:51</itunes:duration>
+      <itunes:summary>おはようございます。8月21日のワールドロボットニュースです。今日は、学術界の最高峰で認められた最新の研究成果や、急速に拡大する中国市場の最新データ、そして日本の老舗メーカーとスタートアップの強力なタッグについてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-20 04:22:54</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-20_042254.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-20_042254.mp3</guid>
+      <pubDate>Thu, 20 Aug 2026 04:28:00 +0900</pubDate>
+      <description>おはようございます。8月20日のワールドロボットニュースです。本日は、市場を揺るがすUnitree（ユニツリー）の上場がもたらした波紋や、大手テック企業が放つ次世代の対話型ロボット、そして世界を驚かせたロボットによる卓球対決についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-20_042254.mp3" type="audio/mpeg" length="3904173" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-20_042254.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:03</itunes:duration>
+      <itunes:summary>おはようございます。8月20日のワールドロボットニュースです。本日は、市場を揺るがすUnitree（ユニツリー）の上場がもたらした波紋や、大手テック企業が放つ次世代の対話型ロボット、そして世界を驚かせたロボットによる卓球対決についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-19 04:25:07</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-19_042507.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-19_042507.mp3</guid>
+      <pubDate>Wed, 19 Aug 2026 04:28:00 +0900</pubDate>
+      <description>おはようございます。8月19日のワールドロボットニュースです。本日は、人型ロボットが「新卒採用」される驚きのニュースや、中国のロボット産業を支える国家プロジェクトの最新動向、そしてハードウェアの重要性を説く最新の研究レポートについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-19_042507.mp3" type="audio/mpeg" length="3998253" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-19_042507.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:09</itunes:duration>
+      <itunes:summary>おはようございます。8月19日のワールドロボットニュースです。本日は、人型ロボットが「新卒採用」される驚きのニュースや、中国のロボット産業を支える国家プロジェクトの最新動向、そしてハードウェアの重要性を説く最新の研究レポートについてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-18 04:23:45</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-18_042345.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-18_042345.mp3</guid>
+      <pubDate>Tue, 18 Aug 2026 04:27:45 +0900</pubDate>
+      <description>おはようございます。8月18日のワールドロボットニュースです。本日は、造船所で溶接に挑む人型ロボットの最前線や、家電・自動車大手の相次ぐ参入、そしてロボットがゴーカートを運転する驚きのデモンストレーションについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-18_042345.mp3" type="audio/mpeg" length="4412205" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-18_042345.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:35</itunes:duration>
+      <itunes:summary>おはようございます。8月18日のワールドロボットニュースです。本日は、造船所で溶接に挑む人型ロボットの最前線や、家電・自動車大手の相次ぐ参入、そしてロボットがゴーカートを運転する驚きのデモンストレーションについてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-17 04:17:51</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-17_041751.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-17_041751.mp3</guid>
+      <pubDate>Mon, 17 Aug 2026 04:24:52 +0900</pubDate>
+      <description>おはようございます。8月17日のワールドロボットニュースです。本日は、業界の寵児であるUnitree（ユニツリー）の上場に向けた動きや、人型ロボットが家事に挑む競技会の詳細、そしてロボットの「脳」を支える技術の最新動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-17_041751.mp3" type="audio/mpeg" length="4669485" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-17_041751.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:51</itunes:duration>
+      <itunes:summary>おはようございます。8月17日のワールドロボットニュースです。本日は、業界の寵児であるUnitree（ユニツリー）の上場に向けた動きや、人型ロボットが家事に挑む競技会の詳細、そしてロボットの「脳」を支える技術の最新動向についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-16 04:19:22</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-16_041922.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-16_041922.mp3</guid>
+      <pubDate>Sun, 16 Aug 2026 04:22:36 +0900</pubDate>
+      <description>おはようございます。8月16日のワールドロボットニュースです。本日は、二千台以上のロボットが集結する世界大会の話題や、フィジカルAIの進化を支える「データの燃料」について、そして業界に突きつけられた実用化への課題についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-16_041922.mp3" type="audio/mpeg" length="4134957" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-16_041922.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:18</itunes:duration>
+      <itunes:summary>おはようございます。8月16日のワールドロボットニュースです。本日は、二千台以上のロボットが集結する世界大会の話題や、フィジカルAIの進化を支える「データの燃料」について、そして業界に突きつけられた実用化への課題についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-15 04:44:44</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-15_044444.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-15_044444.mp3</guid>
+      <pubDate>Sat, 15 Aug 2026 04:48:23 +0900</pubDate>
+      <description>おはようございます。8月15日のワールドロボットニュースです。本日は、ソニーが特許を申請した最新のロボットハンドや、ロボットの普及を支える保険制度の議論、そして大手通信キャリアが描くフィジカルAIの未来についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-15_044444.mp3" type="audio/mpeg" length="4432557" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-15_044444.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:37</itunes:duration>
+      <itunes:summary>おはようございます。8月15日のワールドロボットニュースです。本日は、ソニーが特許を申請した最新のロボットハンドや、ロボットの普及を支える保険制度の議論、そして大手通信キャリアが描くフィジカルAIの未来についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-14 04:54:49</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-14_045449.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-14_045449.mp3</guid>
+      <pubDate>Fri, 14 Aug 2026 04:58:42 +0900</pubDate>
+      <description>おはようございます。8月14日のワールドロボットニュースです。本日は、ホンダが継承するアバターロボットの進化や、過酷な段差を克服する最新の二足歩行技術、そして中国で加速するロボット産業の集積拠点についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-14_045449.mp3" type="audio/mpeg" length="4916397" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-14_045449.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:07</itunes:duration>
+      <itunes:summary>おはようございます。8月14日のワールドロボットニュースです。本日は、ホンダが継承するアバターロボットの進化や、過酷な段差を克服する最新の二足歩行技術、そして中国で加速するロボット産業の集積拠点についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-13 04:59:36</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-13_045936.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-13_045936.mp3</guid>
+      <pubDate>Thu, 13 Aug 2026 05:03:25 +0900</pubDate>
+      <description>おはようございます。8月13日のワールドロボットニュースです。本日は、人型ロボットの量産化に向けたサプライチェーンの激変と、その進化の鍵を握る触覚技術、そしてロボット専用の通信プラットフォームの話題をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-13_045936.mp3" type="audio/mpeg" length="4430253" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-13_045936.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:36</itunes:duration>
+      <itunes:summary>おはようございます。8月13日のワールドロボットニュースです。本日は、人型ロボットの量産化に向けたサプライチェーンの激変と、その進化の鍵を握る触覚技術、そしてロボット専用の通信プラットフォームの話題をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-12 04:59:05</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-12_045905.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-12_045905.mp3</guid>
+      <pubDate>Wed, 12 Aug 2026 05:01:38 +0900</pubDate>
+      <description>おはようございます。8月12日のワールドロボットニュースです。人型ロボットが切り拓く五十六兆円の巨大市場への展望と、その進化を支える中国の国家戦略、そして核心部品メーカーへの大規模投資のニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-12_045905.mp3" type="audio/mpeg" length="2965293" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-12_045905.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:05</itunes:duration>
+      <itunes:summary>おはようございます。8月12日のワールドロボットニュースです。人型ロボットが切り拓く五十六兆円の巨大市場への展望と、その進化を支える中国の国家戦略、そして核心部品メーカーへの大規模投資のニュースをお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-11 04:52:44</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-11_045244.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-11_045244.mp3</guid>
+      <pubDate>Tue, 11 Aug 2026 05:01:13 +0900</pubDate>
+      <description>おはようございます。8月11日のワールドロボットニュースです。今日は、中国企業が人型ロボットの世界シェア九十七パーセントを占めたという衝撃的なデータや、高価なロボットの手が数ヶ月で壊れてしまうという耐久性の課題、そして日本で動き出した新たな専門組織の話題をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-11_045244.mp3" type="audio/mpeg" length="5026605" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-11_045244.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:14</itunes:duration>
+      <itunes:summary>おはようございます。8月11日のワールドロボットニュースです。今日は、中国企業が人型ロボットの世界シェア九十七パーセントを占めたという衝撃的なデータや、高価なロボットの手が数ヶ月で壊れてしまうという耐久性の課題、そして日本で動き出した新たな専門組織の話題をお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-10 04:28:50</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-10_042850.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-10_042850.mp3</guid>
+      <pubDate>Mon, 10 Aug 2026 04:32:02 +0900</pubDate>
+      <description>おはようございます。8月10日のワールドロボットニュースです。今日は、中国の人型ロボットメーカーとして初の株式上場を果たすUnitree（ユニツリー）の話題や、大手テック企業によるフィジカルAI分野への人材投入、そして日本でのロボット共生実験についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-10_042850.mp3" type="audio/mpeg" length="4301997" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-10_042850.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:28</itunes:duration>
+      <itunes:summary>おはようございます。8月10日のワールドロボットニュースです。今日は、中国の人型ロボットメーカーとして初の株式上場を果たすUnitree（ユニツリー）の話題や、大手テック企業によるフィジカルAI分野への人材投入、そして日本でのロボット共生実験についてお伝えします。</itunes:summary>
+    </item>
+    <item>
+      <title>ワールドロボットニュース 2026-08-09 04:25:30</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-09_042530.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-08-09_042530.mp3</guid>
+      <pubDate>Sun, 09 Aug 2026 04:33:23 +0900</pubDate>
+      <description>おはようございます。8月9日のワールドロボットニュースです。今日は、今年上半期だけで十一万社を超えたロボット関連企業の爆発的増加や、フィジカルAIを支える技術体系の深掘り、そして街中に登場したロボット体験拠点についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-09_042530.mp3" type="audio/mpeg" length="4955565" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-08-09_042530.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:09</itunes:duration>
+      <itunes:summary>おはようございます。8月9日のワールドロボットニュースです。今日は、今年上半期だけで十一万社を超えたロボット関連企業の爆発的増加や、フィジカルAIを支える技術体系の深掘り、そして街中に登場したロボット体験拠点についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-08-08 13:09:42</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-08-08_130942.mp3</link>
