@@ -87,8 +87,8 @@ def generate_headline_and_body(articles: list[Article], meta_path: str = "config
     Returns (headline, body)
     """
     meta = _load_meta(meta_path)
-    model_id = meta.get("editor_model", "gemini-3-flash-preview")
-    tts_model = meta.get("tts_model","gemini-3.1-flash-tts-preview")
+    model_id = meta.get("editor_model", "gemini-3.8-flash")
+    tts_model = meta.get("tts_model","gemini-3.8-flash-lite-tts")
     api_key = os.environ["GEMINI_API_KEY"]
 
     client = genai.Client(

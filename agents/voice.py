@@ -1,6 +1,6 @@
 """@voice: 音声合成エージェント
 
-Gemini TTS (gemini-3.1-flash-tts-preview) を使って台本テキストを MP3 に変換する。
+Gemini TTS (config の tts_model、既定 gemini-3.8-flash-lite-tts) を使って台本テキストを MP3/WAV に変換する。
 出力フォーマット: PCM → WAV → MP3 (wave + ffmpeg subprocess)
 """
 from __future__ import annotations
@@ -115,6 +115,15 @@ def _extract_audio_data(response) -> bytes | None:
     return None
 
 
+def _is_wav_data(data: bytes) -> bool:
+    """バイナリが WAV (RIFF) ヘッダを持つか判定する。
+
+    gemini-3.8 系 TTS は WAV (audio/wav) を返し、旧プレビュー TTS は
+    生PCM (audio/l16) を返す。ヘッダ有無で使い分ける。
+    """
+    return len(data) > 12 and data[:4] == b"RIFF" and data[8:12] == b"WAVE"
+
+
 def _clean_text_for_tts(text: str) -> str:
     """TTS向けに「名称（かなのよみ）」を読みだけへ置換する。
 
@@ -146,7 +155,7 @@ def _tts_input_diagnostics(text: str) -> str:
 def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_meta.yml", debug: bool = False, output_format: str = "mp3") -> str:
     """台本テキストを音声合成して音声ファイルに保存する。output_formatでmp3/wav選択可。output_path を返す。debug=True でPCMも保存。"""
     meta = _load_meta(meta_path)
-    tts_model = meta.get("tts_model", "gemini-3.1-flash-tts-preview")
+    tts_model = meta.get("tts_model", "gemini-3.8-flash-lite-tts")
     voice_name = meta.get("voice", "Kore")
     title = meta.get("title", "ニュース")
     category = meta.get("category", "Technology")
@@ -276,13 +285,16 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
         raise RuntimeError(f"TTS API returned no audio data. Reason: {reason}. Exception: {last_exception}")
 
     if debug:
-        pcm_path = output_path + ".pcm"
+        ext = ".wav" if _is_wav_data(pcm_data) else ".pcm"
+        pcm_path = output_path + ext
         with open(pcm_path, "wb") as f:
             f.write(pcm_data)
-        print(f"[voice][debug] PCM saved: {pcm_path} ({len(pcm_data)} bytes)")
+        print(f"[voice][debug] Audio payload saved: {pcm_path} ({len(pcm_data)} bytes)")
 
     # PCM → WAV or MP3
-    wav_bytes = _pcm_to_wav_bytes(pcm_data)
+    # gemini-3.8 系 TTS は WAV (RIFF) を返すため二重ヘッダを避け、
+    # 旧プレビュー TTS の生PCM (audio/l16) のみ従来通りヘッダを付与する。
+    wav_bytes = pcm_data if _is_wav_data(pcm_data) else _pcm_to_wav_bytes(pcm_data)
     if output_format == "wav":
         with open(output_path, "wb") as f:
             f.write(wav_bytes)
