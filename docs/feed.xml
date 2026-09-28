@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 28 Sep 2026 06:52:37 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 08:40:42 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-29 08:38:33</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-29_083833.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-29_083833.mp3</guid>
+      <pubDate>Tue, 29 Sep 2026 08:40:42 +0900</pubDate>
+      <description>おはようございます。9月29日のワールドロボットニュースです。日本のスタートアップMujin（ムジン）が内閣総理大臣賞を受賞し産業現場への実装論を語ったほか、中国では国産電子アーキテクチャを搭載した新型人型ロボットが登場するなど、知能と制御の進化を伝える最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-29_083833.mp3" type="audio/mpeg" length="4371885" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-29_083833.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:33</itunes:duration>
+      <itunes:summary>おはようございます。9月29日のワールドロボットニュースです。日本のスタートアップMujin（ムジン）が内閣総理大臣賞を受賞し産業現場への実装論を語ったほか、中国では国産電子アーキテクチャを搭載した新型人型ロボットが登場するなど、知能と制御の進化を伝える最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-28 06:50:37</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-28_065037.mp3</link>
