@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 29 Sep 2026 08:40:42 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 07:51:51 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-09-30 07:49:44</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-30_074944.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-09-30_074944.mp3</guid>
+      <pubDate>Wed, 30 Sep 2026 07:51:51 +0900</pubDate>
+      <description>おはようございます。9月30日のワールドロボットニュースです。トヨタが強化学習で進化させた新型バスケットボールロボットを披露したほか、国内新興企業によるヒューマノイド量産計画や、産業界で先行するロボットアームへのフィジカルAI実装など、注目すべき最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-30_074944.mp3" type="audio/mpeg" length="4419117" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-09-30_074944.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:36</itunes:duration>
+      <itunes:summary>おはようございます。9月30日のワールドロボットニュースです。トヨタが強化学習で進化させた新型バスケットボールロボットを披露したほか、国内新興企業によるヒューマノイド量産計画や、産業界で先行するロボットアームへのフィジカルAI実装など、注目すべき最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-29 08:38:33</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-29_083833.mp3</link>
