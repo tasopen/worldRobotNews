@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 30 Sep 2026 07:51:51 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 07:49:28 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-01 07:47:13</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-01_074713.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-01_074713.mp3</guid>
+      <pubDate>Thu, 01 Oct 2026 07:49:28 +0900</pubDate>
+      <description>おはようございます。10月1日のワールドロボットニュースです。調査会社による人型ロボット市場分析でAgiBot（アジボット）の躍進が明らかになったほか、洗濯物を自律して畳む新型機やエネルギー大手によるプラント向けロボット開発など、産業と生活の両面で加速する最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-01_074713.mp3" type="audio/mpeg" length="4548525" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-01_074713.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:44</itunes:duration>
+      <itunes:summary>おはようございます。10月1日のワールドロボットニュースです。調査会社による人型ロボット市場分析でAgiBot（アジボット）の躍進が明らかになったほか、洗濯物を自律して畳む新型機やエネルギー大手によるプラント向けロボット開発など、産業と生活の両面で加速する最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-09-30 07:49:44</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-09-30_074944.mp3</link>
