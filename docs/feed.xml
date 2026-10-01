@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 01 Oct 2026 07:49:28 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 08:03:49 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-02 08:00:29</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-02_080029.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-02_080029.mp3</guid>
+      <pubDate>Fri, 02 Oct 2026 08:03:49 +0900</pubDate>
+      <description>おはようございます。10月2日のワールドロボットニュースです。Unitree（ユニツリー）の創業者が人型ロボットにおける接触制御の難しさを明かしたほか、アメリカ陸軍によるロボットコンペの勝者決定や、家庭用ヒューマノイドによる家事動作の映像公開など、最前線の技術動向と社会実装のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-02_080029.mp3" type="audio/mpeg" length="5325357" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-02_080029.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:32</itunes:duration>
+      <itunes:summary>おはようございます。10月2日のワールドロボットニュースです。Unitree（ユニツリー）の創業者が人型ロボットにおける接触制御の難しさを明かしたほか、アメリカ陸軍によるロボットコンペの勝者決定や、家庭用ヒューマノイドによる家事動作の映像公開など、最前線の技術動向と社会実装のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-01 07:47:13</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-01_074713.mp3</link>
