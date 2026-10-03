@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 03 Oct 2026 07:49:16 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 07:00:26 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-04 06:58:00</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-04_065800.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-04_065800.mp3</guid>
+      <pubDate>Sun, 04 Oct 2026 07:00:26 +0900</pubDate>
+      <description>おはようございます。10月4日のワールドロボットニュースです。BMWの工場で実証を進めていた人型ロボットFigure（フィギュア）の退役セレモニーが話題を集めたほか、米中のサプライチェーン格差やロボット新興企業の収益動向など、最前線のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-04_065800.mp3" type="audio/mpeg" length="5294253" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-04_065800.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:30</itunes:duration>
+      <itunes:summary>おはようございます。10月4日のワールドロボットニュースです。BMWの工場で実証を進めていた人型ロボットFigure（フィギュア）の退役セレモニーが話題を集めたほか、米中のサプライチェーン格差やロボット新興企業の収益動向など、最前線のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-03 07:47:23</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-03_074723.mp3</link>
