@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 04 Oct 2026 07:00:26 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 07:13:00 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-05 07:10:41</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-05_071041.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-05_071041.mp3</guid>
+      <pubDate>Mon, 05 Oct 2026 07:13:00 +0900</pubDate>
+      <description>おはようございます。10月5日のワールドロボットニュースです。中国の新興企業が低価格な人型ロボットの予約受付を開始して初日で200台を超える注文を集めたほか、フィジカルAIのモデル開発競争や新たな国家資格の誕生など、産業化が急速に進む最前線の話題をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-05_071041.mp3" type="audio/mpeg" length="4474797" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-05_071041.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:39</itunes:duration>
+      <itunes:summary>おはようございます。10月5日のワールドロボットニュースです。中国の新興企業が低価格な人型ロボットの予約受付を開始して初日で200台を超える注文を集めたほか、フィジカルAIのモデル開発競争や新たな国家資格の誕生など、産業化が急速に進む最前線の話題をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-04 06:58:00</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-04_065800.mp3</link>
