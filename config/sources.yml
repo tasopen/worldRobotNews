@@ -69,7 +69,7 @@ rss_feeds:
   language: en
   weight: 1.2
 - name: 36氪 (36Kr)
-  url: https://rsshub.app/36kr/news/latest
+  url: https://36kr.com/feed
   language: zh
   weight: 1.2
 - name: 量子位 (QbitAI)
@@ -77,11 +77,11 @@ rss_feeds:
   language: zh
   weight: 1.3
 - name: 钛媒体 (TMTPost)
-  url: https://www.tmtpost.com/rss.xml
+  url: https://www.tmtpost.com/feed
   language: zh
   weight: 1.1
 - name: 钛媒体 (TMTPost)
-  url: https://www.tmtpost.com/feed
+  url: https://plink.anyfeeder.com/tmtpost
   language: zh
   weight: 1.2
 - name: Nikkei xTECH
