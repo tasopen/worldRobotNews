@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 05 Oct 2026 07:13:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 09:35:51 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-06 09:33:42</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-06_093342.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-06_093342.mp3</guid>
+      <pubDate>Tue, 06 Oct 2026 09:35:51 +0900</pubDate>
+      <description>おはようございます。10月6日のワールドロボットニュースです。フルスタックをオープンソース化する新型人型ロボットが公開されたほか、製造業大手が現場を開放してフィジカルAIを鍛える取り組みなど、最前線の技術動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-06_093342.mp3" type="audio/mpeg" length="4386477" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-06_093342.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:34</itunes:duration>
+      <itunes:summary>おはようございます。10月6日のワールドロボットニュースです。フルスタックをオープンソース化する新型人型ロボットが公開されたほか、製造業大手が現場を開放してフィジカルAIを鍛える取り組みなど、最前線の技術動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-05 07:10:41</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-05_071041.mp3</link>
