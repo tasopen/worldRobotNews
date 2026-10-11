@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 11 Oct 2026 07:12:56 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 07:42:03 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-12 07:40:07</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-12_074007.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-12_074007.mp3</guid>
+      <pubDate>Mon, 12 Oct 2026 07:42:03 +0900</pubDate>
+      <description>おはようございます。10月12日のワールドロボットニュースです。ヨーロッパで厳格な安全基準に適合した新型人型ロボットが登場したほか、20億元以上の投資が集まる海洋フィジカルAIの台頭や、BYD（ビーワイディー）の最新ロボット動画の公開など、世界をリードする注目の動きをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-12_074007.mp3" type="audio/mpeg" length="3938733" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-12_074007.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:06</itunes:duration>
+      <itunes:summary>おはようございます。10月12日のワールドロボットニュースです。ヨーロッパで厳格な安全基準に適合した新型人型ロボットが登場したほか、20億元以上の投資が集まる海洋フィジカルAIの台頭や、BYD（ビーワイディー）の最新ロボット動画の公開など、世界をリードする注目の動きをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-11 07:10:52</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-11_071052.mp3</link>
