@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 12 Oct 2026 07:42:03 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 10:13:26 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-13 10:05:53</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-13_100553.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-13_100553.mp3</guid>
+      <pubDate>Tue, 13 Oct 2026 10:13:26 +0900</pubDate>
+      <description>おはようございます。10月13日のワールドロボットニュースです。Unitree（ユニツリー）創業者によるフィジカルAIの進化予測の前倒しや、物流大手Geek+（ギークプラス）の現場実装に向けた大型投資、さらに日本市場での先端ロボット半導体需要の急増など、最前線の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-13_100553.mp3" type="audio/mpeg" length="4086957" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-13_100553.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:15</itunes:duration>
+      <itunes:summary>おはようございます。10月13日のワールドロボットニュースです。Unitree（ユニツリー）創業者によるフィジカルAIの進化予測の前倒しや、物流大手Geek+（ギークプラス）の現場実装に向けた大型投資、さらに日本市場での先端ロボット半導体需要の急増など、最前線の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-12 07:40:07</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-12_074007.mp3</link>
