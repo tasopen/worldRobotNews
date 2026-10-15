@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 15 Oct 2026 07:03:17 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 07:02:07 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-16 06:56:04</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-16_065604.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-16_065604.mp3</guid>
+      <pubDate>Fri, 16 Oct 2026 07:02:07 +0900</pubDate>
+      <description>おはようございます。10月16日のワールドロボットニュースです。米中ヒューマノイド開発競争におけるアプローチの違いと日本企業の活路、そして幕張で披露された最新ロボットの実機デモや、大型商戦へのフィジカルAI参入など、最前線の動きをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-16_065604.mp3" type="audio/mpeg" length="3744045" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-16_065604.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:53</itunes:duration>
+      <itunes:summary>おはようございます。10月16日のワールドロボットニュースです。米中ヒューマノイド開発競争におけるアプローチの違いと日本企業の活路、そして幕張で披露された最新ロボットの実機デモや、大型商戦へのフィジカルAI参入など、最前線の動きをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-15 07:01:50</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-15_070150.mp3</link>
