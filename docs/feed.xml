@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 16 Oct 2026 07:02:07 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 06:55:29 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-17 06:54:05</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-17_065405.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-17_065405.mp3</guid>
+      <pubDate>Sat, 17 Oct 2026 06:55:29 +0900</pubDate>
+      <description>おはようございます。10月17日のワールドロボットニュースです。米Agility Robotics（アジリティ・ロボティクス）が超急速充電による長時間稼働を発表したほか、2500ドルを切る超低価格ヒューマノイドの登場やロボット向け衣服の共同研究など、最新の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-17_065405.mp3" type="audio/mpeg" length="4120365" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-17_065405.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:17</itunes:duration>
+      <itunes:summary>おはようございます。10月17日のワールドロボットニュースです。米Agility Robotics（アジリティ・ロボティクス）が超急速充電による長時間稼働を発表したほか、2500ドルを切る超低価格ヒューマノイドの登場やロボット向け衣服の共同研究など、最新の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-16 06:56:04</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-16_065604.mp3</link>
