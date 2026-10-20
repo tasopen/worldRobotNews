@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 20 Oct 2026 07:50:20 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 07:03:51 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-21 07:02:21</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-21_070221.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-21_070221.mp3</guid>
+      <pubDate>Wed, 21 Oct 2026 07:03:51 +0900</pubDate>
+      <description>おはようございます。10月21日のワールドロボットニュースです。米Agility Robotics（アジリティ・ロボティクス）の人型ロボットが大手農業機械メーカーへ試験導入されるほか、日本のロボット精鋭企業が語るフィジカルAIの社会実装戦略や、アパレル大手による人型ロボット向けウェアの展開など、最前線の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-21_070221.mp3" type="audio/mpeg" length="3795885" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-21_070221.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:57</itunes:duration>
+      <itunes:summary>おはようございます。10月21日のワールドロボットニュースです。米Agility Robotics（アジリティ・ロボティクス）の人型ロボットが大手農業機械メーカーへ試験導入されるほか、日本のロボット精鋭企業が語るフィジカルAIの社会実装戦略や、アパレル大手による人型ロボット向けウェアの展開など、最前線の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-20 07:46:50</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-20_074650.mp3</link>
