@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 21 Oct 2026 07:03:51 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 07:06:37 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-22 07:05:01</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-22_070501.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-22_070501.mp3</guid>
+      <pubDate>Thu, 22 Oct 2026 07:06:37 +0900</pubDate>
+      <description>おはようございます。10月22日のワールドロボットニュースです。三菱電機がヒューマノイドと工作機械がシームレスに連携する新加工システムを発表したほか、中国AgiBot（アジボット）によるコンビニでの24時間実働デモや、大手自動車部品メーカーのフィジカルAI参入など、最前線の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-22_070501.mp3" type="audio/mpeg" length="3127725" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-22_070501.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:15</itunes:duration>
+      <itunes:summary>おはようございます。10月22日のワールドロボットニュースです。三菱電機がヒューマノイドと工作機械がシームレスに連携する新加工システムを発表したほか、中国AgiBot（アジボット）によるコンビニでの24時間実働デモや、大手自動車部品メーカーのフィジカルAI参入など、最前線の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-21 07:02:21</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-21_070221.mp3</link>
