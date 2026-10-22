@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 22 Oct 2026 07:06:37 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 07:39:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-23 07:37:54</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-23_073754.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-23_073754.mp3</guid>
+      <pubDate>Fri, 23 Oct 2026 07:39:19 +0900</pubDate>
+      <description>おはようございます。10月23日のワールドロボットニュースです。韓国のHD現代ロボティクス（エイチディーげんだいロボティクス）が独自AIで動作を自動生成する人型ロボットの上半身を公開したほか、生成AI大手DeepSeek（ディープシーク）によるフィジカルAIへの巨額投資など、最前線の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-23_073754.mp3" type="audio/mpeg" length="3873837" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-23_073754.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:02</itunes:duration>
+      <itunes:summary>おはようございます。10月23日のワールドロボットニュースです。韓国のHD現代ロボティクス（エイチディーげんだいロボティクス）が独自AIで動作を自動生成する人型ロボットの上半身を公開したほか、生成AI大手DeepSeek（ディープシーク）によるフィジカルAIへの巨額投資など、最前線の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-22 07:05:01</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-22_070501.mp3</link>
