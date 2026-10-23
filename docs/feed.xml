@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 23 Oct 2026 07:39:19 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 07:22:03 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-24 07:20:49</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-24_072049.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-24_072049.mp3</guid>
+      <pubDate>Sat, 24 Oct 2026 07:22:03 +0900</pubDate>
+      <description>おはようございます。10月24日のワールドロボットニュースです。アメリカによる対中ロボット規制が自国産業に与える深刻な打撃予測や、欧州初の大規模フィジカルAIデータ工場の設立構想、さらに国産ヒューマノイドの量産に向けた新たな挑戦など、最先端の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-24_072049.mp3" type="audio/mpeg" length="3735213" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-24_072049.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:53</itunes:duration>
+      <itunes:summary>おはようございます。10月24日のワールドロボットニュースです。アメリカによる対中ロボット規制が自国産業に与える深刻な打撃予測や、欧州初の大規模フィジカルAIデータ工場の設立構想、さらに国産ヒューマノイドの量産に向けた新たな挑戦など、最先端の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-23 07:37:54</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-23_073754.mp3</link>
