@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 24 Oct 2026 07:22:03 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 06:26:15 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-25 06:24:24</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-25_062424.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-25_062424.mp3</guid>
+      <pubDate>Sun, 25 Oct 2026 06:26:15 +0900</pubDate>
+      <description>おはようございます。10月25日のワールドロボットニュースです。上海で千台規模の人型ロボットが集う技能大会が開幕したほか、機体制御を変革する次世代無線通信の可能性や、百台を超える機体の群制御記録など、最先端の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-25_062424.mp3" type="audio/mpeg" length="4119597" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-25_062424.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:17</itunes:duration>
+      <itunes:summary>おはようございます。10月25日のワールドロボットニュースです。上海で千台規模の人型ロボットが集う技能大会が開幕したほか、機体制御を変革する次世代無線通信の可能性や、百台を超える機体の群制御記録など、最先端の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-24 07:20:49</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-24_072049.mp3</link>
