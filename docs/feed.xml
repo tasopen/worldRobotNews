@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 25 Oct 2026 06:26:15 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 06:23:50 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-26 06:22:06</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-26_062206.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-26_062206.mp3</guid>
+      <pubDate>Mon, 26 Oct 2026 06:23:50 +0900</pubDate>
+      <description>おはようございます。10月26日のワールドロボットニュースです。中国勢が世界シェアの97パーセントを握る中での日本のフィジカルAI戦略や、ロボットの表情を極める新興企業の大型調達、欧州での物流向けロボット数百台の実戦配備、そして家庭向け個人ロボット5000台の出荷開始など、注目のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-26_062206.mp3" type="audio/mpeg" length="4485933" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-26_062206.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:40</itunes:duration>
+      <itunes:summary>おはようございます。10月26日のワールドロボットニュースです。中国勢が世界シェアの97パーセントを握る中での日本のフィジカルAI戦略や、ロボットの表情を極める新興企業の大型調達、欧州での物流向けロボット数百台の実戦配備、そして家庭向け個人ロボット5000台の出荷開始など、注目のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-25 06:24:24</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-25_062424.mp3</link>
