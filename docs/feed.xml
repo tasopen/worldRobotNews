@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 28 Oct 2026 07:52:13 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 07:59:48 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-29 07:57:45</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-29_075745.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-29_075745.mp3</guid>
+      <pubDate>Thu, 29 Oct 2026 07:59:48 +0900</pubDate>
+      <description>おはようございます。10月29日のワールドロボットニュースです。中国の国家データ特区におけるフィジカルAIデータ収集の最前線や、米中が先行する中で見出す日本の勝ち筋、さらに家具大手の空間データ活用や情緒的価値を重視する家庭向けロボットの最新動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-29_075745.mp3" type="audio/mpeg" length="4477485" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-29_075745.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:39</itunes:duration>
+      <itunes:summary>おはようございます。10月29日のワールドロボットニュースです。中国の国家データ特区におけるフィジカルAIデータ収集の最前線や、米中が先行する中で見出す日本の勝ち筋、さらに家具大手の空間データ活用や情緒的価値を重視する家庭向けロボットの最新動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-28 07:50:47</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-28_075047.mp3</link>
