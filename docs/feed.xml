@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 29 Oct 2026 07:59:48 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 08:07:11 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-30 08:05:29</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-30_080529.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-30_080529.mp3</guid>
+      <pubDate>Fri, 30 Oct 2026 08:07:11 +0900</pubDate>
+      <description>おはようございます。10月30日のワールドロボットニュースです。中国のAgiBot（アジボット）によるフィジカルAI全階層の技術刷新と新指標の提唱、人型ロボット関節を支える軸受大手の開発競争、さらに日本国内で40台の人型ロボットが動くデータ拠点の稼働やByteDance（バイトダンス）の本格参入など、最先端の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-30_080529.mp3" type="audio/mpeg" length="4181805" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-30_080529.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:21</itunes:duration>
+      <itunes:summary>おはようございます。10月30日のワールドロボットニュースです。中国のAgiBot（アジボット）によるフィジカルAI全階層の技術刷新と新指標の提唱、人型ロボット関節を支える軸受大手の開発競争、さらに日本国内で40台の人型ロボットが動くデータ拠点の稼働やByteDance（バイトダンス）の本格参入など、最先端の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-29 07:57:45</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-29_075745.mp3</link>
