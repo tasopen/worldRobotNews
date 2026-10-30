@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 30 Oct 2026 08:07:11 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 07:48:11 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-10-31 07:46:28</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-31_074628.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-10-31_074628.mp3</guid>
+      <pubDate>Sat, 31 Oct 2026 07:48:11 +0900</pubDate>
+      <description>おはようございます。10月31日のワールドロボットニュースです。香港上場のUBTECH（ユービーテック）によるフィジカルAI子会社の設立や、国内発の5本指ロボットによる物流出荷デモ、さらに人型ロボットを支える専用電源半導体の登場や最新の投資動向など、最先端のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-31_074628.mp3" type="audio/mpeg" length="4275885" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-10-31_074628.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:27</itunes:duration>
+      <itunes:summary>おはようございます。10月31日のワールドロボットニュースです。香港上場のUBTECH（ユービーテック）によるフィジカルAI子会社の設立や、国内発の5本指ロボットによる物流出荷デモ、さらに人型ロボットを支える専用電源半導体の登場や最新の投資動向など、最先端のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-30 08:05:29</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-30_080529.mp3</link>
