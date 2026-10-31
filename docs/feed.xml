@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 31 Oct 2026 07:48:11 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 07:10:54 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-01 07:09:20</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-01_070920.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-01_070920.mp3</guid>
+      <pubDate>Sun, 01 Nov 2026 07:10:54 +0900</pubDate>
+      <description>おはようございます。11月1日のワールドロボットニュースです。米Meta（メタ）と中国のFourier Intelligence（フーリエ・インテリジェンス）による人型ロボットの共同開発や、大学発フィジカルAI新興企業の大型資金調達、さらにテーマパーク設備大手のロボット参入や投資マネーを集めるETF（イーティーエフ）の最新動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-01_070920.mp3" type="audio/mpeg" length="4093485" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-01_070920.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:15</itunes:duration>
+      <itunes:summary>おはようございます。11月1日のワールドロボットニュースです。米Meta（メタ）と中国のFourier Intelligence（フーリエ・インテリジェンス）による人型ロボットの共同開発や、大学発フィジカルAI新興企業の大型資金調達、さらにテーマパーク設備大手のロボット参入や投資マネーを集めるETF（イーティーエフ）の最新動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-10-31 07:46:28</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-10-31_074628.mp3</link>
