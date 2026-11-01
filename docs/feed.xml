@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 01 Nov 2026 07:10:54 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 07:36:54 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-02 07:34:56</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-02_073456.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-02_073456.mp3</guid>
+      <pubDate>Mon, 02 Nov 2026 07:36:54 +0900</pubDate>
+      <description>おはようございます。11月2日のワールドロボットニュースです。米ナスダック市場への上場を控えるAgility Robotics（アジリティ・ロボティクス）の最新動向や、フィジカルAIを脅かすゼロデイ脆弱性の発見、さらに機体の触覚を支える電子皮膚への投資熱や、市場が熱狂から実利重視へと移行する現状をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-02_073456.mp3" type="audio/mpeg" length="4220205" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-02_073456.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:23</itunes:duration>
+      <itunes:summary>おはようございます。11月2日のワールドロボットニュースです。米ナスダック市場への上場を控えるAgility Robotics（アジリティ・ロボティクス）の最新動向や、フィジカルAIを脅かすゼロデイ脆弱性の発見、さらに機体の触覚を支える電子皮膚への投資熱や、市場が熱狂から実利重視へと移行する現状をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-01 07:09:20</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-01_070920.mp3</link>
