@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 03 Nov 2026 10:28:54 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 08:54:20 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-04 08:52:48</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-04_085248.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-04_085248.mp3</guid>
+      <pubDate>Wed, 04 Nov 2026 08:54:20 +0900</pubDate>
+      <description>おはようございます。11月4日のワールドロボットニュースです。全身を覆う次世代の電子皮膚センサーによる大型資金調達や、クラウド巨人と組むロボット知能の学習基盤、さらに上海のコンビニで始まった人型ロボットの実店舗実証など、最先端の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-04_085248.mp3" type="audio/mpeg" length="3408813" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-04_085248.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:33</itunes:duration>
+      <itunes:summary>おはようございます。11月4日のワールドロボットニュースです。全身を覆う次世代の電子皮膚センサーによる大型資金調達や、クラウド巨人と組むロボット知能の学習基盤、さらに上海のコンビニで始まった人型ロボットの実店舗実証など、最先端の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-03 10:27:20</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-03_102720.mp3</link>
