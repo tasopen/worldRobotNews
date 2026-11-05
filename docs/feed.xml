@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 05 Nov 2026 09:07:46 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 08:58:45 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-06 08:57:18</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-06_085718.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-06_085718.mp3</guid>
+      <pubDate>Fri, 06 Nov 2026 08:58:45 +0900</pubDate>
+      <description>おはようございます。11月6日のワールドロボットニュースです。国内展示会で発表されたコンビニ向けフィジカルAIロボットの商用化計画や、有力開発者が語る知能化の壁、さらに米市場へ正式上場を果たした人型ロボット企業の最新動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-06_085718.mp3" type="audio/mpeg" length="3576237" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-06_085718.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:43</itunes:duration>
+      <itunes:summary>おはようございます。11月6日のワールドロボットニュースです。国内展示会で発表されたコンビニ向けフィジカルAIロボットの商用化計画や、有力開発者が語る知能化の壁、さらに米市場へ正式上場を果たした人型ロボット企業の最新動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-05 09:06:17</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-05_090617.mp3</link>
