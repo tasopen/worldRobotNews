@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 04 Nov 2026 08:54:20 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 09:07:46 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-05 09:06:17</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-05_090617.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-05_090617.mp3</guid>
+      <pubDate>Thu, 05 Nov 2026 09:07:46 +0900</pubDate>
+      <description>おはようございます。11月5日のワールドロボットニュースです。エネルギー大手の中石油（ちゅうせきゆ）とUnitree（ユニツリー）による工業ロボット合弁計画や、京東（ジンドン）が示した産業基盤戦略、さらに韓国で開幕した大型ロボット展など、最先端の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-05_090617.mp3" type="audio/mpeg" length="3646893" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-05_090617.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:47</itunes:duration>
+      <itunes:summary>おはようございます。11月5日のワールドロボットニュースです。エネルギー大手の中石油（ちゅうせきゆ）とUnitree（ユニツリー）による工業ロボット合弁計画や、京東（ジンドン）が示した産業基盤戦略、さらに韓国で開幕した大型ロボット展など、最先端の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-04 08:52:48</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-04_085248.mp3</link>
