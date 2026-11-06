@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 06 Nov 2026 08:58:45 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 08:39:48 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-07 08:38:36</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-07_083836.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-07_083836.mp3</guid>
+      <pubDate>Sat, 07 Nov 2026 08:39:48 +0900</pubDate>
+      <description>おはようございます。11月7日のワールドロボットニュースです。世界的サプライヤーのBosch（ボッシュ）中国法人が明かしたフィジカルAIと人型ロボットの生産戦略や、ドバイで開設された中東初の人型ロボット展示拠点、さらにユニークな家庭向け新機構ロボットの話題をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-07_083836.mp3" type="audio/mpeg" length="3054765" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-07_083836.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:10</itunes:duration>
+      <itunes:summary>おはようございます。11月7日のワールドロボットニュースです。世界的サプライヤーのBosch（ボッシュ）中国法人が明かしたフィジカルAIと人型ロボットの生産戦略や、ドバイで開設された中東初の人型ロボット展示拠点、さらにユニークな家庭向け新機構ロボットの話題をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-06 08:57:18</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-06_085718.mp3</link>
