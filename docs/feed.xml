@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 07 Nov 2026 08:39:48 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 07:30:50 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-08 07:29:22</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-08_072922.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-08_072922.mp3</guid>
+      <pubDate>Sun, 08 Nov 2026 07:30:50 +0900</pubDate>
+      <description>おはようございます。11月8日のワールドロボットニュースです。独自の端雲協調知能を開発するロボット新興企業の大型調達や、インド発自律ロボットによる米国の認証取得、さらに複雑な農作業を自律化するフィジカルAIの最新動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-08_072922.mp3" type="audio/mpeg" length="3468717" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-08_072922.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:36</itunes:duration>
+      <itunes:summary>おはようございます。11月8日のワールドロボットニュースです。独自の端雲協調知能を開発するロボット新興企業の大型調達や、インド発自律ロボットによる米国の認証取得、さらに複雑な農作業を自律化するフィジカルAIの最新動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-07 08:38:36</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-07_083836.mp3</link>
