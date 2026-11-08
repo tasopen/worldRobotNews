@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 08 Nov 2026 07:30:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 07:41:04 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-09 07:39:17</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-09_073917.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-09_073917.mp3</guid>
+      <pubDate>Mon, 09 Nov 2026 07:41:04 +0900</pubDate>
+      <description>おはようございます。11月9日のワールドロボットニュースです。中国のAgiBot（アジボット）による中東通信大手とのロボット配備提携や、米農業機械大手による人型ロボットの実証計画、さらに産業用二足歩行ロボットの新型発表など、最先端の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-09_073917.mp3" type="audio/mpeg" length="3900333" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-09_073917.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:03</itunes:duration>
+      <itunes:summary>おはようございます。11月9日のワールドロボットニュースです。中国のAgiBot（アジボット）による中東通信大手とのロボット配備提携や、米農業機械大手による人型ロボットの実証計画、さらに産業用二足歩行ロボットの新型発表など、最先端の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-08 07:29:22</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-08_072922.mp3</link>
