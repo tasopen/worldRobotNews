@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 09 Nov 2026 07:41:04 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 10:54:02 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-10 10:52:26</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-10_105226.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-10_105226.mp3</guid>
+      <pubDate>Tue, 10 Nov 2026 10:54:02 +0900</pubDate>
+      <description>おはようございます。11月10日のワールドロボットニュースです。世界モデルの応用によるロボット強化学習の劇的な高速化や、Nvidia（エヌビディア）による人型ロボット向け新型AIモデルの発表、さらに日本企業による独自制御技術の進化など、最新の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-10_105226.mp3" type="audio/mpeg" length="3941037" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-10_105226.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:06</itunes:duration>
+      <itunes:summary>おはようございます。11月10日のワールドロボットニュースです。世界モデルの応用によるロボット強化学習の劇的な高速化や、Nvidia（エヌビディア）による人型ロボット向け新型AIモデルの発表、さらに日本企業による独自制御技術の進化など、最新の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-09 07:39:17</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-09_073917.mp3</link>
