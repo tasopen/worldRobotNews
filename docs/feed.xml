@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 12 Nov 2026 10:17:54 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 08:59:58 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-13 08:58:42</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-13_085842.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-13_085842.mp3</guid>
+      <pubDate>Fri, 13 Nov 2026 08:59:58 +0900</pubDate>
+      <description>おはようございます。11月13日のワールドロボットニュースです。Boston Dynamics（ボストン・ダイナミクス）による人型ロボットの新たなハイブリッド制御技術の公開や、フィジカルAIに特化した新興半導体企業の大型資金調達、さらに繁忙期の物流現場を支える知能ロボットの実用化成果をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-13_085842.mp3" type="audio/mpeg" length="2898093" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-13_085842.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:01</itunes:duration>
+      <itunes:summary>おはようございます。11月13日のワールドロボットニュースです。Boston Dynamics（ボストン・ダイナミクス）による人型ロボットの新たなハイブリッド制御技術の公開や、フィジカルAIに特化した新興半導体企業の大型資金調達、さらに繁忙期の物流現場を支える知能ロボットの実用化成果をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-12 10:16:33</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-12_101633.mp3</link>
