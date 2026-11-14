@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 13 Nov 2026 08:59:58 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 09:09:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-14 09:08:12</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-14_090812.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-14_090812.mp3</guid>
+      <pubDate>Sat, 14 Nov 2026 09:09:31 +0900</pubDate>
+      <description>おはようございます。11月14日のワールドロボットニュースです。OpenAI（オープンエーアイ）によるフィジカルAIチームの再編や、ロボット向け工業用ストレージ需要の急拡大、さらに愛知で開催される最新ロボット展示会の動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-14_090812.mp3" type="audio/mpeg" length="3123117" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-14_090812.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:15</itunes:duration>
+      <itunes:summary>おはようございます。11月14日のワールドロボットニュースです。OpenAI（オープンエーアイ）によるフィジカルAIチームの再編や、ロボット向け工業用ストレージ需要の急拡大、さらに愛知で開催される最新ロボット展示会の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-13 08:58:42</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-13_085842.mp3</link>
