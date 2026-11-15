@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 15 Nov 2026 07:54:26 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 08:21:51 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-16 08:20:24</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-16_082024.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-16_082024.mp3</guid>
+      <pubDate>Mon, 16 Nov 2026 08:21:51 +0900</pubDate>
+      <description>おはようございます。11月16日のワールドロボットニュースです。Google（グーグル）による最新フィジカルAIモデルの発表と自動車工場での人型ロボット稼働、中国企業による実用配備の加速、そして激化する開発競争の裏で浮き彫りとなった新興企業の資金危機についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-16_082024.mp3" type="audio/mpeg" length="3599277" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-16_082024.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:44</itunes:duration>
+      <itunes:summary>おはようございます。11月16日のワールドロボットニュースです。Google（グーグル）による最新フィジカルAIモデルの発表と自動車工場での人型ロボット稼働、中国企業による実用配備の加速、そして激化する開発競争の裏で浮き彫りとなった新興企業の資金危機についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-15 07:52:57</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-15_075257.mp3</link>
