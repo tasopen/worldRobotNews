@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 16 Nov 2026 08:21:51 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 11:17:34 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-17 11:16:31</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-17_111631.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-17_111631.mp3</guid>
+      <pubDate>Tue, 17 Nov 2026 11:17:34 +0900</pubDate>
+      <description>おはようございます。11月17日のワールドロボットニュースです。フィジカルAIの学習データを構造化する新技術の提唱や、ドイツのエネルギー基盤における人型ロボットの現場導入、さらに国内での異種ロボット連携プラットフォームの実証成果についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-17_111631.mp3" type="audio/mpeg" length="3139244" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-17_111631.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:16</itunes:duration>
+      <itunes:summary>おはようございます。11月17日のワールドロボットニュースです。フィジカルAIの学習データを構造化する新技術の提唱や、ドイツのエネルギー基盤における人型ロボットの現場導入、さらに国内での異種ロボット連携プラットフォームの実証成果についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-16 08:20:24</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-16_082024.mp3</link>
