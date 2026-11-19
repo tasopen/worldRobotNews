@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 18 Nov 2026 10:31:06 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 09:58:26 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-19 09:57:07</title>
+      <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-19_095707.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-19_095707.mp3</guid>
+      <pubDate>Thu, 19 Nov 2026 09:58:26 +0900</pubDate>
+      <description>おはようございます。11月19日のワールドロボットニュースです。米国のフィジカルAI企業Genesis AI（ジェネシス・エーアイ）による巨額資金調達や、中国AgiBot（アジボット）によるテーマパークへの五百台規模のロボット配備、さらに日本国内での最新人型ロボット展示拠点の開設についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-19_095707.mp3" type="audio/mpeg" length="3183404" />
+      <podcast:transcript url="https://tasopen.github.io/worldRobotNews/episodes/2026-11-19_095707.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:18</itunes:duration>
+      <itunes:summary>おはようございます。11月19日のワールドロボットニュースです。米国のフィジカルAI企業Genesis AI（ジェネシス・エーアイ）による巨額資金調達や、中国AgiBot（アジボット）によるテーマパークへの五百台規模のロボット配備、さらに日本国内での最新人型ロボット展示拠点の開設についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-18 10:29:47</title>
       <link>https://tasopen.github.io/worldRobotNews/episodes/2026-11-18_102947.mp3</link>
