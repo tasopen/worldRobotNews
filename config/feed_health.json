@@ -65,51 +65,15 @@
     "last_success": "2026-11-15T10:09:56.452066+00:00",
     "name": "TechCrunch Robotics"
   },
-  "https://www.nikkan.co.jp/rss/newly_category_21.rdf": {
-    "fail_count": 2,
-    "last_success": "2026-04-26T04:08:14.462720+00:00",
-    "name": "日刊工業新聞 機械・ロボット",
-    "last_failure": "2026-05-10T04:19:57.854963+00:00"
-  },
   "https://www.qbitai.com/feed": {
     "fail_count": 0,
     "last_success": "2026-11-15T10:09:56.452066+00:00",
     "name": "量子位 (QbitAI)"
   },
-  "https://www.tmtpost.com/rss.xml": {
-    "fail_count": 1,
-    "last_success": "2026-09-27T08:43:05.047177+00:00",
-    "name": "钛媒体 (TMTPost)",
-    "last_failure": "2026-10-04T08:59:11.218393+00:00"
-  },
-  "https://www.nikkan.co.jp/rss/news/industrial_robots": {
-    "fail_count": 3,
-    "last_success": "2026-04-26T04:08:14.462720+00:00",
-    "name": "日刊工業新聞 (Nikkan Kogyo Shimbun) - 産業用ロボット",
-    "last_failure": "2026-05-17T04:23:31.535528+00:00"
-  },
-  "https://www.nikkan.co.jp/rss/newly_category_5.rdf": {
-    "fail_count": 1,
-    "last_success": "2026-05-10T04:21:56.798779+00:00",
-    "name": "日刊工業新聞 機械・ロボット",
-    "last_failure": "2026-05-17T04:23:31.535528+00:00"
-  },
-  "https://www.nikkan.co.jp/rss/nks_category_g04.rdf": {
-    "fail_count": 3,
-    "last_success": "2026-05-17T04:26:39.703614+00:00",
-    "name": "日刊工業新聞 機械・ロボット",
-    "last_failure": "2026-06-07T04:29:53.824877+00:00"
-  },
   "https://xtech.nikkei.com/rss/index.rdf": {
     "fail_count": 0,
     "last_success": "2026-11-15T10:09:56.452066+00:00",
     "name": "Nikkei xTECH"
-  },
-  "https://rsshub.app/36kr/newsflash": {
-    "fail_count": 1,
-    "last_success": "2026-08-09T04:12:36.152844+00:00",
-    "name": "36氪 (36Kr)",
-    "last_failure": "2026-08-16T03:39:51.851165+00:00"
   },
   "https://roboteer-tokyo.com/feed": {
     "fail_count": 1,
@@ -117,74 +81,15 @@
     "name": "Roboteer (ロボティア)",
     "last_failure": "2026-11-15T10:09:56.452066+00:00"
   },
-  "https://rsshub.app/36kr/newsflashes": {
-    "fail_count": 1,
-    "last_success": "2026-08-16T03:41:39.471859+00:00",
-    "name": "36氪 (36Kr)",
-    "last_failure": "2026-08-23T03:41:42.596752+00:00"
-  },
-  "https://36kr.com/feed-newsflash": {
-    "fail_count": 1,
-    "last_success": "2026-08-23T03:42:30.188960+00:00",
-    "name": "36氪 (36Kr)",
-    "last_failure": "2026-08-30T08:40:26.093766+00:00"
-  },
-  "https://roboticsandautomationnews.com/feed/atom/": {
-    "fail_count": 1,
-    "last_success": "2026-08-30T08:42:23.792838+00:00",
-    "name": "Robotics & Automation News",
-    "last_failure": "2026-09-06T07:25:23.945547+00:00"
-  },
-  "https://36kr.com/feed-newsflash`,": {
-    "fail_count": 1,
-    "last_success": "2026-08-30T08:42:47.224690+00:00",
-    "name": "36氪 (36Kr)",
-    "last_failure": "2026-09-06T07:25:23.945547+00:00"
-  },
   "https://pc.watch.impress.co.jp/data/rss/1.0/pcw/feed.rdf": {
     "fail_count": 0,
     "last_success": "2026-11-15T10:09:56.452066+00:00",
     "name": "Impress PC Watch - Robotics Category"
   },
-  "https://roboticsandautomationnews.com/feed/": {
-    "fail_count": 3,
-    "last_success": "2026-09-06T07:26:08.946784+00:00",
-    "name": "Robotics & Automation News",
-    "last_failure": "2026-09-27T08:43:05.047177+00:00"
-  },
-  "https://rsshub.app/36kr/news/latest": {
-    "fail_count": 1,
-    "last_success": "2026-09-27T08:44:10.247296+00:00",
-    "name": "36氪 (36Kr)",
-    "last_failure": "2026-10-04T08:59:11.218393+00:00"
-  },
-  "https://36kr.com/feed": {
-    "fail_count": 1,
-    "last_success": "2026-10-04T09:00:17.077084+00:00",
-    "name": "36氪 (36Kr)",
-    "last_failure": "2026-10-11T09:30:13.032377+00:00"
-  },
   "https://www.tmtpost.com/feed": {
     "fail_count": 0,
     "last_success": "2026-11-15T10:09:56.452066+00:00",
     "name": "钛媒体 (TMTPost)"
-  },
-  "https://plink.anyfeeder.com/tmtpost": {
-    "fail_count": 0,
-    "last_success": "2026-11-15T10:09:56.452066+00:00",
-    "name": "钛媒体 (TMTPost)"
-  },
-  "https://36kr.com/feed-article": {
-    "fail_count": 1,
-    "last_success": "2026-10-11T09:30:58.795347+00:00",
-    "name": "36氪 (36Kr)",
-    "last_failure": "2026-10-18T07:33:18.031892+00:00"
-  },
-  "https://36kr.com/feed`": {
-    "fail_count": 1,
-    "last_success": "2026-10-18T07:34:43.323881+00:00",
-    "name": "36氪 (36Kr)",
-    "last_failure": "2026-10-25T07:55:54.924646+00:00"
   },
   "https://www.therobotreport.com/category/humanoids/feed/": {
     "fail_count": 0,

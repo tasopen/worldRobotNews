@@ -2,8 +2,10 @@ name: Daily AI Podcast
 
 on:
   schedule:
-    # 毎朝 4:00 JST = UTC 19:00 (前日)
-    - cron: '0 19 * * *'
+    # 保険実行: UTC 20:52 = 翌 05:52 JST
+    # 主系は cron-job.org の workflow_dispatch（05:22 JST）。
+    # GitHub の schedule は大幅に遅延するため、あくまで保険として残す。
+    - cron: '52 20 * * *'
   workflow_dispatch:  # 手動実行可能
 
 permissions:
@@ -31,6 +33,15 @@ jobs:
       - name: Install dependencies
         run: uv sync --locked
 
+      # docs/episodes が空でも重複回避が効くよう、Releases から直近の SRT を
+      # dedupe_days 日分だけ取り戻す（冪等）。無くても失敗しない。
+      - name: Restore recent transcripts
+        continue-on-error: true
+        env:
+          PYTHONUNBUFFERED: "1"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run python scripts/backfill_srts.py
+
       - name: Run pipeline
         timeout-minutes: 60
         env:
@@ -39,7 +50,21 @@ jobs:
           set -x
           uv run python scripts/run_pipeline.py
 
+      # GitHub Pages の 1 GB 上限を避けるため、MP3 の実体を Releases へ退避する。
+      # SRT は editor の重複回避で参照するため、config/podcast_meta.yml の
+      # dedupe_days 日分だけ docs に残し、それより古いものは削除される。
+      - name: Archive episode media
+        id: archive
+        env:
+          PYTHONUNBUFFERED: "1"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -x
+          uv run python scripts/archive_episode.py --latest --delete-local --allow-partial
+
+      # 退避に失敗しても生成済みエピソードを失わないよう、パイプライン成功時は必ずコミットする
       - name: Commit and push episode
+        if: success() || steps.archive.outcome == 'failure'
         run: |
           set -x
           git config user.name "github-actions[bot]"

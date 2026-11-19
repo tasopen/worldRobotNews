@@ -9,6 +9,22 @@ language: ja
 base_url: "https://tasopen.github.io/worldRobotNews"
 category: "Technology"
 explicit: "false"
+
+# 音声アーカイブ（GitHub Pages の 1 GB 上限対策）
+# MP3 は GitHub Releases へ退避する（無料・容量無制限）。
+#
+# dedupe_days: 台本の重複回避で参照する過去エピソードの日数。
+#   editor は docs/episodes に残っている SRT をこの日数分だけ読み、
+#   同じ話題を繰り返さないようにする。
+#   SRT もこの日数分だけ docs に残し、それより古いものは Releases のみに残す。
+archive:
+  github_releases: true
+  # docs/episodes に SRT を残す日数。省略時は dedupe_days を使う
+  # （editor が読めない SRT を残す意味がないため、通常は指定不要）
+  # srt_retention_days: 6
+dedupe_days: 6
+
+
 voice: "Despina"
 tts_model: "gemini-3.8-flash-lite-tts"
 editor_model: "gemini-3.8-flash"

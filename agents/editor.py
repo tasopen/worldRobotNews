@@ -8,7 +8,7 @@ import os
 import random
 import re
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 
 import yaml
 from google import genai
@@ -21,6 +21,12 @@ _RETRYABLE_STATUS_CODES = {408, 429, 500, 502, 503, 504}
 
 # 恒久的エラーとして即時失敗するステータスコード
 _PERMANENT_STATUS_CODES = {400, 401, 403, 404}
+
+# エピソードファイル名（2026-11-16_051805.srt / .mp3）
+_EPISODE_NAME_RE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})_\d{6}\.(?:srt|mp3)$")
+
+# 重複回避で参照する過去エピソードの既定日数（config/podcast_meta.yml の dedupe_days）
+DEFAULT_DEDUPE_DAYS = 6
 
 
 def _is_retryable_exception(e: Exception) -> bool:
@@ -48,10 +54,49 @@ def _load_meta(meta_path: str = "config/podcast_meta.yml") -> dict:
         return yaml.safe_load(f)
 
 
-def _load_recent_srt(episodes_dir: str = "docs/episodes", max_count: int = 6) -> str:
-    """過去の放送SRTファイルからテキスト部分を抽出して返す。"""
-    srt_files = sorted(glob.glob(os.path.join(episodes_dir, "*.srt")), reverse=True)
-    srt_files = srt_files[:max_count]
+def _parse_episode_date(filename: str) -> date | None:
+    """2026-11-16_051805.srt -> date(2026, 11, 16)。解析できなければ None。"""
+    m = _EPISODE_NAME_RE.match(os.path.basename(filename))
+    if not m:
+        return None
+    try:
+        return date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    except ValueError:
+        return None
+
+
+def today_jst() -> date:
+    """日本時間の今日の日付。"""
+    return datetime.now(timezone(timedelta(hours=9))).date()
+
+
+def recent_srt_paths(
+    episodes_dir: str = "docs/episodes",
+    days: int = DEFAULT_DEDUPE_DAYS,
+    today: date | None = None,
+) -> list[str]:
+    """直近 days 日分（今日から days 日前まで、当日は除く）の SRT を新しい順で返す。
+
+    ファイル名の日付（YYYY-MM-DD_HHMMSS）で判定するため、
+    実体が Releases へ退避されていても docs に残っている分だけを対象にできる。
+    """
+    if days <= 0:
+        return []
+    today = today or today_jst()
+    cutoff = today - timedelta(days=days)
+    dated: list[tuple[date, str, str]] = []
+    for path in glob.glob(os.path.join(episodes_dir, "*.srt")):
+        d = _parse_episode_date(path)
+        if d is None or d < cutoff or d >= today:
+            continue
+        dated.append((d, os.path.basename(path), path))
+    dated.sort(reverse=True)
+    return [path for _, _, path in dated[:days]]
+
+
+def _load_recent_srt(episodes_dir: str = "docs/episodes", days: int = DEFAULT_DEDUPE_DAYS) -> str:
+    """過去 days 日分の放送SRTファイルからテキスト部分を抽出して返す。"""
+    srt_files = recent_srt_paths(episodes_dir, days)
     if not srt_files:
         return ""
     past_texts: list[str] = []
@@ -76,7 +121,7 @@ def _load_recent_srt(episodes_dir: str = "docs/episodes", max_count: int = 6) ->
         except Exception as e:  # noqa: BLE001
             print(f"[editor] Warning: failed to read {srt_path}: {e}")
     count = len(past_texts)
-    print(f"[editor] Loaded {count} past SRT(s) for duplicate avoidance")
+    print(f"[editor] Loaded {count} past SRT(s) (last {days} day(s)) for duplicate avoidance")
     return "\n\n".join(past_texts)
 
 
@@ -119,8 +164,14 @@ def generate_headline_and_body(articles: list[Article], meta_path: str = "config
         for i, a in enumerate(articles)
     )
 
-    # 過去SRTを参照して重複回避
-    past_srt_text = _load_recent_srt()
+    # 過去SRTを参照して重複回避（保持日数は podcast_meta.yml の dedupe_days）
+    try:
+        dedupe_days = max(0, int(meta.get("dedupe_days", DEFAULT_DEDUPE_DAYS)))
+    except (TypeError, ValueError):
+        dedupe_days = DEFAULT_DEDUPE_DAYS
+    test_output_root = os.environ.get("TEST_OUTPUT_PATH")
+    episodes_dir = f"{test_output_root}/episodes" if test_output_root else "docs/episodes"
+    past_srt_text = _load_recent_srt(episodes_dir=episodes_dir, days=dedupe_days)
     past_srt_section = ""
     if past_srt_text:
         past_srt_section = f"""\n【過去の放送内容（参考）】\n以下は過去の放送で取り上げた内容です。これらと重複する記事は除外するか、続報がある場合のみ簡潔に触れる程度にしてください。\n{past_srt_text}\n"""

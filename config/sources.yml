@@ -80,10 +80,6 @@ rss_feeds:
   url: https://www.tmtpost.com/feed
   language: zh
   weight: 1.1
-- name: 钛媒体 (TMTPost)
-  url: https://plink.anyfeeder.com/tmtpost
-  language: zh
-  weight: 1.2
 - name: Nikkei xTECH
   url: https://xtech.nikkei.com/rss/index.rdf
   language: ja

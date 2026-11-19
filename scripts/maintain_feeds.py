@@ -72,6 +72,37 @@ def _save_health(data: dict, path: str = HEALTH_PATH) -> None:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
+def _clean_url(raw: str) -> str | None:
+    """Gemini の応答から取り出した URL を正規化する。
+
+    モデルは URL の末尾にバッククォート・括弧・句読点を付けて返すことがある。
+    それらを落とし、URL として妥当でなければ None を返す。
+    """
+    url = (raw or "").strip()
+    # 末尾に紛れ込む装飾文字を繰り返し除去する
+    while url and url[-1] in "`'\"()[]{}<>,.;:!?、。）」』】":
+        url = url[:-1]
+    if not url.startswith(("http://", "https://")):
+        return None
+    if any(c.isspace() for c in url):
+        return None
+    return url
+
+
+def prune_health(health: dict, sources: dict) -> dict:
+    """sources.yml に存在しない URL の health エントリを削除する。
+
+    フィードを削除・URL 変更したときに古いキーが残り続けるのを防ぐ。
+    """
+    active = {f["url"] for f in sources.get("rss_feeds", [])}
+    stale = [k for k in health if k not in active]
+    for key in stale:
+        del health[key]
+    if stale:
+        print(f"[health] pruned {len(stale)} stale entr{'y' if len(stale) == 1 else 'ies'}")
+    return health
+
+
 # ---------------------------------------------------------------------------
 # Phase 1: フィード生存確認
 # ---------------------------------------------------------------------------
@@ -182,8 +213,10 @@ def search_new_feed_url(feed: dict, api_key: str, keywords: list[str]) -> str | 
         # URL を抽出（余計なテキストが含まれる可能性がある）
         import re
         urls = re.findall(r'https?://[^\s<>"\']+', result)
-        if urls:
-            return urls[0]
+        for raw in urls:
+            cleaned = _clean_url(raw)
+            if cleaned:
+                return cleaned
     return None
 
 
@@ -222,9 +255,13 @@ def discover_new_feeds(language: str, keywords: list[str], existing_names: set[s
             valid = []
             for f in feeds:
                 if isinstance(f, dict) and "name" in f and "url" in f:
+                    url = _clean_url(str(f["url"]))
+                    if not url:
+                        print(f"  [discover] skipped invalid URL: {f['url']!r}")
+                        continue
                     valid.append({
                         "name": f["name"],
-                        "url": f["url"],
+                        "url": url,
                         "language": language,
                         "weight": float(f.get("weight", 1.0)),
                     })
@@ -342,6 +379,7 @@ def main():
 
     # 保存
     if not args.dry_run:
+        health = prune_health(health, sources)
         _save_sources(sources)
         _save_health(health)
         print(f"\n✓ Saved {SOURCES_PATH} and {HEALTH_PATH}")
