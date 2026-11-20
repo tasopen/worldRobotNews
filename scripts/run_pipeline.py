@@ -15,6 +15,7 @@ from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from agents.android import update_feed
+from agents.announcements import apply_announcements
 from agents.editor import generate_headline_and_body
 from agents.scout import collect, save_seen_urls
 from agents.voice import (
@@ -80,7 +81,8 @@ def run() -> None:
         print("[pipeline] 記事が見つかりませんでした。アナウンスを生成します。")
         headline = "本日は新しいニュースがありませんでした。"
         body = "また明日お会いしましょう。"
-        full_script = headline + "\n" + body
+        # 臨時メッセージは読み上げのみに反映し、フィードの description は汚さない
+        full_script = apply_announcements(headline) + "\n" + body
 
         # 音声合成
         print("\n--- @voice: 音声合成中 ---")
@@ -107,7 +109,9 @@ def run() -> None:
         print("[pipeline] 台本生成に失敗しました。終了します。")
         sys.exit(1)
 
-    full_script = headline + "\n" + body
+    # 臨時メッセージ（config/announcements.yml）を Greeting の直後に挿入する。
+    # 読み上げ用の full_script のみに反映し、update_feed へは元の headline を渡す。
+    full_script = apply_announcements(headline) + "\n" + body
 
 
     # @voice: 音声合成（2分ごとに分割生成＆結合）
