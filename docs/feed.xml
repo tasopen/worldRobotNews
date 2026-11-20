@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 20 Nov 2026 10:58:34 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 05:24:20 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-21 05:22:40</title>
+      <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-21_052240.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-21_052240.mp3</guid>
+      <pubDate>Sat, 21 Nov 2026 05:24:20 +0900</pubDate>
+      <description>おはようございます。11月21日のワールドロボットニュースです。人型ロボットの身体のみを外部提供する新潮流や、製造現場で働きながら学ぶフィジカルAIの運用成果、そして商業施設や観光分野へ広がるロボット実装の最新動向についてお伝えします。</description>
+      <enclosure url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-21_052240.mp3" type="audio/mpeg" length="3649964" />
+      <podcast:transcript url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-21_052240.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:48</itunes:duration>
+      <itunes:summary>おはようございます。11月21日のワールドロボットニュースです。人型ロボットの身体のみを外部提供する新潮流や、製造現場で働きながら学ぶフィジカルAIの運用成果、そして商業施設や観光分野へ広がるロボット実装の最新動向についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-20 10:57:05</title>
       <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-20_105705.mp3</link>
