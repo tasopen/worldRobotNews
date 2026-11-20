@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 20 Nov 2026 05:25:39 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 10:58:34 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-20 10:57:05</title>
+      <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-20_105705.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-20_105705.mp3</guid>
+      <pubDate>Fri, 20 Nov 2026 10:58:34 +0900</pubDate>
+      <description>おはようございます。11月20日のワールドロボットニュースです。中国の郵便物流網における人型ロボットの大規模配備や、テスラによる家庭用作業の実現スケジュール、さらに日本国内での最新人型ロボット検証の動きについてお伝えします。</description>
+      <enclosure url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-20_105705.mp3" type="audio/mpeg" length="3479084" />
+      <podcast:transcript url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-20_105705.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:37</itunes:duration>
+      <itunes:summary>おはようございます。11月20日のワールドロボットニュースです。中国の郵便物流網における人型ロボットの大規模配備や、テスラによる家庭用作業の実現スケジュール、さらに日本国内での最新人型ロボット検証の動きについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-20 05:24:13</title>
       <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-20_052413.mp3</link>
