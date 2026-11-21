@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 21 Nov 2026 05:24:20 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 05:23:57 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-22 05:22:37</title>
+      <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-22_052237.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-22_052237.mp3</guid>
+      <pubDate>Sun, 22 Nov 2026 05:23:57 +0900</pubDate>
+      <description>おはようございます。11月22日のワールドロボットニュースです。人型ロボットの世界出荷が急拡大し産業の深水域へ進む動向や、実機データから有効な経験を抽出するフィジカルAI訓練の新手法、さらに電子皮膚による触覚を備えた感情ロボットの発表についてお伝えします。</description>
+      <enclosure url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-22_052237.mp3" type="audio/mpeg" length="3343916" />
+      <podcast:transcript url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-22_052237.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:28</itunes:duration>
+      <itunes:summary>おはようございます。11月22日のワールドロボットニュースです。人型ロボットの世界出荷が急拡大し産業の深水域へ進む動向や、実機データから有効な経験を抽出するフィジカルAI訓練の新手法、さらに電子皮膚による触覚を備えた感情ロボットの発表についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-21 05:22:40</title>
       <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-21_052240.mp3</link>
