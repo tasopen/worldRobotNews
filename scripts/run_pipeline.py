@@ -14,6 +14,15 @@ from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# Windows の cp932 コンソール（パイプ経由など）で中国語のフィード名や記事タイトルを
+# 出力した際に UnicodeEncodeError で落ちないようにする。
+# エンコードは変えず、表現できない文字だけ置換する。
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(errors="replace")
+    except (AttributeError, ValueError):
+        pass
+
 from agents.android import update_feed
 from agents.announcements import apply_announcements
 from agents.editor import generate_headline_and_body

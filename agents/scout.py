@@ -11,6 +11,7 @@ from datetime import UTC, datetime, timedelta
 from typing import Any
 
 import feedparser
+import requests
 import yaml
 from dateutil import parser as dtparser
 
@@ -29,6 +30,16 @@ class Article:
 SEEN_URLS_PATH = "docs/seen_urls.txt"
 SEEN_URL_RETENTION_DAYS = 30
 SEEN_URL_MAX_ENTRIES = 1000
+
+# フィード取得のタイムアウト（秒）。config/sources.yml の
+# selection.request_timeout_sec で上書きできる。
+# feedparser.parse(url) は timeout を渡せず、応答しないホストで
+# 永久にブロックするため、必ず requests 経由で取得する。
+DEFAULT_REQUEST_TIMEOUT_SEC = 15.0
+
+# feedparser の既定 UA（TechCrunch などはブラウザ UA を 403 で弾くため、
+# feedparser と同じ UA を使う）。古い feedparser でも動くようフォールバックする。
+_FEED_USER_AGENT = getattr(feedparser, "USER_AGENT", "worldRobotNews/0.1")
 
 
 def _load_seen_url_entries(
@@ -118,10 +129,30 @@ def _score(article: Article, config: dict[str, Any]) -> float:
     return sum(1.0 for kw in keywords if kw in text)
 
 
-def fetch_rss(feed_cfg: dict[str, Any], hours: int) -> list[Article]:
+def _fetch_feed_bytes(url: str, timeout: float = DEFAULT_REQUEST_TIMEOUT_SEC) -> bytes:
+    """フィードを HTTP で取得する（タイムアウト付き）。
+
+    feedparser.parse(url) は urllib に timeout を渡さないため、
+    TCP/TLS が応答しないホストで無限に待ち続ける。requests で
+    先に取得し、得たバイト列を feedparser に渡す。
+    """
+    response = requests.get(
+        url,
+        timeout=timeout,
+        headers={"User-Agent": _FEED_USER_AGENT},
+    )
+    response.raise_for_status()
+    return response.content
+
+
+def fetch_rss(
+    feed_cfg: dict[str, Any],
+    hours: int,
+    timeout: float = DEFAULT_REQUEST_TIMEOUT_SEC,
+) -> list[Article]:
     """RSS フィードから記事を取得する。"""
     cutoff = datetime.now(UTC) - timedelta(hours=hours)
-    parsed = feedparser.parse(feed_cfg["url"])
+    parsed = feedparser.parse(_fetch_feed_bytes(feed_cfg["url"], timeout))
     articles = []
     for entry in parsed.entries:
         pub_struct = entry.get("published_parsed") or entry.get("updated_parsed")
@@ -149,16 +180,42 @@ def collect(config_path: str = "config/sources.yml") -> list[Article]:
     config = _load_config(config_path)
     hours = config["selection"]["hours_lookback"]
     max_n = config["selection"]["max_articles"]
+    try:
+        timeout = float(config["selection"].get("request_timeout_sec", DEFAULT_REQUEST_TIMEOUT_SEC))
+    except (TypeError, ValueError):
+        timeout = DEFAULT_REQUEST_TIMEOUT_SEC
 
     all_articles: list[Article] = []
 
     # RSS フィード
+    seen_feed_urls: set[str] = set()
     for feed_cfg in config.get("rss_feeds", []):
+        url = feed_cfg.get("url", "")
+        name = feed_cfg.get("name") or url or "?"
+        if url and url in seen_feed_urls:
+            print(f"[scout] skip duplicate feed URL: {name} ({url})", flush=True)
+            continue
+        if url:
+            seen_feed_urls.add(url)
+
+        # 進捗を逐次出力する（ハング時にどこで止まったか分かるようにする）
+        print(f"[scout] fetching {name} ...", flush=True)
+        started = time.perf_counter()
         try:
-            all_articles.extend(fetch_rss(feed_cfg, hours))
-            time.sleep(0.3)
+            fetched = fetch_rss(feed_cfg, hours, timeout=timeout)
+            all_articles.extend(fetched)
+            print(
+                f"[scout]   ok {name}: {len(fetched)} article(s) "
+                f"in {time.perf_counter() - started:.1f}s",
+                flush=True,
+            )
         except Exception as e:  # noqa: BLE001
-            print(f"[scout] RSS error ({feed_cfg['name']}): {e}")
+            print(
+                f"[scout]   FAIL {name} after {time.perf_counter() - started:.1f}s: "
+                f"{type(e).__name__}: {e}",
+                flush=True,
+            )
+        time.sleep(0.3)
 
     # 過去に使用した記事を除外
     seen_urls = _load_seen_urls()

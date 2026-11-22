@@ -20,6 +20,10 @@ from pathlib import Path
 
 DEFAULT_GITHUB_USER = "tasopen"
 
+# GitHub API 呼び出しのタイムアウト（秒）。
+# urlopen は既定でタイムアウトしないため、必ず指定する。
+API_TIMEOUT_SEC = 30
+
 
 def run(cmd: list[str], check: bool = True) -> subprocess.CompletedProcess:
     return subprocess.run(cmd, check=check, capture_output=True, text=True)
@@ -88,7 +92,7 @@ def create_github_repo(token: str, repo_name: str, github_user: str) -> str:
         method="POST",
     )
     try:
-        with urllib.request.urlopen(req) as resp:
+        with urllib.request.urlopen(req, timeout=API_TIMEOUT_SEC) as resp:
             data = json.loads(resp.read())
             return data["clone_url"]
     except urllib.error.HTTPError as e:
@@ -159,7 +163,7 @@ def main() -> None:
         method="POST",
     )
     try:
-        with urllib.request.urlopen(pages_req) as resp:
+        with urllib.request.urlopen(pages_req, timeout=API_TIMEOUT_SEC) as resp:
             pages_data = json.loads(resp.read())
             print(f"      → GitHub Pages URL: {pages_data.get('html_url', '（設定中）')}")
     except urllib.error.HTTPError as e:
