@@ -32,6 +32,8 @@ persona_instruction: "#指示:\nあなたはワールドロボットニュース
 # true のとき、TTS に送信したプロンプト全文をコンソールログに出力する
 # （TTS の不具合を後から調査するため。ログ量が増えるので通常は false 推奨）
 log_tts_input: true
+# false のとき、音声合成前に名称をふりがなへ置き換えない（括弧付きの原文を渡す）
+furigana_conversion: false
 
 # 台本プロンプトテンプレート（カテゴリ変更時にここを変える）
 prompt_persona: "あなたは{category}専門のラジオパーソナリティです。"
