@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 22 Nov 2026 05:23:57 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 05:24:29 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-23 05:22:39</title>
+      <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-23_052239.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-23_052239.mp3</guid>
+      <pubDate>Mon, 23 Nov 2026 05:24:29 +0900</pubDate>
+      <description>おはようございます。11月23日のワールドロボットニュースです。NVIDIA（エヌビディア）によるロボティクス開発基盤の大幅な機能拡張や、大手テック首脳が語るフィジカルAIの破壊的な転換点、さらに人型ロボット産業が展示デモから実需フェーズへ移行する最新動向についてお伝えします。</description>
+      <enclosure url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-23_052239.mp3" type="audio/mpeg" length="4791212" />
+      <podcast:transcript url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-23_052239.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:59</itunes:duration>
+      <itunes:summary>おはようございます。11月23日のワールドロボットニュースです。NVIDIA（エヌビディア）によるロボティクス開発基盤の大幅な機能拡張や、大手テック首脳が語るフィジカルAIの破壊的な転換点、さらに人型ロボット産業が展示デモから実需フェーズへ移行する最新動向についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-22 05:22:37</title>
       <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-22_052237.mp3</link>
