@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 23 Nov 2026 05:24:29 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 05:24:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-24 05:22:44</title>
+      <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-24_052244.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-24_052244.mp3</guid>
+      <pubDate>Tue, 24 Nov 2026 05:24:19 +0900</pubDate>
+      <description>おはようございます。11月24日のワールドロボットニュースです。ディスプレイ技術を応用した次世代のロボット電子皮膚や、人型ロボットによる半導体製造現場への本格進出、さらに創薬現場を柔軟に自動化する双腕ロボットの開発など、最新の動向をお届けします。</description>
+      <enclosure url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-24_052244.mp3" type="audio/mpeg" length="4110764" />
+      <podcast:transcript url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-24_052244.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:16</itunes:duration>
+      <itunes:summary>おはようございます。11月24日のワールドロボットニュースです。ディスプレイ技術を応用した次世代のロボット電子皮膚や、人型ロボットによる半導体製造現場への本格進出、さらに創薬現場を柔軟に自動化する双腕ロボットの開発など、最新の動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-23 05:22:39</title>
       <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-23_052239.mp3</link>
