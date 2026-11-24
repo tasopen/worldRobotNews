@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 24 Nov 2026 05:24:19 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 05:24:08 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-25 05:22:41</title>
+      <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-25_052241.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-25_052241.mp3</guid>
+      <pubDate>Wed, 25 Nov 2026 05:24:08 +0900</pubDate>
+      <description>おはようございます。11月25日のワールドロボットニュースです。中国のフィンテック巨頭による人型ロボット企業への巨額投資や、東南アジアの国家郵便網へ進出する知能ロボットの動向、さらに都市配送インフラを担う自律搬送ロボットの大型資金調達についてお伝えします。</description>
+      <enclosure url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-25_052241.mp3" type="audio/mpeg" length="3757484" />
+      <podcast:transcript url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-25_052241.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:54</itunes:duration>
+      <itunes:summary>おはようございます。11月25日のワールドロボットニュースです。中国のフィンテック巨頭による人型ロボット企業への巨額投資や、東南アジアの国家郵便網へ進出する知能ロボットの動向、さらに都市配送インフラを担う自律搬送ロボットの大型資金調達についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-24 05:22:44</title>
       <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-24_052244.mp3</link>
