@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 25 Nov 2026 05:24:08 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 05:24:16 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-26 05:22:38</title>
+      <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-26_052238.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-26_052238.mp3</guid>
+      <pubDate>Thu, 26 Nov 2026 05:24:16 +0900</pubDate>
+      <description>おはようございます。11月26日のワールドロボットニュースです。中国EV大手のXPeng（シャオペング）による人型ロボットの店舗実習配備計画や、AgiBot（アジボット）が放つオープンなフィジカルAI開発環境、さらに国内で活況を呈する先端ロボット展示の話題をお伝えします。</description>
+      <enclosure url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-26_052238.mp3" type="audio/mpeg" length="4514732" />
+      <podcast:transcript url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-26_052238.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:42</itunes:duration>
+      <itunes:summary>おはようございます。11月26日のワールドロボットニュースです。中国EV大手のXPeng（シャオペング）による人型ロボットの店舗実習配備計画や、AgiBot（アジボット）が放つオープンなフィジカルAI開発環境、さらに国内で活況を呈する先端ロボット展示の話題をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-25 05:22:41</title>
       <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-25_052241.mp3</link>
