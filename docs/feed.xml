@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 26 Nov 2026 05:24:16 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 05:24:27 +0900</lastBuildDate>
+    <item>
+      <title>ワールドロボットニュース 2026-11-27 05:22:40</title>
+      <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-27_052240.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/worldRobotNews/episodes/2026-11-27_052240.mp3</guid>
+      <pubDate>Fri, 27 Nov 2026 05:24:27 +0900</pubDate>
+      <description>おはようございます。11月27日のワールドロボットニュースです。アマダと日立による工場設備を自律制御するフィジカルAIの協創や、完成機以外へ投資マネーが集まる市場構造の変化、さらに北京に先端開発者が集結した最新動向をお伝えします。</description>
+      <enclosure url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-27_052240.mp3" type="audio/mpeg" length="4247084" />
+      <podcast:transcript url="https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-27_052240.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:25</itunes:duration>
+      <itunes:summary>おはようございます。11月27日のワールドロボットニュースです。アマダと日立による工場設備を自律制御するフィジカルAIの協創や、完成機以外へ投資マネーが集まる市場構造の変化、さらに北京に先端開発者が集結した最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールドロボットニュース 2026-11-26 05:22:38</title>
       <link>https://github.com/tasopen/worldRobotNews/releases/download/episodes-2026-11/2026-11-26_052238.mp3</link>
